@@ -32,6 +32,9 @@
   "imagedetail": "/images/uploads/image-product-detail.jpg",
   "featuredimage": "/images/uploads/image-cadeira.jpg",
   "date": "29th Mar 2020",
+  "technicalinformation": {
+    "technicalillustaration": "/images/uploads/image-5.jpg"
+  },
   "title": "Re-generation",
   "product-title": "Generation",
   "featured-image": "/images/uploads/image-cadeira.jpg"
