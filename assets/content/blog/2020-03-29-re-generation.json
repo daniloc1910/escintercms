@@ -43,7 +43,11 @@
         }
       }
     ],
-    "technicalinformationitems-left": "laskdmlaksmdlaskmd\nsa;dkasmdalksmdas\na;skdmlaksd"
+    "technicalinformationitems-left": "laskdmlaksmdlaskmd\nsa;dkasmdalksmdas\na;skdmlaksd",
+    "tiitem1": {
+      "fiitemname1": "vamos",
+      "fiitemvalue1": "corinthians"
+    }
   },
   "title": "Re-generation",
   "product-title": "Generation",
