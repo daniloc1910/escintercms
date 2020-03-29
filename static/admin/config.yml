@@ -24,9 +24,33 @@ collections:
         widget: "object"
         fields:
         - {label: "Illustration", name: "technicalillustration", widget: "image"}
-        - label: "tiItem"
+        - label: "Item 1"
           name: "tiitem1"
           widget: "object"
           fields:
           - {label: "Name", name: "fiitemname1", widget: "string"}
           - {label: "Value", name: "fiitemvalue1", widget: "string"}
+        - label: "Item 2"
+          name: "tiitem2"
+          widget: "object"
+          fields:
+          - {label: "Name", name: "fiitemname2", widget: "string"}
+          - {label: "Value", name: "fiitemvalue2", widget: "string"}
+        - label: "Item 3"
+          name: "tiitem3"
+          widget: "object"
+          fields:
+          - {label: "Name", name: "fiitemname3", widget: "string"}
+          - {label: "Value", name: "fiitemvalue3", widget: "string"}
+        - label: "Item 4"
+          name: "tiitem4"
+          widget: "object"
+          fields:
+          - {label: "Name", name: "fiitemname4", widget: "string"}
+          - {label: "Value", name: "fiitemvalue4", widget: "string"}
+        - label: "Item 5"
+          name: "tiitem5"
+          widget: "object"
+          fields:
+          - {label: "Name", name: "fiitemname5", widget: "string"}
+          - {label: "Value", name: "fiitemvalue5", widget: "string"}

@@ -33,7 +33,10 @@
     <div class="product-technical-informantion-specs">
       <ul>
         <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem1.fiitemname1}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem1.fiitemvalue1}}</span></li>
-        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">Acabamento</span> <span class="pressura15" style="float:right;">Madeira e aço</span></li>
+        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem2.fiitemname2}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem2.fiitemvalue2}}</span></li>
+        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem3.fiitemname3}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem3.fiitemvalue3}}</span></li>
+        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem4.fiitemname4}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem4.fiitemvalue4}}</span></li>
+        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem5.fiitemname5}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem5.fiitemvalue5}}</span></li>
       </ul>
     </div>
     <div class="product-technical-informantion-specs-downloads">
