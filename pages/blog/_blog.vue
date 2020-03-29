@@ -29,7 +29,7 @@
   <div class="product-technical-informantion grid3">
     <div class="div-line"></div>
     <div class="product-technical-informantion-title pressura40">Informações técnicas</div>
-    <div class="product-technical-informantion-specs-img"><img :src="blogPost.technicalillustaration" /></div>
+    <div class="product-technical-informantion-specs-img"><img :src="blogPost.technicalinformation.technicalillustaration" /></div>
     <div class="product-technical-informantion-specs">
       <ul>
         <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">Dimensões</span> <span class="pressura15" style="float:right;">h 720 x b 620 x d 530 mm</span></li>
