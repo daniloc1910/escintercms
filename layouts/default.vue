@@ -9,7 +9,7 @@
     </ul>
     <div class="primary-menu grid3">
     <ul class="graphik18">
-      <nuxt-link to="/product" exact-active-class="active-link"><li class="secondary-menu-item">Mobiliário Corporativo</li></nuxt-link>
+      <nuxt-link to="/blog" exact-active-class="active-link"><li class="secondary-menu-item">Mobiliário Corporativo</li></nuxt-link>
       <nuxt-link to="/category" exact-active-class="active-link"><li class="secondary-menu-item">Knoll Design</li></nuxt-link>
       <nuxt-link to="/sollo" exact-active-class="active-link"><li class="secondary-menu-item">Sollo</li></nuxt-link>
       <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Tecnologia</li></nuxt-link>
