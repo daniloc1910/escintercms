@@ -13,7 +13,7 @@
   <div class="product-description grid3">
     <img class="product-image-detail" src="~assets/image-product-detail.jpg" />
     <img class="product-image-scene" src="~assets/image-produtc-scene.png" />
-    <div class="product-description-title graphik24">Inovadora em sua simplicidade, ReGeneration é minimalista no uso de componentes. O projeto utiliza materiais flexíveis, duráveis e sustentáveis com a melhor resposta aos movimentos do usuário, proporcionando conforto e suporte ao longo do dia.</div>
+    <div class="product-description-title graphik24">{{blogPost.productdescriptiontitle}}</div>
     <div class="product-description-items-left graphik16 gray">
       <ul>
         <li>{{blogPost.productdescriptionlist}}</li>
