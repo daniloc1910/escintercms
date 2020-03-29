@@ -30,7 +30,7 @@ collections:
           widget: "list"
           fields:
             - label: "Items"
-              name: "technicalinformationitem"
+              name: "technicalinformationitemfield"
               widget: "object"
               fields:
                 - {label: Name, name: name, widget: string}
