@@ -4,7 +4,7 @@
     <div class="product-name">
       <ul class="product-info"> 
         <li class="graphik18 gray">{{blogPost.brand}}</li>
-        <li class="pressura56 black">{{blogPost.product-title}}</li>
+        <li class="pressura56 black">{{blogPost.producttitle}}</li>
       </ul>
     </div>
     <img class="product-image" src="~assets/image-cadeira.jpg" />
