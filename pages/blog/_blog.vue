@@ -11,9 +11,9 @@
   </div>
 
   <div class="product-description grid3">
-    <img class="product-image-detail" :src="blogPost.imagedetail" />
-    <img class="product-image-scene" :src="blogPost.imageplacement" />
-    <div class="product-description-title graphik24">{{blogPost.productdescriptiontitle}}</div>
+    <img class="product-image-detail" :src="blogPost.productdescription.imagedetail" />
+    <img class="product-image-scene" :src="blogPost.productdescription.imageplacement" />
+    <div class="product-description-title graphik24">{{blogPost.productdescription.productdescriptiontitle}}</div>
     <div class="product-description-items-left graphik16 gray">
       <ul>
         <li>{{blogPost.item2}}</li>
@@ -33,10 +33,6 @@
     <div class="product-technical-informantion-specs">
       <ul>
         <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem1.fiitemname1}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem1.fiitemvalue1}}</span></li>
-        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem2.fiitemname2}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem2.fiitemvalue2}}</span></li>
-        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem3.fiitemname3}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem3.fiitemvalue3}}</span></li>
-        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem4.fiitemname4}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem4.fiitemvalue4}}</span></li>
-        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem5.fiitemname5}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem5.fiitemvalue5}}</span></li>
       </ul>
     </div>
     <div class="product-technical-informantion-specs-downloads">

@@ -16,9 +16,13 @@ collections:
       - {label: "Featured image", name: "featuredimage", widget: "image", required: true}
       - {label: "Product title", name: "producttitle", widget: "string", required: true}
       - {label: "Brand", name: "brand", widget: "string", required: true}
-      - {label: "Image detail", name: "imagedetail", widget: "image"}
-      - {label: "Image product placement", name: "imageplacement", widget: "image"}
-      - {label: "Product description title", name: "productdescriptiontitle", widget: "string"}
+      - label: "Product description"
+        name: "productdescription"
+        widget: "object"
+        fields:
+        - {label: "Image detail", name: "imagedetail", widget: "image"}
+        - {label: "Image product placement", name: "imageplacement", widget: "image"}
+        - {label: "Product description title", name: "productdescriptiontitle", widget: "string"}
       - label: "Technical information"
         name: "technicalinformation"
         widget: "object"
@@ -30,27 +34,3 @@ collections:
           fields:
           - {label: "Name", name: "fiitemname1", widget: "string"}
           - {label: "Value", name: "fiitemvalue1", widget: "string"}
-        - label: "Item 2"
-          name: "tiitem2"
-          widget: "object"
-          fields:
-          - {label: "Name", name: "fiitemname2", widget: "string"}
-          - {label: "Value", name: "fiitemvalue2", widget: "string"}
-        - label: "Item 3"
-          name: "tiitem3"
-          widget: "object"
-          fields:
-          - {label: "Name", name: "fiitemname3", widget: "string"}
-          - {label: "Value", name: "fiitemvalue3", widget: "string"}
-        - label: "Item 4"
-          name: "tiitem4"
-          widget: "object"
-          fields:
-          - {label: "Name", name: "fiitemname4", widget: "string"}
-          - {label: "Value", name: "fiitemvalue4", widget: "string"}
-        - label: "Item 5"
-          name: "tiitem5"
-          widget: "object"
-          fields:
-          - {label: "Name", name: "fiitemname5", widget: "string"}
-          - {label: "Value", name: "fiitemvalue5", widget: "string"}
