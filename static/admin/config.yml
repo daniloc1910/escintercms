@@ -24,4 +24,9 @@ collections:
         widget: "object"
         fields:
         - {label: "Illustration", name: "technicalillustration", widget: "image"}
-        - {label: "Items left columns", name: "technicalinformationitems-left", widget: "markdown", buttons: "bulleted-list"}
+        - label: "tiItem"
+          name: "tiitem1"
+          widget: "object"
+          fields:
+          - {label: "Name", name: "fiitemname1", widget: "string"}
+          - {label: "Value", name: "fiitemvalue1", widget: "string"}

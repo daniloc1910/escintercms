@@ -32,7 +32,7 @@
     <div class="product-technical-informantion-specs-img"><img :src="blogPost.technicalinformation.technicalillustration" /></div>
     <div class="product-technical-informantion-specs">
       <ul>
-        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.technicalinformationitems-left}}</span> <span class="pressura15" style="float:right;">h 720 x b 620 x d 530 mm</span></li>
+        <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">{{blogPost.technicalinformation.tiitem1.fiitemname1}}</span> <span class="pressura15" style="float:right;">{{blogPost.technicalinformation.tiitem1.fiitemvalue1}}</span></li>
         <li class="product-technical-informantion-specs-list-items"><span class="pressura15 gray">Acabamento</span> <span class="pressura15" style="float:right;">Madeira e aço</span></li>
       </ul>
     </div>
