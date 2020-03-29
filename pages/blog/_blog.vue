@@ -21,7 +21,7 @@
     </div>
     <div class="product-description-items-right graphik16 gray">
       <ul>
-        <li>{{blogPost.itemlistright}}</li>
+        <li>{{blogPost.productdescriptionlist}}</li>
       </ul>
     </div>
   </div>
