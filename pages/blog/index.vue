@@ -2,7 +2,7 @@
 <div class="content">
   <div class="category-list grid4">
     <div class="category-name pressura60">Assentos</div>
-    <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.title}}</n-link></p>
+    <p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.producttitle}}</n-link></p>
   </div>
 </div>
 </template>
