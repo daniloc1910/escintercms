@@ -33,7 +33,16 @@
   "featuredimage": "/images/uploads/image-cadeira.jpg",
   "date": "29th Mar 2020",
   "technicalinformation": {
-    "technicalillustaration": "/images/uploads/image-5.jpg"
+    "technicalillustaration": "/images/uploads/image-5.jpg",
+    "technicalillustration": "/images/uploads/image-5.jpg",
+    "technicalinformationitem": [
+      {
+        "technicalinformationitem": {
+          "name": "Dimensões",
+          "value": "h 720 x b 620 x d 530 mm"
+        }
+      }
+    ]
   },
   "title": "Re-generation",
   "product-title": "Generation",
