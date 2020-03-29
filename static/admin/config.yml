@@ -23,4 +23,5 @@ collections:
         name: "descriptionitems"
         widget: "object"
         allow_add: "true"
-        field: {label: item, name: item2, widget: string}
+        fields: 
+          - {label: item, name: item2, widget: string}
