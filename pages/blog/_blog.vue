@@ -3,11 +3,11 @@
   <div class="product-highlight grid3">
     <div class="product-name">
       <ul class="product-info"> 
-        <li class="graphik18 gray">{{blogPost.author}}</li>
-        <li class="pressura56 black">{{blogPost.title}}</li>
+        <li class="graphik18 gray">{{blogPost.brand}}</li>
+        <li class="pressura56 black">{{blogPost.product-title}}</li>
       </ul>
     </div>
-    <img class="product-image" src="~assets/image-cadeira.jpg" />
+    <img class="product-image" src="{{blogPost.featured-image}}" />
   </div>
 
   <div class="product-description grid3">
