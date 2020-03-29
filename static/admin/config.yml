@@ -16,3 +16,9 @@ collections:
       - {label: "Featured image", name: "featuredimage", widget: "image", required: true}
       - {label: "Product title", name: "producttitle", widget: "string", required: true}
       - {label: "Brand", name: "brand", widget: "string", required: true}
+      - label: "Product description"
+        name: "productdescriptionlist"
+        widget: "list"
+        fields:
+          - {label: Item, name: itemlistleft, widget: string}
+          - {label: Item, name: itemlistright, widget: string}

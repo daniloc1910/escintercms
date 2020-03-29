@@ -34,6 +34,7 @@ export default {
 
   .category-name {
     grid-column: 1/5;
+    margin-bottom: 37px;
   }
 
   .category-item-productname{
