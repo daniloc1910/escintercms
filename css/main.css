@@ -1,0 +1,164 @@
+html {
+    background-color: #F8F5F2;
+}
+
+body {
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: 'Pressura-Bold';
+    src:    url('~assets/fonts/GTPressura-Bold.woff2') format('woff2'),
+            url('~assets/fonts/GTPressura-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pressura-Regular';
+    src:    url('~assets/fonts/GTPressura.woff2') format('woff2'),
+            url('~assets/fonts/GTPressura.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src:    url('~assets/fonts/Graphik-Regular.woff2') format('woff2'),
+            url('~assets/fonts/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pressura60 {
+    font-family: 'Pressura-Bold', Arial, sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.pressura56 {
+    font-family: 'Pressura-Bold', Arial, sans-serif;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+.pressura40 {
+    font-family: 'Pressura-Bold', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.pressura19 {
+    font-family: 'Pressura-Bold', Arial, sans-serif;
+    font-size: 19px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.pressura15 {
+    font-family: 'Pressura-Regular', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.graphik24 {
+    font-family: 'Graphik', Arial, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.graphik18 {
+    font-family: 'Graphik', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.graphik16 {
+    font-family: 'Graphik', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* COLORS */
+
+.black {color: #222;}
+.gray {color: #787675;}
+.light-gray {color: #DEDCDB;}
+.off-white {color: #F8F5F2;}
+.pink {color: #EF4545;}
+
+
+/* TABLES */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* GRID */
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 28px;
+    padding: 0 28px 0 144px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 28px;
+    padding: 0 28px 0 144px;
+}
+
+
+/* LINK */
+
+a {
+    text-decoration: none;
+    color: #787675;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #222;
+    transition: 0.3s;
+}
+
+
+/**/
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* PAGE TRANSITION */
+
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
