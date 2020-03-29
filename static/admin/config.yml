@@ -33,5 +33,5 @@ collections:
               name: "technicalinformationitemfield"
               widget: "object"
               fields:
-                - {label: Name, name: name, widget: string}
-                - {label: Value, name: value, widget: string}
+                - {label: Name, name: nameitem, widget: string}
+                - {label: Value, name: valueitem, widget: string}
