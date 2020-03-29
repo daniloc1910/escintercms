@@ -16,7 +16,7 @@
     <div class="product-description-title graphik24">{{blogPost.productdescriptiontitle}}</div>
     <div class="product-description-items-left graphik16 gray">
       <ul>
-        <li>{{blogPost.descriptionitems}}</li>
+        <li>{{blogPost.item2}}</li>
       </ul>
     </div>
     <div class="product-description-items-right graphik16 gray">

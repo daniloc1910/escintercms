@@ -21,5 +21,6 @@ collections:
       - {label: "Product description title", name: "productdescriptiontitle", widget: "string"}
       - label: "Product description items"
         name: "descriptionitems"
-        widget: "list"
-        field: {label: item, name: item, widget: string}
+        widget: "object"
+        allow_add: "true"
+        field: {label: item, name: item2, widget: string}
