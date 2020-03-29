@@ -40,6 +40,10 @@
         "technicalinformationitem": {
           "name": "Dimensões",
           "value": "h 720 x b 620 x d 530 mm"
+        },
+        "technicalinformationitemfield": {
+          "name": "dimensões",
+          "value": "h 720 x b 620 x d 530 mm"
         }
       }
     ]
