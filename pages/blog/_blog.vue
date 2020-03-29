@@ -7,7 +7,7 @@
         <li class="pressura56 black">{{blogPost.product-title}}</li>
       </ul>
     </div>
-    <img class="product-image" src="{{blogPost.featured-image}}" />
+    <img class="product-image" src="~assets/image-cadeira.jpg" />
   </div>
 
   <div class="product-description grid3">
