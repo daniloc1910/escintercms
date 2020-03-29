@@ -24,14 +24,4 @@ collections:
         widget: "object"
         fields:
         - {label: "Illustration", name: "technicalillustration", widget: "image"}
-        - label: "Item"
-          name: "technicalinformationitem"
-          collapsed: false
-          widget: "list"
-          fields:
-            - label: "Items"
-              name: "technicalinformationitemfield"
-              widget: "object"
-              fields:
-                - {label: Name, name: nameitem, widget: string}
-                - {label: Value, name: valueitem, widget: string}
+        - {label: "Items left columns", name: "technicalinformationitems-left", widget: "markdown", buttons: "bulleted-list"}
