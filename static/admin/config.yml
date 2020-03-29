@@ -19,3 +19,7 @@ collections:
       - {label: "Image detail", name: "imagedetail", widget: "image"}
       - {label: "Image product placement", name: "imageplacement", widget: "image"}
       - {label: "Product description title", name: "productdescriptiontitle", widget: "string"}
+      - label: "Product description items"
+        name: "descriptionitems"
+        widget: "list"
+        field: {label: item, name: item, widget: string}
