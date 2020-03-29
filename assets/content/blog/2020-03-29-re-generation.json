@@ -3,6 +3,24 @@
   "brand": "Knoll",
   "producttitle": "Generation",
   "author": "Danilo",
+  "productdescriptionlist": [
+    {
+      "itemlistleft": "Frameless Flex Back fuses two elements: high performance elastomeric ",
+      "itemlistright": "Frameless Flex Back fuses two elements: high performance elastomeric "
+    },
+    {
+      "itemlistleft": "Flex Back Net cradles your back, providing integral lumbar support, and figure 8 structure enables multidimensional movement",
+      "itemlistright": "Flex Back Net cradles your back, providing integral lumbar support, and figure 8 structure enables multidimensional movement"
+    },
+    {
+      "itemlistleft": "Flex Seat offers 270 degrees of unobstructed seat edge flex with a buoyant two-piece cushion and nest structure",
+      "itemlistright": "Flex Seat offers 270 degrees of unobstructed seat edge flex with a buoyant two-piece cushion and nest structure"
+    },
+    {
+      "itemlistleft": "Flex Top folds over as armrest for side sitting",
+      "itemlistright": "Flex Top folds over as armrest for side sitting"
+    }
+  ],
   "featuredimage": "/images/uploads/image-cadeira.jpg",
   "date": "29th Mar 2020",
   "title": "Re-generation",
