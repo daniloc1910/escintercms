@@ -141,6 +141,9 @@ a:hover {
     transition: 0.3s;
 }
 
+.active-link {
+    color: #222;
+}
 
 /**/
 

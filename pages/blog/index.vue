@@ -1,6 +1,6 @@
 <template>
 <div class="content">
-  <div class="category-list grid4">
+  <div class="category-list grid3">
     <div class="category-name pressura60">Assentos</div>
 
       <ul class="category-item" v-for="post in blogPosts">
@@ -11,7 +11,6 @@
         </n-link>
       </ul>
 
-    <!--<p class="post-link" v-for="post in blogPosts"><n-link :to="post._path">{{post.producttitle}}</n-link></p>-->
   </div>
 </div>
 </template>

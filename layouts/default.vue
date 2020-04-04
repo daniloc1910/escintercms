@@ -7,19 +7,31 @@
       <nuxt-link to="/sobre" exact-active-class="active-link"><li class="secondary-menu-item">Sobre</li></nuxt-link>
       <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Contato</li></nuxt-link>
     </ul>
-    <div class="primary-menu grid3">
+
+    <div class="primary-menu grid4">
+    <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/category" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/knolldesign" exact-active-class="active-link">Knoll Design</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/sollo" exact-active-class="active-link">Sollo</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/tecnologia" exact-active-class="active-link">Tecnologia</nuxt-link>
+
+    <div class="category-products category-products2">
     <ul class="graphik18">
-      <nuxt-link to="/blog" exact-active-class="active-link"><li class="secondary-menu-item">Mobiliário Corporativo</li></nuxt-link>
-      <nuxt-link to="/category" exact-active-class="active-link"><li class="secondary-menu-item">Knoll Design</li></nuxt-link>
-      <nuxt-link to="/sollo" exact-active-class="active-link"><li class="secondary-menu-item">Sollo</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Tecnologia</li></nuxt-link>
+      <nuxt-link to="/blog" exact-active-class="active-link"><li class="secondary-menu-item">Estações de trabalho</li></nuxt-link>
+      <nuxt-link to="/blog" exact-active-class="active-link"><li class="secondary-menu-item">Assentos</li></nuxt-link>
+      <nuxt-link to="/sollo" exact-active-class="active-link"><li class="secondary-menu-item">Reuniões</li></nuxt-link>
+      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Armazenamento</li></nuxt-link>
+      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Colaborativos</li></nuxt-link>
+      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Acessórios</li></nuxt-link>
+      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Divisórias</li></nuxt-link>
+      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Carpetes</li></nuxt-link>
     </ul>
+    </div>
     </div>
     <nuxt />
   </div>
 </template>
 
-<style>
+<style scoped>
   .logo-escinter {
     position: fixed;
     left: 28px;
@@ -46,7 +58,28 @@
     padding-bottom: 4px;
   }
 
-  .active-link {
-    color: #222;
+  .menu-primario-hover {
+    grid-column: 1;
+    margin-bottom: 4px;
+  }
+
+  .category-products {
+    opacity: 0;
+    transition: 0.3s;
+    margin-top: -83px;
+  }
+
+  #mobiliario-corporativo:hover ~ .category-products {
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .category-products:hover {
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .category-products:hover ~ #mobiliario-corporativo a {
+    color: #222!important;
   }
 </style>
