@@ -9,14 +9,14 @@
     </ul>
 
     <div class="primary-menu grid4">
-    <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/category" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
+    <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/mobiliario-corporativo" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/knolldesign" exact-active-class="active-link">Knoll Design</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/sollo" exact-active-class="active-link">Sollo</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/tecnologia" exact-active-class="active-link">Tecnologia</nuxt-link>
 
     <div class="category-products category-products2">
     <ul class="graphik18">
-      <nuxt-link to="/blog" exact-active-class="active-link"><li class="secondary-menu-item">Estações de trabalho</li></nuxt-link>
+      <nuxt-link to="/trabalho" exact-active-class="active-link"><li class="secondary-menu-item">Estações de trabalho</li></nuxt-link>
       <nuxt-link to="/blog" exact-active-class="active-link"><li class="secondary-menu-item">Assentos</li></nuxt-link>
       <nuxt-link to="/sollo" exact-active-class="active-link"><li class="secondary-menu-item">Reuniões</li></nuxt-link>
       <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Armazenamento</li></nuxt-link>

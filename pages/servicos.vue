@@ -62,7 +62,7 @@
   </div>
 </template>
 
-<style coped>
+<style scoped>
   .content {
     padding-top: 295px;
   }
@@ -83,6 +83,16 @@ import ServicosItem from '~/components/ServicosItem.vue'
 export default {
   components: {
     ServicosItem
+  },
+  data() {
+    return {
+      title: 'Escinter — Serviços'
+    }
+  },
+  head() {
+    return {
+      title: this.title
+    }
   }
 }
 </script>
