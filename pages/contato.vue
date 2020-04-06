@@ -150,7 +150,7 @@
 export default {
     data() {
     return {
-      title: 'Escinter — Sobre'
+      title: 'Escinter — Contato'
     }
   },
   head() {

@@ -1,12 +1,15 @@
 <template>
   <div>
-    <nuxt-link to="/"><img class="logo-escinter" src="~assets/logo.svg" /></nuxt-link>
-    <ul class="secondary-menu graphik16">
-      <nuxt-link to="/projetos" exact-active-class="active-link"><li class="secondary-menu-item">Projetos</li></nuxt-link>
-      <nuxt-link to="/servicos" exact-active-class="active-link"><li class="secondary-menu-item">Serviços</li></nuxt-link>
-      <nuxt-link to="/sobre" exact-active-class="active-link"><li class="secondary-menu-item">Sobre</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Contato</li></nuxt-link>
-    </ul>
+
+    <div class="navigation">
+      <nuxt-link to="/"><img class="logo-escinter" src="~assets/logo.svg" /></nuxt-link>
+      <ul class="secondary-menu graphik16">
+        <nuxt-link to="/projetos" exact-active-class="active-link"><li class="secondary-menu-item">Projetos</li></nuxt-link>
+        <nuxt-link to="/servicos" exact-active-class="active-link"><li class="secondary-menu-item">Serviços</li></nuxt-link>
+        <nuxt-link to="/sobre" exact-active-class="active-link"><li class="secondary-menu-item">Sobre</li></nuxt-link>
+        <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Contato</li></nuxt-link>
+      </ul>
+    </div>
 
     <div class="primary-menu grid4">
     <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/mobiliario-corporativo" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
@@ -27,11 +30,85 @@
     </ul>
     </div>
     </div>
+
     <nuxt />
+
+    <footer class="grid3">
+      <div class="item-footer">
+        <div class="linha-div" />
+        <ul>
+          <li class="pressura19 footer-item-title">Mobiliário corporativo</li>
+          <nuxt-link to="/trabalho" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Estações de trabalho</li></nuxt-link>
+          <nuxt-link to="/blog" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Assentos</li></nuxt-link>
+          <nuxt-link to="/sollo" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Reuniões</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Armazenamento</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Divisórias</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Carpetes</li></nuxt-link>
+        </ul>
+      </div> 
+
+      <div class="item-footer">
+        <div class="linha-div" />
+        <ul>
+          <li class="pressura19 footer-item-title">Knoll design</li>
+          <nuxt-link to="/trabalho" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Estações de trabalho</li></nuxt-link>
+          <nuxt-link to="/blog" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Assentos</li></nuxt-link>
+          <nuxt-link to="/sollo" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Reuniões</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Armazenamento</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Divisórias</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Carpetes</li></nuxt-link>
+        </ul>
+      </div> 
+
+      <div class="item-footer">
+        <div class="linha-div" />
+        <ul>
+          <li class="pressura19 footer-item-title">Tecnologia</li>
+          <nuxt-link to="/trabalho" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Estações de trabalho</li></nuxt-link>
+          <nuxt-link to="/blog" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Assentos</li></nuxt-link>
+          <nuxt-link to="/sollo" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Reuniões</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Armazenamento</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Divisórias</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Carpetes</li></nuxt-link>
+        </ul>
+      </div>  
+
+      <div class="item-footer-end">
+        <ul>
+          <img style="width:150px;" src="~assets/logo-horizontal.svg" />
+        </ul>
+      </div>   
+
+      <div class="item-footer-end">
+        <ul>
+          <li class="pressura15 gray">R. Aspicuelta, 248</li>
+          <li class="pressura15 gray">Vila Madalena — SP</li>
+        </ul>
+      </div>   
+
+      <div class="item-footer-end">
+        <ul>
+          <li class="pressura15 gray">11 3062 5044</li>
+          <li class="pressura15 gray"><a href="mailto:contato@escinter.com.br" target="_blank">contato@escinter.com.br</a></li>
+        </ul>
+      </div>   
+    </footer>
   </div>
 </template>
 
 <style scoped>
+  .navigation {
+    position: relative;
+    width: 144px;
+    height: 100%;
+  }
+
   .logo-escinter {
     position: fixed;
     left: 28px;
@@ -81,5 +158,27 @@
 
   .category-products:hover ~ #mobiliario-corporativo a {
     color: #222!important;
+  }
+
+  .linha-div {
+    height: 1px;
+    background-color: #DEDCDB;
+    margin-bottom: 15px;
+  }
+
+  .item-footer {
+    margin-bottom: 104px;
+  }
+  
+  .item-footer-end {
+    margin-bottom: 40px;
+  }
+
+  .footer-item-title {
+    margin-bottom: 26px;
+  }
+
+  .footer-item-list {
+    padding-bottom: 4px;
   }
 </style>
