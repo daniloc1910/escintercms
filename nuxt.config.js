@@ -46,7 +46,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/markdownit', 'nuxt-responsive-loader'],
+  modules: ['@nuxtjs/markdownit', 'nuxt-responsive-loader', 'vue-lottie'],
   markdownit: {
     injected: true,
     preset: 'default',
