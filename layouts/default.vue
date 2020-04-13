@@ -4,7 +4,7 @@
     <div class="navigation">
 
     <nuxt-link to="/">
-    <lottie class="logo-escinter" :options="defaultOptions" :position="fixed" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
+    <lottie class="logo-escinter" :options="defaultOptions" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
     </nuxt-link>
 
       <ul class="secondary-menu graphik16">
