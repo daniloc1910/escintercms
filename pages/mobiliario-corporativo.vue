@@ -19,12 +19,12 @@
         title="Estações de trabalho"
         link="blog"
 
-        imgproduct1="image-cadeira.jpg"
+        imgproduct1="image-cadeira.png"
         nameproduct1="Generation"
         brandproduct1="Knoll"
         linkproduct1="blog/2020-03-29-re-generation"
 
-        imgproduct2="image-cadeira.jpg"
+        imgproduct2="image-cadeira.png"
         nameproduct2="Generation"
         brandproduct2="Knoll"
         linkproduct2="blog/2020-03-29-re-generation"
@@ -34,12 +34,12 @@
         title="Assentos"
         link="blog"
 
-        imgproduct1="image-cadeira.jpg"
+        imgproduct1="image-cadeira.png"
         nameproduct1="Generation"
         brandproduct1="Knoll"
         linkproduct1="blog/2020-03-29-re-generation"
 
-        imgproduct2="image-cadeira.jpg"
+        imgproduct2="image-cadeira.png"
         nameproduct2="Generation"
         brandproduct2="Knoll"
         linkproduct2="blog/2020-03-29-re-generation"

@@ -93,4 +93,5 @@ export default {
     a {
     color: #222;
   }
+
 </style>

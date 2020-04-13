@@ -2,7 +2,11 @@
   <div>
 
     <div class="navigation">
-      <nuxt-link to="/"><img class="logo-escinter" src="~assets/logo.svg" /></nuxt-link>
+
+    <nuxt-link to="/">
+    <lottie class="logo-escinter" :options="defaultOptions" :position="fixed" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
+    </nuxt-link>
+
       <ul class="secondary-menu graphik16">
         <nuxt-link to="/projetos" exact-active-class="active-link"><li class="secondary-menu-item">Projetos</li></nuxt-link>
         <nuxt-link to="/servicos" exact-active-class="active-link"><li class="secondary-menu-item">Serviços</li></nuxt-link>
@@ -182,3 +186,28 @@
     padding-bottom: 4px;
   }
 </style>
+
+<script>
+import Lottie from "~/components/Lottie.vue";
+
+import * as animationData from "~/assets/logo/logo.json";
+
+export default {
+  components: {
+    Lottie
+  },
+  data() {
+    return {
+      defaultOptions: { animationData: animationData },
+      animationSpeed: 1
+    };
+  },
+  methods: {
+    handleAnimation: function(anim) {
+      this.anim = anim;
+    },
+
+
+  }
+};
+</script>

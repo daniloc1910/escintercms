@@ -25,9 +25,9 @@ export default {
     min: 640,
     max: 2000,
     steps: 4,
-    format: 'jpg',
+    format: 'png',
     quality: 80,
-    disable: false
+    disable: true
   },
   /*
   ** Global CSS
