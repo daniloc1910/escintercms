@@ -37,6 +37,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/lottie-web.js' },
   ],
   /*
   ** Nuxt.js dev-modules
@@ -46,7 +47,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/markdownit', 'nuxt-responsive-loader', 'vue-lottie'],
+  modules: ['@nuxtjs/markdownit', 'nuxt-responsive-loader'],
   markdownit: {
     injected: true,
     preset: 'default',
