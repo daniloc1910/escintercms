@@ -188,7 +188,7 @@
 </style>
 
 <script>
-import Lottie from "~/components/Lottie.vue";
+import Lottie from "~/components/lottie.vue";
 
 import * as animationData from "~/assets/logo/logo.json";
 
@@ -206,8 +206,6 @@ export default {
     handleAnimation: function(anim) {
       this.anim = anim;
     },
-
-
   }
 };
 </script>
