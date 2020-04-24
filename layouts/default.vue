@@ -17,7 +17,7 @@
 
     <div class="primary-menu grid4">
     <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/mobiliario-corporativo" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
-    <nuxt-link class="menu-primario-hover graphik18" to="/knolldesign" exact-active-class="active-link">Knoll Design</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/knoll-design" exact-active-class="active-link">Knoll Design</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/sollo" exact-active-class="active-link">Sollo</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/tecnologia" exact-active-class="active-link">Tecnologia</nuxt-link>
 
