@@ -38,6 +38,7 @@ export default {
   */
   plugins: [
     { src: '~/plugins/lottie-web.js' },
+    { src: '~/plugins/VueFlickity.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -47,7 +48,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/markdownit', 'nuxt-responsive-loader'],
+  modules: ['@nuxtjs/markdownit', 'nuxt-responsive-loader', 'vue-scrollto/nuxt'],
   markdownit: {
     injected: true,
     preset: 'default',

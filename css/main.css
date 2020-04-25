@@ -178,3 +178,30 @@ img {
 .page-leave-to {
   opacity: 0;
 }
+
+
+  /* CAROUSEL */
+
+.carousel-cell {
+  width: 100%;
+  height: auto;
+}
+
+.flickity-page-dots {
+    bottom: -11px !important;
+  }
+
+.flickity-page-dots .dot {
+    height: 2px !important;
+    width: 40px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+ }
+
+ .dot {
+     opacity: 0.1 !important;
+ }
+
+ .is-selected {
+     opacity: 1 !important;
+ }

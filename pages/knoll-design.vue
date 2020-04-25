@@ -106,9 +106,9 @@
       <div class="linha-div"></div>
 
       <div class="menu-anchor graphik18 gray">
-        <ul>
-          <li>KnollStudio</li>
-          <li>Knoll Extra</li>
+        <ul class="title-history-sticky">
+          <li><a href="#" v-scroll-to="'#knollstudio'">KnollStudio</a></li>
+          <li><a href="#" v-scroll-to="'#knollextra'">Knoll Extra</a></li>
           <li>Knoll Textiles</li>
           <li>Muuto</li>
           <li>Spinneyback</li>
@@ -117,10 +117,58 @@
         </ul>
       </div>
 
-      <div class="knoll-brand-item">
+      <div id="knollstudio" class="knoll-brand-item">
         <div class="grid2">
           <div class="knoll-brand-item-title pressura40">KnollStudio</div>
-          <div class="knoll-brand-item-description graphik24">KnollStudio is a definitive resource for modern furniture. The collection includes iconic pieces from the great modernists and exciting new products from today’s best designers. Life changes, but quality endures.</div>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text">KnollStudio is a definitive resource for modern furniture. The collection includes iconic pieces from the great modernists and exciting new products from today’s best designers. Life changes, but quality endures.</li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da KnollStudio ↗</a></li>
+            </ul>
+              </div>
+          
+          <Flickity class="carousel">
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+          </Flickity>
+
+          <div class="knoll-brand-item-secondary-description graphik16 gray">
+          The KnollStudio table collection includes iconic dining tables, performance training tables, elegant conference tables and everything in between.
+          </div>
+
+          <img class="knoll-brand-item-secondary-img" :srcset="require('~/assets/images/knollstudio/Rectangle78.jpg').srcSet" />
+
+        </div>
+      </div>
+
+
+      <div id="knollextra" class="knoll-brand-item">
+        <div class="linha-div"></div>
+        
+        <div class="grid2">
+          <div class="knoll-brand-item-title pressura40">Knoll Extra</div>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text">KnollExtra makes your work life easier with office accessories to illuminate your space, manage your technology and ensure your well-being.</li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Knoll Extra ↗</a></li>
+            </ul>
+              </div>
+          
+          <Flickity class="carousel">
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+          </Flickity>
+
+          <div class="knoll-brand-item-secondary-description graphik16 gray">
+          The KnollStudio table collection includes iconic dining tables, performance training tables, elegant conference tables and everything in between.
+          </div>
+
+          <img class="knoll-brand-item-secondary-img" :srcset="require('~/assets/images/knollstudio/Rectangle78.jpg').srcSet" />
+
         </div>
       </div>
     
@@ -195,15 +243,39 @@
 
   .menu-anchor {
     grid-column: 1/2;
+    grid-row: 2/4;
   }
 
   .knoll-brand-item{
     grid-column: 2/4;
+    margin-bottom: 94px;
+  }
+
+  .knoll-brand-item-title {
+    margin-top: -7px;
   }
 
   .menu-anchor li {
     margin-bottom: 4px;
   }
+
+  .knoll-brand-item-description {
+    margin: -7px 0 34px 0;
+  }
+
+  .knoll-brand-item-description-text {
+    margin-bottom: 24px;
+  }
+
+  .carousel {
+    grid-column: 1/3;
+    margin-bottom: 36px;
+  }
+
+  .knoll-brand-item-secondary-description {
+    align-self: end;
+  }
+
 </style>
 
 <script>
