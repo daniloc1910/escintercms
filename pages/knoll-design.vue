@@ -18,7 +18,7 @@
       </div>
 
       <div class="profile-history">
-      <img :srcset="require('~/assets/images/haus-florence.png').srcSet" />
+      <img :srcset="require('~/assets/images/knoll-design/haus-florence.png').srcSet" />
       <ul style="margin-top:16px;">
         <li class="graphik16">Hans and Florence Knoll</li>
         <li class="graphik16 gray">Fundadores da Knoll</li>
@@ -32,14 +32,98 @@
       <div class="grid6">
 
       <div class="title-history">
-        <ul>
-          <li class="pressura40">Os designers mais marcantes</li>
-          <li class="graphik18 pink">Conheça todos no site da Knoll</li>
+        <ul class="title-history-sticky">
+          <li class="pressura40 title-history-title">Os designers mais marcantes</li>
+          <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Conheça todos no site da Knoll ↗</a></li>
         </ul>
       </div>
 
+      <DesignerItem
+        desginerprofile="2x4.jpg"
+        designername="2x4"
+      />
+
+      <DesignerItem
+        desginerprofile="antenna-design.jpg"
+        designername="Antenna Design"
+      />
+
+      <DesignerItem
+        desginerprofile="leila-massimo-vignelli.jpg"
+        designername="Leila e Massimo Vignelli"
+      />
+
+      <DesignerItem
+        desginerprofile="george-nakashima.jpg"
+        designername="George Nakashima"
+      />
+
+      <DesignerItem
+        desginerprofile="lucia-mercer.jpg"
+        designername="Lucia Mercer"
+      />
+
+      <DesignerItem
+        desginerprofile="ludwig-miesrvanrder-rohe.jpg"
+        designername="Ludwig Mies van der Rohe"
+      />
+
+      <DesignerItem
+        desginerprofile="ltl.jpg"
+        designername="LTL"
+      />
+
+      <DesignerItem
+        desginerprofile="maya-lin.jpg"
+        designername="Maya Lin"
+      />
+
+      <DesignerItem
+        desginerprofile="hans-knoll.jpg"
+        designername="Hans Knoll"
+      />
+
+      <DesignerItem
+        desginerprofile="jehs-laub.jpg"
+        designername="Jehs + Laub"
+      />
+
+      <DesignerItem
+        desginerprofile="paul-haigh.jpg"
+        designername="Paul Haigh"
+      />
+
+      <DesignerItem
+        desginerprofile="cini-boeri.jpg"
+        designername="Cini Boeri"
+      />
+
       </div>
     </div>
+    </div>
+
+    <div class="grid3"> 
+      <div class="linha-div"></div>
+
+      <div class="menu-anchor graphik18 gray">
+        <ul>
+          <li>KnollStudio</li>
+          <li>Knoll Extra</li>
+          <li>Knoll Textiles</li>
+          <li>Muuto</li>
+          <li>Spinneyback</li>
+          <li>Filzfelt</li>
+          <li>Dateweiser</li>
+        </ul>
+      </div>
+
+      <div class="knoll-brand-item">
+        <div class="grid2">
+          <div class="knoll-brand-item-title pressura40">KnollStudio</div>
+          <div class="knoll-brand-item-description graphik24">KnollStudio is a definitive resource for modern furniture. The collection includes iconic pieces from the great modernists and exciting new products from today’s best designers. Life changes, but quality endures.</div>
+        </div>
+      </div>
+    
     </div>
 
   </div>
@@ -83,25 +167,53 @@
 
   .designers-grid {
     grid-column: 1/4;
+    margin-bottom: 73px;
   }
 
   .linha-div {
-    grid-column: 1/5;
+    grid-column: 1/4;
     height: 1px;
     background-color: #DEDCDB;
+    margin-bottom: 40px;
   }
 
   .title-history {
     grid-column: 1/3;
+    grid-row: 1/4;
+    margin-top: -7px;
+    position: relative;
+  }
+
+  .title-history-title{
+    margin-bottom: 20px;
+  }
+
+  .title-history-sticky {
+    position: sticky;
+    top: 28px;
+  }
+
+  .menu-anchor {
+    grid-column: 1/2;
+  }
+
+  .knoll-brand-item{
+    grid-column: 2/4;
+  }
+
+  .menu-anchor li {
+    margin-bottom: 4px;
   }
 </style>
 
 <script>
 
 
+import DesignerItem from '~/components/DesignerItem.vue'
+
 export default {
   components: {
-    
+    DesignerItem
   },
   data() {
     return {
