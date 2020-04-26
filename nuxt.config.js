@@ -21,13 +21,13 @@ export default {
   loading: { color: '#fff' },
   
   responsiveLoader: {
-    name: 'img/[hash:7]-[width].[ext]',
+    name: 'img/[hash]-[width].[ext]',
     min: 640,
     max: 2000,
     steps: 4,
-    format: 'png',
+    format: 'jpg',
     quality: 80,
-    disable: true
+    disable: false
   },
   /*
   ** Global CSS
