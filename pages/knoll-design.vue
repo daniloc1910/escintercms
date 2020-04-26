@@ -118,22 +118,22 @@
       </div>
 
       
-      <!-- KNOLL EXTRA -->
+      <!-- KNOLLSTUDIO -->
       <div id="knollstudio" class="knoll-brand-item">
         <div class="grid2">
           <div class="knoll-brand-item-title pressura40">KnollStudio</div>
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">KnollStudio is a definitive resource for modern furniture. The collection includes iconic pieces from the great modernists and exciting new products from today’s best designers. Life changes, but quality endures.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da KnollStudio ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/knollstudio" target="_blank">Visite o site da KnollStudio ↗</a></li>
             </ul>
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel4.jpg').srcSet" /></div>
           </Flickity>
 
           <div class="knoll-brand-item-secondary-description graphik16 gray">
@@ -155,15 +155,15 @@
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">KnollExtra makes your work life easier with office accessories to illuminate your space, manage your technology and ensure your well-being.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Knoll Extra ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/knollextra" target="_blank">Visite o site da Knoll Extra ↗</a></li>
             </ul>
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollextra/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollextra/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollextra/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollextra/carousel4.jpg').srcSet" /></div>
           </Flickity>
 
           <div class="knoll-brand-item-secondary-img">
@@ -189,15 +189,15 @@
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">KnollTextiles, founded in 1947 by Florence Knoll, was the first company to address the fabric needs of the commercial interior. Today, KnollTextiles is one of the largest textile suppliers in North America, with products developed for healthcare, hospitality, educational, corporate, and residential interiors.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Knoll Textiles ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/shop/knolltextiles" target="_blank">Visite o site da Knoll Textiles ↗</a></li>
             </ul>
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/textiles/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/textiles/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/textiles/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/textiles/carousel4.jpg').srcSet" /></div>
           </Flickity>
 
         </div>
@@ -213,15 +213,15 @@
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">Muuto is rooted in the Scandinavian design tradition characterized by enduring aesthetics, functionality, craftsmanship and an honest expression. By expanding this heritage with forward-looking materials, techniques and bold creative thinking, our ambition is to deliver new perspectives on Scandinavian design.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Muuto ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://muuto.com" target="_blank">Visite o site da Muuto ↗</a></li>
             </ul>
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/muuto/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/muuto/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/muuto/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/muuto/carousel4.jpg').srcSet" /></div>
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">
@@ -245,15 +245,15 @@
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">Spinneybeck is recognized as a leading provider of high-quality leather to architects and interior designers. Over the decades, the company has evolved from a supplier of full grain, aniline dyed Italian leather for upholstery and aircraft interiors to a manufacturer of pioneering architectural products in leather and beyond.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Spinneyback ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/spinneybeck-design" target="_blank">Visite o site da Spinneyback ↗</a></li>
             </ul>
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/spinneyback/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/spinneyback/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/spinneyback/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/spinneyback/carousel4.jpg').srcSet" /></div>
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">
@@ -277,15 +277,15 @@
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">FilzFelt products, including acoustic solutions, floor coverings, hanging panels, wall panels and felt by the yard, are a great way to introduce color, texture and pattern into any space, residential or contract. Beyond the extensive scope of standard offerings, FilzFelt is ready to help create custom solutions for any project.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Filzfelt ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/filzfelt-design" target="_blank">Visite o site da Filzfelt ↗</a></li>
             </ul>
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/filzfelt/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/filzfelt/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/filzfelt/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/filzfelt/carousel4.jpg').srcSet" /></div>
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">
@@ -309,15 +309,15 @@
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">For signature spaces with refined and flexible conference furniture product platforms that feature a broad range of finishes across wood, metal, glass and stone, DatesWeiser creates custom client-facing environments with the perfect proportions and best-in-class workmanship. From conference and meeting rooms to dining areas, collaborative spaces and executive C-suites, DatesWeiser’s approach distinguishes the look of spaces built to last.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Dateweiser ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/datesweiser" target="_blank">Visite o site da Dateweiser ↗</a></li>
             </ul>
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/dateweiser/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/dateweiser/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/dateweiser/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/dateweiser/carousel4.jpg').srcSet" /></div>
           </Flickity>
 
         </div>

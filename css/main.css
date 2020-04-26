@@ -231,5 +231,6 @@ img {
 }
 
 .flickity-button-icon {
-
+    width: 16px !important;
+    padding-left: 4px !important; 
 }
