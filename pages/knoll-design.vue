@@ -127,7 +127,7 @@
             </ul>
               </div>
           
-          <Flickity class="carousel">
+          <Flickity :options="{ImagesLoaded: true}" class="carousel">
             <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
@@ -156,7 +156,7 @@
             </ul>
               </div>
           
-          <Flickity class="carousel">
+          <Flickity :options="{ImagesLoaded: true}" class="carousel">
             <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :srcset="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
