@@ -127,7 +127,7 @@
             </ul>
               </div>
           
-          <Flickity :options="{wrapAround: true, autoPlay: true, lazyLoad: true}" class="carousel">
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
@@ -156,7 +156,7 @@
             </ul>
               </div>
           
-          <Flickity :options="{wrapAround: true, autoPlay: true, lazyLoad: true}" class="carousel">
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>

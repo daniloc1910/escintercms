@@ -205,3 +205,31 @@ img {
  .is-selected {
      opacity: 1 !important;
  }
+
+ .flickity-prev-next-button {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.carousel:hover > .flickity-button {
+    opacity: 1 !important;
+    transition: 0.4s;
+}
+
+.flickity-button {
+    background: white !important;
+    opacity: 0 !important;
+    transition: 0.4s;
+}
+
+.flickity-prev-next-button.previous {
+    left: 16px !important;
+}
+
+.flickity-prev-next-button.next {
+    right: 16px !important;
+}
+
+.flickity-button-icon {
+
+}
