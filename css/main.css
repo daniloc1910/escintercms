@@ -192,7 +192,7 @@ img {
 }
 
 .flickity-page-dots .dot {
-    height: 2px !important;
+    height: 1px !important;
     width: 40px !important;
     margin: 0 !important;
     border-radius: 0 !important;
