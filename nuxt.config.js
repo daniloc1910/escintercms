@@ -27,7 +27,7 @@ export default {
     steps: 4,
     format: 'png',
     quality: 80,
-    disable: false
+    disable: true
   },
   /*
   ** Global CSS
