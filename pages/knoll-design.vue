@@ -109,14 +109,16 @@
         <ul class="title-history-sticky">
           <li><a href="#" v-scroll-to="'#knollstudio'">KnollStudio</a></li>
           <li><a href="#" v-scroll-to="'#knollextra'">Knoll Extra</a></li>
-          <li>Knoll Textiles</li>
-          <li>Muuto</li>
-          <li>Spinneyback</li>
-          <li>Filzfelt</li>
-          <li>Dateweiser</li>
+          <li><a href="#" v-scroll-to="'#knolltextiles'">Knoll Textiles</a></li>
+          <li><a href="#" v-scroll-to="'#muuto'">Muuto</a></li>
+          <li><a href="#" v-scroll-to="'#spinneyback'">Spinneyback</a></li>
+          <li><a href="#" v-scroll-to="'#filzfelt'">FilzFelt</a></li>
+          <li><a href="#" v-scroll-to="'#dateweiser'">Dateweiser</a></li>
         </ul>
       </div>
 
+      
+      <!-- KNOLL EXTRA -->
       <div id="knollstudio" class="knoll-brand-item">
         <div class="grid2">
           <div class="knoll-brand-item-title pressura40">KnollStudio</div>
@@ -143,7 +145,8 @@
         </div>
       </div>
 
-
+      
+      <!-- KNOLL EXTRA -->
       <div id="knollextra" class="knoll-brand-item">
         <div class="linha-div"></div>
         
@@ -163,11 +166,159 @@
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
           </Flickity>
 
-          <div class="knoll-brand-item-secondary-description graphik16 gray">
-          The KnollStudio table collection includes iconic dining tables, performance training tables, elegant conference tables and everything in between.
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/knollextra/desktop-management.jpg').srcSet" />
+          <div class="img-description graphik16 gray">Desktop Management</div>
+          </div>
+          
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/knollextra/lighting.jpg').srcSet" />
+          <div class="img-description graphik16 gray">Lighting</div>
           </div>
 
-          <img class="knoll-brand-item-secondary-img" :srcset="require('~/assets/images/knollstudio/Rectangle78.jpg').srcSet" />
+        </div>
+      </div>
+
+
+      <!-- KNOLL TEXTILES -->
+      <div id="knolltextiles" class="knoll-brand-item">
+        <div class="linha-div"></div>
+        
+        <div class="grid2">
+          <div class="knoll-brand-item-title pressura40">Knoll Textiles</div>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text">KnollTextiles, founded in 1947 by Florence Knoll, was the first company to address the fabric needs of the commercial interior. Today, KnollTextiles is one of the largest textile suppliers in North America, with products developed for healthcare, hospitality, educational, corporate, and residential interiors.</li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Knoll Textiles ↗</a></li>
+            </ul>
+              </div>
+          
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+          </Flickity>
+
+        </div>
+      </div>
+
+
+      <!-- MUUTO -->
+      <div id="muuto" class="knoll-brand-item">
+        <div class="linha-div"></div>
+        
+        <div class="grid2">
+          <div class="knoll-brand-item-title pressura40">Muuto</div>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text">Muuto is rooted in the Scandinavian design tradition characterized by enduring aesthetics, functionality, craftsmanship and an honest expression. By expanding this heritage with forward-looking materials, techniques and bold creative thinking, our ambition is to deliver new perspectives on Scandinavian design.</li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Muuto ↗</a></li>
+            </ul>
+              </div>
+          
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+          </Flickity>
+          
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/muuto/muuto1.jpg').srcSet" />
+          </div>
+
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/muuto/muuto2.jpg').srcSet" />
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- SPINNEYBACK -->
+      <div id="spinneyback" class="knoll-brand-item">
+        <div class="linha-div"></div>
+        
+        <div class="grid2">
+          <div class="knoll-brand-item-title pressura40">Spinneyback</div>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text">Spinneybeck is recognized as a leading provider of high-quality leather to architects and interior designers. Over the decades, the company has evolved from a supplier of full grain, aniline dyed Italian leather for upholstery and aircraft interiors to a manufacturer of pioneering architectural products in leather and beyond.</li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Spinneyback ↗</a></li>
+            </ul>
+              </div>
+          
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+          </Flickity>
+          
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/spinneyback/spinneyback2.jpg').srcSet" />
+          </div>
+
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/spinneyback/spinneyback1.jpg').srcSet" />
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- FILZFELT -->
+      <div id="filzfelt" class="knoll-brand-item">
+        <div class="linha-div"></div>
+        
+        <div class="grid2">
+          <div class="knoll-brand-item-title pressura40">Filzfelt</div>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text">FilzFelt products, including acoustic solutions, floor coverings, hanging panels, wall panels and felt by the yard, are a great way to introduce color, texture and pattern into any space, residential or contract. Beyond the extensive scope of standard offerings, FilzFelt is ready to help create custom solutions for any project.</li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Filzfelt ↗</a></li>
+            </ul>
+              </div>
+          
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+          </Flickity>
+          
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/filzfelt/filzfelt1.jpg').srcSet" />
+          </div>
+
+          <div class="knoll-brand-item-secondary-img">
+          <img :srcset="require('~/assets/images/filzfelt/filzfelt2.jpg').srcSet" />
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- DATEWEISER -->
+      <div id="dateweiser" class="knoll-brand-item">
+        <div class="linha-div"></div>
+        
+        <div class="grid2">
+          <div class="knoll-brand-item-title pressura40">Dateweiser</div>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text">For signature spaces with refined and flexible conference furniture product platforms that feature a broad range of finishes across wood, metal, glass and stone, DatesWeiser creates custom client-facing environments with the perfect proportions and best-in-class workmanship. From conference and meeting rooms to dining areas, collaborative spaces and executive C-suites, DatesWeiser’s approach distinguishes the look of spaces built to last.</li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Visite o site da Dateweiser ↗</a></li>
+            </ul>
+              </div>
+          
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/assets/images/knollstudio/carousel.jpg').srcSet" /></div>
+          </Flickity>
 
         </div>
       </div>
@@ -243,7 +394,7 @@
 
   .menu-anchor {
     grid-column: 1/2;
-    grid-row: 2/4;
+    grid-row: 2/9;
   }
 
   .knoll-brand-item{
@@ -260,7 +411,7 @@
   }
 
   .knoll-brand-item-description {
-    margin: -7px 0 34px 0;
+    margin: -7px 0 50px 0;
   }
 
   .knoll-brand-item-description-text {
@@ -274,6 +425,10 @@
 
   .knoll-brand-item-secondary-description {
     align-self: end;
+  }
+
+  .img-description {
+    margin-top: 17px;
   }
 
 </style>
