@@ -130,10 +130,10 @@
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="'images/knollstudio/carousel1.jpg'" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="'images/knollstudio/carousel2.jpg'" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="'images/knollstudio/carousel3.jpg'" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="'images/knollstudio/carousel4.jpg'" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/content/images/knollstudio/carousel1.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/content/images/knollstudio/carousel2.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/content/images/knollstudio/carousel3.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/content/images/knollstudio/carousel4.jpg')" /></div>
           </Flickity>
 
           <div class="knoll-brand-item-secondary-description graphik16 gray">
