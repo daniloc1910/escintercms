@@ -1,19 +1,7 @@
 <template>
 <div class="content">
-    <div class="primary-menu grid4">
-    <div></div>
-
-    <ul class="graphik18">
-      <nuxt-link to="/mobiliario_corporativo/estacoes_de_trabalho" exact-active-class="active-link"><li class="secondary-menu-item">Estações de trabalho</li></nuxt-link>
-      <nuxt-link to="/blog" exact-active-class="active-link"><li class="secondary-menu-item">Assentos</li></nuxt-link>
-      <nuxt-link to="/sollo" exact-active-class="active-link"><li class="secondary-menu-item">Reuniões</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Armazenamento</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Colaborativos</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Acessórios</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Divisórias</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Carpetes</li></nuxt-link>
-    </ul>
-    </div>
+    
+      <Menu />
 
       <CategoryItem
         title="Estações de trabalho"
@@ -81,10 +69,12 @@ export default {
 
 <script>
 import CategoryItem from '~/components/CategoryItem.vue'
+import Menu from '~/components/Menu.vue'
 
 export default {
   components: {
-    CategoryItem
+    CategoryItem,
+    Menu
   },
   data() {
     return {

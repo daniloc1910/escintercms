@@ -1,89 +1,77 @@
 <template>
 <div class="content">
-    <div class="primary-menu grid4">
-    <div></div>
 
-    <ul class="graphik18">
-      <nuxt-link to="/mobiliario_corporativo/estacoes_de_trabalho" exact-active-class="active-link"><li class="secondary-menu-item">Estações de trabalho</li></nuxt-link>
-      <nuxt-link to="/mobiliario_corporativo/assentos" exact-active-class="active-link"><li class="secondary-menu-item">Assentos</li></nuxt-link>
-      <nuxt-link to="/sollo" exact-active-class="active-link"><li class="secondary-menu-item">Reuniões</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Armazenamento</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Colaborativos</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Acessórios</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Divisórias</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Carpetes</li></nuxt-link>
-    </ul>
-    </div>
+  <Menu />
 
   <div class="category-list grid3">
     <div class="category-name pressura60">Assentos</div>
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_1_Knoll_Generation/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_1_Knoll_Generation/hero.jpg"
         nameproduct="Generation"
         brandproduct="Knoll"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_2_Knoll_Regeneration/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_2_Knoll_Regeneration/hero.jpg"
         nameproduct="Regeneration"
         brandproduct="Knoll"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_3_Knoll_K_Task/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_3_Knoll_K_Task/hero.jpg"
         nameproduct="k. task"
         brandproduct="Knoll"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_4_Knoll_Ollo/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_4_Knoll_Ollo/hero.jpg"
         nameproduct="Ollo"
         brandproduct="Knoll"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_5_Knoll_Multigeneration/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_5_Knoll_Multigeneration/hero.jpg"
         nameproduct="Multigeneration"
         brandproduct="Knoll"
       />  
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_6_Knoll_Life/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_6_Knoll_Life/hero.jpg"
         nameproduct="Life"
         brandproduct="Knoll"
       />  
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_7_Knoll_Pollock/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_7_Knoll_Pollock/hero.jpg"
         nameproduct="Pollock"
         brandproduct="Knoll"
       />  
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_8_FWay_Parker/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_8_FWay_Parker/hero.jpg"
         nameproduct="Parker"
         brandproduct="F. WAY"
       />  
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_9_FWay_Nox/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_9_FWay_Nox/hero.jpg"
         nameproduct="Nox"
         brandproduct="F.WAY"
       /> 
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_10_FWay_Ayra/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_10_FWay_Ayra/hero.jpg"
         nameproduct="Ayra"
         brandproduct="F.WAY"
       />   
@@ -91,70 +79,70 @@
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_11_Frisokar_Agile/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_11_Frisokar_Agile/hero.jpg"
         nameproduct="Agile"
         brandproduct="Frisokar"
       />  
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/hero.jpg"
         nameproduct="Joy Addit"
         brandproduct="Frisokar"
       /> 
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_12_Frisokar_Simple/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_12_Frisokar_Simple/hero.jpg"
         nameproduct="Simple"
         brandproduct="Frisokar"
       />  
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_13_Frisokar_Sense/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_13_Frisokar_Sense/hero.jpg"
         nameproduct="Sense"
         brandproduct="Frisokar"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_14_Frisokar_Plus/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_14_Frisokar_Plus/hero.jpg"
         nameproduct="Plus"
         brandproduct="Frisokar"
       />  
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_15_Humanscale_Freedom/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_15_Humanscale_Freedom/hero.jpg"
         nameproduct="Freedom"
         brandproduct="Humanscale"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/hero.jpg"
         nameproduct="Different World"
         brandproduct="Humanscale"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_17_Humanscale_Trea/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_17_Humanscale_Trea/hero.jpg"
         nameproduct="Trea"
         brandproduct="Humanscale"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_18_Humanscale_Summa/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_18_Humanscale_Summa/hero.jpg"
         nameproduct="Summa"
         brandproduct="Humanscale"
       />   
 
       <ItemProduto
         linkproduct="#"
-        imgproduct="mobiliariocorporativo/assentos/2_19_Humanscale_Cinto/hero.png"
+        imgproduct="mobiliariocorporativo/assentos/2_19_Humanscale_Cinto/hero.jpg"
         nameproduct="Cinto"
         brandproduct="Humanscale"
       />     
@@ -199,10 +187,12 @@
 
 <script>
 import ItemProduto from '~/components/ItemProduto.vue'
+import Menu from '~/components/Menu.vue'
 
 export default {
   components: {
-    ItemProduto
+    ItemProduto,
+    Menu
   },
   data() {
     return {

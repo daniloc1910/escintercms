@@ -1,19 +1,7 @@
 <template>
 <div class="content">
-    <div class="primary-menu grid4">
-    <div></div>
 
-    <ul class="graphik18">
-      <nuxt-link to="/mobiliario_corporativo/estacoes_de_trabalho" exact-active-class="active-link"><li class="secondary-menu-item">Estações de trabalho</li></nuxt-link>
-      <nuxt-link to="/mobiliario_corporativo/assentos" exact-active-class="active-link"><li class="secondary-menu-item">Assentos</li></nuxt-link>
-      <nuxt-link to="/sollo" exact-active-class="active-link"><li class="secondary-menu-item">Reuniões</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Armazenamento</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Colaborativos</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Acessórios</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Divisórias</li></nuxt-link>
-      <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Carpetes</li></nuxt-link>
-    </ul>
-    </div>
+  <Menu />
 
   <div class="category-list grid3">
     <div class="category-name pressura60">Estações de trabalho</div>
@@ -46,3 +34,25 @@
     padding-bottom: 4px;
   }
 </style>
+
+<script>
+import ItemProduto from '~/components/ItemProduto.vue'
+import Menu from '~/components/Menu.vue'
+
+export default {
+  components: {
+    ItemProduto,
+    Menu
+  },
+  data() {
+    return {
+      title: 'Escinter — Assentos'
+    }
+  },
+  head() {
+    return {
+      title: this.title
+    }
+  }
+}
+</script>

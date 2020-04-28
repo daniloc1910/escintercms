@@ -25,7 +25,7 @@ export default {
     min: 640,
     max: 1600,
     steps: 3,
-    format: 'png',
+    format: 'jpg',
     quality: 80,
     disable: false
   },
