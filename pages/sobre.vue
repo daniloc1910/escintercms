@@ -21,7 +21,7 @@
         <li class="gray">Vila Madalena</li>
       </ul>
 
-      <img class="img-showroom" :srcset="require('~/assets/images/escinter-showroom.png').srcSet" />
+      <img class="img-showroom lazyload" :data-srcset="require('~/assets/images/escinter-showroom.png').srcSet" />
 
       <div class="linha-div"></div>
 
@@ -63,18 +63,18 @@
 
       <div class="cliente-grid">
         <div class="grid6">
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />                    
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />                    
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />                    
-          <img :srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />                    
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />                    
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />                    
+          <img :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
         </div>
       </div>
 

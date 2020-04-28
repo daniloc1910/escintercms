@@ -1,6 +1,6 @@
 <template>
       <n-link class="product-item" :to="'/' + linkproduct">
-        <li><img :srcset="require('~/assets/images/' + imgproduct).srcSet" /></li>
+        <li><img :data-srcset="require('~/assets/images/' + imgproduct).srcSet" class="lazyload" /></li>
         <li class="category-item-productname pressura19">{{ nameproduct }}</li>
         <li class="graphik16 gray">{{ brandproduct }}</li>
       </n-link>

@@ -10,13 +10,13 @@
     </div>
 
       <n-link class="product-item-1" :to="'/' + linkproduct1">
-        <li><img :src="require('~/assets/images/' + imgproduct1)" /></li>
+        <li><img :data-srcset="require('~/assets/images/' + imgproduct1).srcSet" class="lazyload" /></li>
         <li class="category-item-productname pressura19">{{ nameproduct1 }}</li>
         <li class="graphik16 gray">{{ brandproduct1 }}</li>
       </n-link>
 
       <n-link class="product-item-1" :to="'/' + linkproduct2">
-        <li><img :src="require('~/assets/images/' + imgproduct2)" /></li>
+        <li><img :data-srcset="require('~/assets/images/' + imgproduct2).srcSet" class="lazyload" /></li>
         <li class="category-item-productname pressura19">{{ nameproduct2 }}</li>
         <li class="graphik16 gray">{{ brandproduct2 }}</li>
       </n-link>

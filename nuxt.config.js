@@ -21,10 +21,10 @@ export default {
   loading: { color: '#fff' },
   
   responsiveLoader: {
-    name: 'img/[hash]-[width].[ext]',
+    name: 'img/[name]-[hash]-[width].[ext]',
     min: 640,
-    max: 2000,
-    steps: 4,
+    max: 1600,
+    steps: 3,
     format: 'png',
     quality: 80,
     disable: false
@@ -38,7 +38,8 @@ export default {
   */
   plugins: [
     { src: '~/plugins/lottie-web.js' },
-    { src: '~/plugins/VueFlickity.js', ssr: false }
+    { src: '~/plugins/VueFlickity.js', ssr: false },
+    { src: '~/plugins/lazysizes.client.js' }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -73,11 +74,19 @@ export default {
   /*
   ** Build configuration
   */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
+ build: {
+  extend(
+    config,
+    {
+      isDev,
+      isClient,
+      loaders: { vue }
+    }
+  ) {
+    if (isClient) {
+      vue.transformAssetUrls.img = ['data-src', 'src']
+      vue.transformAssetUrls.source = ['data-srcset', 'srcset']
     }
   }
+}
 }

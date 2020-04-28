@@ -18,7 +18,7 @@
       </div>
 
       <div class="profile-history">
-      <img :srcset="require('~/assets/images/knoll-design/haus-florence.png').srcSet" />
+      <img :data-srcset="require('~/assets/images/knoll-design/haus-florence.png').srcSet" class="lazyload" />
       <ul style="margin-top:16px;">
         <li class="graphik16">Hans and Florence Knoll</li>
         <li class="graphik16 gray">Fundadores da Knoll</li>
@@ -167,12 +167,12 @@
           </Flickity>
 
           <div class="knoll-brand-item-secondary-img">
-          <img :srcset="require('~/assets/images/knollextra/desktop-management.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/knollextra/desktop-management.jpg').srcSet" class="lazyload" />
           <div class="img-description graphik16 gray">Desktop Management</div>
           </div>
           
           <div class="knoll-brand-item-secondary-img">
-          <img :srcset="require('~/assets/images/knollextra/lighting.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/knollextra/lighting.jpg').srcSet" class="lazyload" />
           <div class="img-description graphik16 gray">Lighting</div>
           </div>
 
@@ -225,11 +225,11 @@
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">
-          <img :srcset="require('~/assets/images/muuto/muuto1.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/muuto/muuto1.jpg').srcSet" class="lazyload" />
           </div>
 
           <div class="knoll-brand-item-secondary-img">
-          <img :srcset="require('~/assets/images/muuto/muuto2.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/muuto/muuto2.jpg').srcSet" class="lazyload" />
           </div>
 
         </div>
@@ -261,7 +261,7 @@
           </div>
 
           <div class="knoll-brand-item-secondary-img">
-          <img :srcset="require('~/assets/images/spinneyback/spinneyback1.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/spinneyback/spinneyback1.jpg').srcSet" class="lazyload" />
           </div>
 
         </div>
@@ -289,11 +289,11 @@
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">
-          <img :srcset="require('~/assets/images/filzfelt/filzfelt1.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/filzfelt/filzfelt1.jpg').srcSet" class="lazyload" />
           </div>
 
           <div class="knoll-brand-item-secondary-img">
-          <img :srcset="require('~/assets/images/filzfelt/filzfelt2.jpg').srcSet" />
+          <img :data-srcset="require('~/assets/images/filzfelt/filzfelt2.jpg').srcSet" class="lazyload" />
           </div>
 
         </div>
