@@ -234,3 +234,72 @@ img {
     width: 16px !important;
     padding-left: 4px !important; 
 }
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1020px) {
+
+    
+    /* TYPOGRAPHY*/
+
+    .pressura60 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    
+    .pressura56 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    
+    .pressura40 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+    .pressura19 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .graphik24 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .graphik18 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .graphik16 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    /* GRID */
+
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        padding: 0 20px 0 144px;
+    }
+
+    .grid4 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        padding: 0 20px 0 144px;
+    }
+
+    .grid6 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+}

@@ -1,6 +1,6 @@
 <template>
       <n-link class="product-item" :to="'/' + linkproduct">
-        <li><img :src="require('~/assets/images/' + imgproduct)" /></li>
+        <li><img :srcset="require('~/assets/images/' + imgproduct).srcSet" /></li>
         <li class="category-item-productname pressura19">{{ nameproduct }}</li>
         <li class="graphik16 gray">{{ brandproduct }}</li>
       </n-link>
@@ -36,5 +36,14 @@ export default {
 
   a {
     color:#222;
+  }
+
+
+  @media screen and (max-width: 1020px) {
+
+    .product-item {
+      margin-bottom: 23px;
+    }
+
   }
 </style>

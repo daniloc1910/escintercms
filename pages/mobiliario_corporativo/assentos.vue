@@ -184,6 +184,16 @@
   .primary-menu li {
     padding-bottom: 4px;
   }
+
+
+  @media screen and (max-width: 1020px) {
+
+    .category-name {
+      grid-column: 1/3;
+      margin-bottom: 19px;
+    }
+
+  }
 </style>
 
 

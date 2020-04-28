@@ -97,4 +97,39 @@ export default {
   #servicos-list li {
     padding-bottom: 4px;
   }
+
+
+
+  @media screen and (max-width: 1020px) {
+
+    .servicos-item {
+      margin-bottom: 38px;
+    }
+
+    .linha-div {
+      grid-column: 1/3;
+    }
+
+    .servicos-numero {
+      grid-column: 1/3;
+      margin-top: 6px;
+      font-size: 80px;
+      line-height: 80px;
+      text-transform: uppercase;
+    }
+    
+    .servicos-title {
+      grid-column: 1/3;
+      margin: 82px 0 26px 0;
+    }
+
+    .servicos-description {
+      grid-column: 1/3;
+    }
+
+    #servicos-list {
+      grid-column: 1/3;
+    }
+
+  }
 </style>

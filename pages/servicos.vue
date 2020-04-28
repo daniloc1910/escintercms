@@ -75,6 +75,15 @@
   .servicos-description {
     grid-column: 1/4;
   }
+
+
+  @media screen and (max-width: 1020px) {
+
+    .servicos-description {
+      grid-column: 1/3;
+    }
+
+  }
 </style>
 
 <script>
