@@ -4,7 +4,7 @@
         <li><img :data-srcset="require('~/assets/images/' + imgproduct).srcSet" class="lazyload" /></li>
         <li class="category-item-productname pressura19">{{ nameproduct }}</li>
         <li class="brand-product graphik16 gray">{{ brandproduct }}</li>
-        <li class="link-label graphik16 pink"> Ver mais</li>
+        <li class="link-label graphik16 pink"> Ver detalhes</li>
         </ul>
       </n-link>
 </template>
