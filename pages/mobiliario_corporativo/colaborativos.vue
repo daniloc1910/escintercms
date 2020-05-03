@@ -2,9 +2,22 @@
 <div class="content">
 
   <Menu />
+  <MenuMobile />
 
   <div class="category-list grid3">
     <div class="category-name pressura60">Colaborativos</div>
+
+        <div class="menu-anchor graphik18 gray">
+        <ul>
+          <li><a href="#" v-scroll-to="'#knollstudio'">Cadeiras</a></li>
+          <li><a href="#" v-scroll-to="'#knollextra'">Poltronas</a></li>
+          <li><a href="#" v-scroll-to="'#knolltextiles'">Sofás</a></li>
+          <li><a href="#" v-scroll-to="'#muuto'">Puffs</a></li>
+          <li><a href="#" v-scroll-to="'#spinneyback'">Bancadas altas</a></li>
+          <li><a href="#" v-scroll-to="'#filzfelt'">Mesas</a></li>
+        </ul>
+      </div>
+
     <div class="linha-div"></div>
 
       
@@ -392,7 +405,7 @@
   }
 
   .category-name {
-    grid-column: 1/4;
+    grid-column: 1/3;
     margin-bottom: 37px;
   }
 
@@ -412,12 +425,8 @@
     margin-bottom: 2px;
   }
 
-  .primary-menu {
-    margin-bottom: 65px;
-  }
-
-  .primary-menu li {
-    padding-bottom: 4px;
+  .menu-anchor {
+    margin-bottom: 40px;
   }
 
 
@@ -435,11 +444,13 @@
 <script>
 import ItemProduto from '~/components/ItemProduto.vue'
 import Menu from '~/components/Menu.vue'
+import MenuMobile from '~/components/MenuMobile.vue'
 
 export default {
   components: {
     ItemProduto,
-    Menu
+    Menu,
+    MenuMobile
   },
   data() {
     return {

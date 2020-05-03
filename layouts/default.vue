@@ -1,6 +1,8 @@
 <template>
   <div>
 
+    <!-- MENU -->
+
     <div class="navigation">
 
     <nuxt-link to="/">
@@ -37,6 +39,9 @@
     </div>
 
     <nuxt />
+
+
+    <!-- FOOTER -->
 
     <footer class="grid3">
       <div class="item-footer">
@@ -109,6 +114,10 @@
 </template>
 
 <style scoped>
+  .navigation-mobile {
+    display: none;
+  }
+
   .navigation {
     position: relative;
     width: 144px;
@@ -127,14 +136,14 @@
     position: fixed;
     left: 28px;
     bottom: 24px;
-    z-index: 10001;
+    z-index: 9999;
   }
 
   .primary-menu {
     margin-top: 30px;
     position: absolute;
     width: calc(100% - 172px);
-    z-index: 10000;
+    z-index: 9999;
   }
 
   .primary-menu li {
@@ -186,6 +195,94 @@
 
   .footer-item-list {
     padding-bottom: 4px;
+  }
+
+
+
+
+  @media screen and (max-width: 1020px) {
+
+    .navigation-mobile {
+      display: block;
+    }
+
+    .button-closed {
+      position: fixed;
+      width: 100vw;
+      height: 56px;
+      border-top: solid 1px #c4c4c4;
+      background-color: #F8F5F2;
+      bottom: 0;
+      z-index: 10001;
+    }
+
+    .button-closed-label {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+    }
+
+    #burger {
+      position: fixed;
+      width: 100%;
+      height: 56px;
+      bottom: 0;
+      z-index: 10002;
+      padding: 0;
+      margin: 0;
+      opacity: 0;
+    }
+
+    #burger:checked ~ .menu-open {
+      background-color: white;
+      transform: translateY(0vh);
+      transition: 0.5s;
+    }
+
+    .menu-open {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background-color: white;
+      transform: translateY(100vh);
+      top: 0;
+      z-index: 10000;
+    }
+
+    .menu-primario-mobile {
+      position: relative;
+      margin: 126px 8px 0 20px;
+    }
+
+    .menu-primario-mobile li {
+      padding-bottom: 12px;
+    }
+
+    .logo-escinter {
+      left: 20px;
+      top: 20px;
+      width: 40px;
+    }
+
+    .primary-menu {
+      margin-top: 108px;
+      width: calc(100% - 40px);
+    }
+
+    .menu-primario-hover {
+      grid-column: 1/3;
+    }
+
+    .secondary-menu {
+      display: none;
+    }
+
+    .category-products {
+      display: none;
+    }
+
   }
 </style>
 

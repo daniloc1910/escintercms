@@ -18,7 +18,7 @@
 
 <style scoped>
   .primary-menu {
-    margin-bottom: 65px;
+    margin-bottom: 80px;
   }
 
   .primary-menu li {

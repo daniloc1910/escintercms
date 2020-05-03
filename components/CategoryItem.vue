@@ -94,4 +94,21 @@ export default {
     color: #222;
   }
 
+      @media screen and (max-width: 1020px) {
+
+  .linha-div {
+    grid-column: 1/3;
+  }
+
+    .category-item {
+    margin-bottom: 38px;
+  }
+
+      .titlebutton {
+    grid-column: 1/3;
+    margin-bottom: 23px;
+  }
+
+    }
+
 </style>

@@ -1,6 +1,8 @@
 <template>
   <div class="content">
 
+    <MenuMobile />
+
     <div class="backgroundwhite"></div>
 
     <div class="grid3 knoll-history">
@@ -431,16 +433,72 @@
     margin-top: 17px;
   }
 
+
+
+    @media screen and (max-width: 1020px) {
+
+      .knoll-history {
+        grid-column: 1/3;
+        margin-bottom: 31px;
+      }
+
+      .profile-history {
+        grid-column: 1/3;
+      }
+
+      .designers-grid {
+        grid-column: 1/3;
+        margin-bottom: 64px;
+      }
+
+      .title-history[data-v-048d8638] {
+        grid-column: 1/3;
+        grid-row: 1;
+        margin-bottom: 32px;
+      }
+
+      .designer-item {
+        margin-bottom: 0px;
+      }
+
+      .linha-div {
+        grid-column: 1/3;
+      }
+
+      .menu-anchor {
+        grid-column: 1/3;
+        margin-bottom: 64px;
+      }
+
+      .knoll-brand-item {
+         grid-column: 1/3;
+        margin-bottom: 64px;
+      }
+
+      .knoll-brand-item-title {
+        grid-column: 1/3;
+        margin: 0 0 32px 0;
+      }
+
+      .knoll-brand-item-description {
+        grid-column: 1/3;
+        margin: -7px 0 50px 0;
+      }
+
+    }
+
 </style>
 
 <script>
 
 
 import DesignerItem from '~/components/DesignerItem.vue'
+import MenuMobile from '~/components/MenuMobile.vue'
 
 export default {
   components: {
-    DesignerItem
+    DesignerItem,
+    MenuMobile
   },
   data() {
     return {

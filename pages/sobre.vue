@@ -1,5 +1,7 @@
 <template>
   <div class="content">
+    <MenuMobile />
+
     <div class="grid3">
       <div class="servicos-title pressura60">
         A Escinter é uma empresa familiar com 30 anos de atuação no mercado de interiores de espaços corporativos
@@ -147,8 +149,13 @@
 </style>
 
 <script>
+import MenuMobile from '~/components/MenuMobile.vue'
+
 export default {
-    data() {
+  components: {
+    MenuMobile
+  },
+  data() {
     return {
       title: 'Escinter — Sobre'
     }

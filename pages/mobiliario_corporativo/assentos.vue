@@ -2,6 +2,7 @@
 <div class="content">
 
   <Menu />
+  <MenuMobile />
 
   <div class="category-list grid3">
     <div class="category-name pressura60">Assentos</div>
@@ -165,14 +166,6 @@
     margin-bottom: 2px;
   }
 
-  .primary-menu {
-    margin-bottom: 65px;
-  }
-
-  .primary-menu li {
-    padding-bottom: 4px;
-  }
-
 
   @media screen and (max-width: 1020px) {
 
@@ -188,11 +181,13 @@
 <script>
 import ItemProduto from '~/components/ItemProduto.vue'
 import Menu from '~/components/Menu.vue'
+import MenuMobile from '~/components/MenuMobile.vue'
 
 export default {
   components: {
     ItemProduto,
-    Menu
+    Menu,
+    MenuMobile
   },
   data() {
     return {

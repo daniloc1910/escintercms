@@ -287,19 +287,25 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
-        padding: 0 20px 0 144px;
+        padding: 0 20px 0 20px;
     }
 
     .grid4 {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
-        padding: 0 20px 0 144px;
+        padding: 0 20px 0 20px;
     }
 
     .grid6 {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 20px;
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
     }
 
 }

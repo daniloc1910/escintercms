@@ -2,6 +2,7 @@
 <div class="content">
     
       <Menu />
+      <MenuMobile />
 
       <CategoryItem
         title="Estações de trabalho"
@@ -65,16 +66,26 @@ export default {
   .primary-menu li {
     padding-bottom: 4px;
   }
+
+    @media screen and (max-width: 1020px) {
+
+      .category-mame {
+        grid-column: 1/3;
+      }
+
+    }
 </style>
 
 <script>
 import CategoryItem from '~/components/CategoryItem.vue'
 import Menu from '~/components/Menu.vue'
+import MenuMobile from '~/components/MenuMobile.vue'
 
 export default {
   components: {
     CategoryItem,
-    Menu
+    Menu,
+    MenuMobile
   },
   data() {
     return {

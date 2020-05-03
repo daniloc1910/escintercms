@@ -1,5 +1,8 @@
 <template>
   <div class="content">
+
+    <MenuMobile />
+
     <div class="grid3">
       <div class="servicos-title pressura60">
         serviços que ajudam nossos clientes, desde o primeiro contato comercial até a pós-ocupação
@@ -83,15 +86,21 @@
       grid-column: 1/3;
     }
 
+    .content {
+      padding-top: 251px;
+    }
+
   }
 </style>
 
 <script>
 import ServicosItem from '~/components/ServicosItem.vue'
+import MenuMobile from '~/components/MenuMobile.vue'
 
 export default {
   components: {
-    ServicosItem
+    ServicosItem,
+    MenuMobile
   },
   data() {
     return {
