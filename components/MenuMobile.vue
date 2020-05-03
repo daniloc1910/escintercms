@@ -2,8 +2,8 @@
     <div class="navigation-mobile">
       
       <input type="checkbox" id="burger">
-      <div class="graphik18 gray button-closed-label">Menu</div>
-      <div class="graphik18 gray button-closed-label-close">Fechar</div>
+      <div class="pressura15 pink button-closed-label">Menu</div>
+      <div class="pressura15 button-closed-label-close">Fechar</div>
 
       <div class="button-closed">
       </div>
@@ -25,13 +25,10 @@
 
         <ul class="menu-primario-mobile-2">
           <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik24 black">Knoll Design</li></nuxt-link>
-        </ul>
-
-        <ul class="menu-secundario-mobile graphik16">
-          <nuxt-link to="/projetos" exact-active-class="active-link"><li class="black">Projetos</li></nuxt-link>
-          <nuxt-link to="/servicos" exact-active-class="active-link"><li class="black">Serviços</li></nuxt-link>
-          <nuxt-link to="/sobre" exact-active-class="active-link"><li class="black">Sobre</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="black">Contato</li></nuxt-link>
+          <nuxt-link to="/projetos" exact-active-class="active-link"><li class="graphik24 black">Projetos</li></nuxt-link>
+          <nuxt-link to="/servicos" exact-active-class="active-link"><li class="graphik24 black">Serviços</li></nuxt-link>
+          <nuxt-link to="/sobre" exact-active-class="active-link"><li class="graphik24 black">Sobre</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik24 black">Contato</li></nuxt-link>
         </ul>
         </div>
       </div>
@@ -67,32 +64,32 @@
       background-color: #F8F5F2;
       bottom: 0;
       z-index: 10001;
-      transition: 0.5s;
+      transition: 0.2s;
       transition-delay: 0.3s;
     }
 
     .button-closed-label {
       position: fixed;
       left: 50%;
-      bottom: 20px;
+      bottom: 22px;
       transform: translate(-50%);
       pointer-events: none;
       z-index: 10002;
       transition: 0.3s ease-out;  
-      transition-delay: 0.3s;
+      transition-delay: 0.25s;
     }
 
     .button-closed-label-close {
       position: fixed;
       color: white;
       left: 50%;
-      bottom: 20px;
+      bottom: 22px;
       transform: translate(-50%, 16px);
       pointer-events: none;
       z-index: 10002;
       opacity: 0;
       transition: 0.3s ease-out;
-      transition-delay: 0.3s;
+      transition-delay: 0.25s;
     }
 
     #burger {
@@ -108,12 +105,13 @@
 
     #burger:checked ~ .menu-open {
       transform: translateY(0vh);
-      transition: 0.5s ease-out;
+      transition: 0.4s ease-out;
     }
 
     #burger:checked ~ .button-closed  {
+      border-top: solid 1px #D2B6B6;
       background-color: #EF4545;
-      transition: 0.5s ease-out;
+      transition: 0.2s ease-out;
     }
 
     #burger:checked ~ .button-closed-label  {
@@ -126,7 +124,7 @@
       transform: translate(-50%, 0px);
       pointer-events: none;
       z-index: 10002;
-      opacity: 0.6;
+      opacity: 1;
       transition: 0.3s ease-out;
     }
 
@@ -139,7 +137,7 @@
       transform: translateY(100vh);
       top: 0;
       z-index: 10000;
-      transition: 0.7s ease-in-out;
+      transition: 0.4s ease-in-out;
     }
 
     .scrollable {
@@ -156,15 +154,14 @@
 
     .menu-primario-mobile-2 {
       position: relative;
-      margin: 20px 8px 0 20px;
-    }
-
-    .menu-secundario-mobile {
-      position: relative;
-      margin: 40px 8px 112px 20px;
+      margin: 20px 8px 112px 20px;
     }
 
     .menu-primario-mobile li {
+      padding-bottom: 12px;
+    }
+
+    .menu-primario-mobile-2 li {
       padding-bottom: 12px;
     }
 

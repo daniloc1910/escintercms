@@ -437,6 +437,18 @@
       margin-bottom: 19px;
     }
 
+  .sub-category-name {
+    grid-column: 1/3;
+  }
+
+    .linha-div {
+      grid-column: 1/3;
+    }
+
+    .menu-anchor {
+      grid-column: 1/3;
+    }
+
   }
 </style>
 

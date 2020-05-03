@@ -308,4 +308,8 @@ img {
         grid-column-gap: 20px;
     }
 
+    .flickity-button {
+        display: none !important;
+    }
+
 }
