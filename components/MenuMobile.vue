@@ -2,9 +2,10 @@
     <div class="navigation-mobile">
       
       <input type="checkbox" id="burger">
+      <div class="graphik18 gray button-closed-label">Menu</div>
+      <div class="graphik18 gray button-closed-label-close">Fechar</div>
 
       <div class="button-closed">
-        <div class="graphik18 gray button-closed-label">Menu</div>
       </div>
 
       <div class="menu-open">
@@ -66,14 +67,32 @@
       background-color: #F8F5F2;
       bottom: 0;
       z-index: 10001;
+      transition: 0.5s;
+      transition-delay: 0.3s;
     }
 
     .button-closed-label {
-      position: absolute;
+      position: fixed;
       left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+      bottom: 20px;
+      transform: translate(-50%);
       pointer-events: none;
+      z-index: 10002;
+      transition: 0.3s ease-out;  
+      transition-delay: 0.3s;
+    }
+
+    .button-closed-label-close {
+      position: fixed;
+      color: white;
+      left: 50%;
+      bottom: 20px;
+      transform: translate(-50%, 16px);
+      pointer-events: none;
+      z-index: 10002;
+      opacity: 0;
+      transition: 0.3s ease-out;
+      transition-delay: 0.3s;
     }
 
     #burger {
@@ -89,8 +108,28 @@
 
     #burger:checked ~ .menu-open {
       transform: translateY(0vh);
-      transition: 0.5s;
+      transition: 0.5s ease-out;
     }
+
+    #burger:checked ~ .button-closed  {
+      background-color: #EF4545;
+      transition: 0.5s ease-out;
+    }
+
+    #burger:checked ~ .button-closed-label  {
+      transform: translate(-50%, -16px);
+      opacity: 0;
+      transition: 0.3s ease-out;
+    }
+
+    #burger:checked ~ .button-closed-label-close  {
+      transform: translate(-50%, 0px);
+      pointer-events: none;
+      z-index: 10002;
+      opacity: 0.6;
+      transition: 0.3s ease-out;
+    }
+
 
     .menu-open {
       position: fixed;
@@ -100,7 +139,7 @@
       transform: translateY(100vh);
       top: 0;
       z-index: 10000;
-      transition: 0.5s;
+      transition: 0.7s ease-in-out;
     }
 
     .scrollable {
