@@ -5,11 +5,24 @@
   <MenuMobile />
 
   <div class="category-list grid3">
-    <div class="category-name pressura60">Acessórios</div>
+    <h1 class="category-name pressura60">Acessórios</h1>
+
+        <div class="menu-anchor graphik18 gray">
+        <ul>
+          <li class="black" style="margin-bottom: 8px;">Tipos</li>
+          <li><a href="#" v-scroll-to="'#luminarias'">Luminárias</a></li>
+          <li><a href="#" v-scroll-to="'#suporte-monitor'">Suporte de monitor</a></li>
+          <li><a href="#" v-scroll-to="'#quickstand'">Quickstand</a></li>
+          <li><a href="#" v-scroll-to="'#diversos'">Diversos</a></li>
+        </ul>
+      </div>
+
     <div class="linha-div"></div>
 
       
-      <div class="sub-category-name pressura40">Luminárias</div>
+      <!-- LUMINÁRIAS -->
+      
+      <h2 id="luminarias" class="sub-category-name pressura40">Luminárias</h2>
 
       <ItemProduto
         linkproduct="#"
@@ -81,6 +94,174 @@
         brandproduct="Humanscale"
       />   
 
+
+
+      <!-- SUPORTE MONITOR -->
+
+      <div class="linha-div space"></div>
+      <h2 id="suporte-monitor" class="sub-category-name pressura40">Suporte de monitor</h2>
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_1_Escinter_Esc721/hero.jpg"
+        nameproduct="ESC721"
+        brandproduct="Escinter"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_2_Escinter_Esc723/hero.jpg"
+        nameproduct="ESC723"
+        brandproduct="Escinter"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_3_Escinter_Esc724/hero.jpg"
+        nameproduct="ESC724"
+        brandproduct="Escinter"
+      /> 
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_4_Knoll_Sapper50/hero.jpg"
+        nameproduct="Sapper 50"
+        brandproduct="Knoll"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_5_Knoll_Sapperxyz/hero.jpg"
+        nameproduct="Sapper XYZ"
+        brandproduct="Knoll"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_6_Knoll_Sapper/hero.jpg"
+        nameproduct="Sapper"
+        brandproduct="Knoll"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_7_Humanscale_m21/hero.jpg"
+        nameproduct="M2.1"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_8_Humanscale_m81/hero.jpg"
+        nameproduct="M8.1"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_9_Humanscale_m10/hero.jpg"
+        nameproduct="M10"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_10_Humanscale_Mflex/hero.jpg"
+        nameproduct="MFlex"
+        brandproduct="Humanscale"
+      />  
+
+
+
+      <!-- QUICKSTAND -->
+
+      <div class="linha-div space"></div>
+      <h2 id="quickstand" class="sub-category-name pressura40">Quickstand</h2>
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_3_Quickstand/7_3_1_Humanscale_Quickstand_Eco/hero.jpg"
+        nameproduct="Quickstand Eco"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_3_Quickstand/7_3_2_Humanscale_Quickstand/hero.jpg"
+        nameproduct="Quickstand"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_3_Quickstand/7_3_3_Humanscale_Quickstand_Lite/hero.jpg"
+        nameproduct="Quickstand Lite"
+        brandproduct="Humanscale"
+      />  
+
+
+
+      <!-- DIVERSOS -->
+
+      <div class="linha-div space"></div>
+      <h2 id="diversos" class="sub-category-name pressura40">Diversos</h2>
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_1_Escinter_SuporteCPU/hero.jpg"
+        nameproduct="Suporte CPU"
+        brandproduct="Escinter"
+      /> 
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_2_Escinter_PrateleiraCPU/hero.jpg"
+        nameproduct="Prateleira CPU"
+        brandproduct="Escinter"
+      /> 
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_3_Humanscale_Fr100/hero.jpg"
+        nameproduct="FR100"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_4_Humanscale_Fr300/hero.jpg"
+        nameproduct="FR300"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_5_Humanscale_Fr500/hero.jpg"
+        nameproduct="FR500"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_6_Humanscale_CPU200/hero.jpg"
+        nameproduct="CPU200"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_7_Humanscale_CPU600/hero.jpg"
+        nameproduct="CPU600"
+        brandproduct="Humanscale"
+      />  
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_8_Humanscale_Techtray/hero.jpg"
+        nameproduct="Techtray"
+        brandproduct="Humanscale"
+      />  
+
   
 
   </div>
@@ -93,7 +274,7 @@
   }
 
   .category-name {
-    grid-column: 1/4;
+    grid-column: 1/3;
     margin-bottom: 37px;
   }
 
@@ -111,6 +292,10 @@
 
   .category-item-productname{
     margin-bottom: 2px;
+  }
+
+  .menu-anchor {
+    margin-bottom: 40px;
   }
 
 

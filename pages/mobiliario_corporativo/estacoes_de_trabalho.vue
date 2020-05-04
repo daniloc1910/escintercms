@@ -5,7 +5,7 @@
   <MenuMobile />
 
   <div class="category-list grid3">
-    <div class="category-name pressura60">Estações de trabalho</div>
+    <h1 class="category-name pressura60">Estações de trabalho</h1>
 
       
 

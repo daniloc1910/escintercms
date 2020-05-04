@@ -6,18 +6,18 @@
     <div class="backgroundwhite"></div>
 
     <div class="grid3 knoll-history">
-      <div class="servicos-title pressura60">
-        conheça mais sobre a marca que tem compromisso com a inovação e o design moderno.
-      </div>
-      <div class="servicos-description graphik24 gray">
+      <h1 class="servicos-title pressura60">
+        Conheça mais sobre a marca que tem compromisso com a inovação e o design moderno.
+      </h1>
+      <h4 class="servicos-description graphik24 gray">
         For nearly 80 years Knoll has remained true to the Bauhaus design philosophy that modern furniture should complement architectural space, not compete with it. At Knoll, modern design has been our guiding principle, and our passion has been shared by customers and design professionals worldwide.
-      </div>
+      </h4>
 
-      <div class="knoll-history graphik18">
+      <p class="knoll-history graphik18">
         Our founders, Hans and Florence Knoll, embraced the creative genius at the Bauhaus School and the Cranbrook Academy of Art to create new types of furniture and environments for the workplace. Their approach, where craftsmanship joined with technology through the use of design, anchors our perspective and shapes the values we endeavor to live by today.
         <br><br>
         A long history of collaborations, with pioneering modernists to bold contemporary designers, define not only the past but the future of Knoll through active, recent, and future partnerships with David Rockwell, Antenna Design, Barber Osgerby, Formway Design, Don Chadwick, David Adjaye, and Rem Koolhaas.
-      </div>
+      </p>
 
       <div class="profile-history">
       <img :data-srcset="require('~/assets/images/knoll-design/haus-florence.png').srcSet" class="lazyload" />
@@ -35,8 +35,8 @@
 
       <div class="title-history">
         <ul class="title-history-sticky">
-          <li class="pressura40 title-history-title">Os designers mais marcantes</li>
-          <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Conheça todos no site da Knoll ↗</a></li>
+          <h3 class="pressura40 title-history-title">Os designers mais marcantes</h3>
+          <li class="graphik18"><a class="pink" href="https://www.knoll.com/discover-knoll/designers" target="_blank">Conheça todos no site da Knoll <span class="pressura21">↗</span></a></li>
         </ul>
       </div>
 
@@ -123,11 +123,11 @@
       <!-- KNOLLSTUDIO -->
       <div id="knollstudio" class="knoll-brand-item">
         <div class="grid2">
-          <div class="knoll-brand-item-title pressura40">KnollStudio</div>
+          <h3 class="knoll-brand-item-title pressura40">KnollStudio</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text">KnollStudio is a definitive resource for modern furniture. The collection includes iconic pieces from the great modernists and exciting new products from today’s best designers. Life changes, but quality endures.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/knollstudio" target="_blank">Visite o site da KnollStudio ↗</a></li>
+              <li class="knoll-brand-item-description-text"><h4>KnollStudio is a definitive resource for modern furniture. The collection includes iconic pieces from the great modernists and exciting new products from today’s best designers. Life changes, but quality endures.</h4></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/knollstudio" target="_blank">Visite o site da KnollStudio <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
           
@@ -153,11 +153,11 @@
         <div class="linha-div"></div>
         
         <div class="grid2">
-          <div class="knoll-brand-item-title pressura40">Knoll Extra</div>
+          <h3 class="knoll-brand-item-title pressura40">Knoll Extra</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text">KnollExtra makes your work life easier with office accessories to illuminate your space, manage your technology and ensure your well-being.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/knollextra" target="_blank">Visite o site da Knoll Extra ↗</a></li>
+              <li class="knoll-brand-item-description-text"><h4>KnollExtra makes your work life easier with office accessories to illuminate your space, manage your technology and ensure your well-being.</h4></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/knollextra" target="_blank">Visite o site da Knoll Extra <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
           
@@ -187,11 +187,11 @@
         <div class="linha-div"></div>
         
         <div class="grid2">
-          <div class="knoll-brand-item-title pressura40">Knoll Textiles</div>
+          <h3 class="knoll-brand-item-title pressura40">Knoll Textiles</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text">KnollTextiles, founded in 1947 by Florence Knoll, was the first company to address the fabric needs of the commercial interior. Today, KnollTextiles is one of the largest textile suppliers in North America, with products developed for healthcare, hospitality, educational, corporate, and residential interiors.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/shop/knolltextiles" target="_blank">Visite o site da Knoll Textiles ↗</a></li>
+              <li class="knoll-brand-item-description-text"><h4>KnollTextiles, founded in 1947 by Florence Knoll, was the first company to address the fabric needs of the commercial interior. Today, KnollTextiles is one of the largest textile suppliers in North America, with products developed for healthcare, hospitality, educational, corporate, and residential interiors.</h4></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/shop/knolltextiles" target="_blank">Visite o site da Knoll Textiles <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
           
@@ -211,11 +211,11 @@
         <div class="linha-div"></div>
         
         <div class="grid2">
-          <div class="knoll-brand-item-title pressura40">Muuto</div>
+          <h3 class="knoll-brand-item-title pressura40">Muuto</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
               <li class="knoll-brand-item-description-text">Muuto is rooted in the Scandinavian design tradition characterized by enduring aesthetics, functionality, craftsmanship and an honest expression. By expanding this heritage with forward-looking materials, techniques and bold creative thinking, our ambition is to deliver new perspectives on Scandinavian design.</li>
-              <li class="graphik18"><a class="pink" href="https://muuto.com" target="_blank">Visite o site da Muuto ↗</a></li>
+              <li class="graphik18"><a class="pink" href="https://muuto.com" target="_blank">Visite o site da Muuto <span class="pressura21"><span class="pressura21">↗</span></span></a></li>
             </ul>
               </div>
           
@@ -243,11 +243,11 @@
         <div class="linha-div"></div>
         
         <div class="grid2">
-          <div class="knoll-brand-item-title pressura40">Spinneyback</div>
+          <h3 class="knoll-brand-item-title pressura40">Spinneyback</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text">Spinneybeck is recognized as a leading provider of high-quality leather to architects and interior designers. Over the decades, the company has evolved from a supplier of full grain, aniline dyed Italian leather for upholstery and aircraft interiors to a manufacturer of pioneering architectural products in leather and beyond.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/spinneybeck-design" target="_blank">Visite o site da Spinneyback ↗</a></li>
+              <li class="knoll-brand-item-description-text"><h4>Spinneybeck is recognized as a leading provider of high-quality leather to architects and interior designers. Over the decades, the company has evolved from a supplier of full grain, aniline dyed Italian leather for upholstery and aircraft interiors to a manufacturer of pioneering architectural products in leather and beyond.</h4></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/spinneybeck-design" target="_blank">Visite o site da Spinneyback <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
           
@@ -275,11 +275,11 @@
         <div class="linha-div"></div>
         
         <div class="grid2">
-          <div class="knoll-brand-item-title pressura40">Filzfelt</div>
+          <h3 class="knoll-brand-item-title pressura40">Filzfelt</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text">FilzFelt products, including acoustic solutions, floor coverings, hanging panels, wall panels and felt by the yard, are a great way to introduce color, texture and pattern into any space, residential or contract. Beyond the extensive scope of standard offerings, FilzFelt is ready to help create custom solutions for any project.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/filzfelt-design" target="_blank">Visite o site da Filzfelt ↗</a></li>
+              <li class="knoll-brand-item-description-text"><h4>FilzFelt products, including acoustic solutions, floor coverings, hanging panels, wall panels and felt by the yard, are a great way to introduce color, texture and pattern into any space, residential or contract. Beyond the extensive scope of standard offerings, FilzFelt is ready to help create custom solutions for any project.</h4></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/filzfelt-design" target="_blank">Visite o site da Filzfelt <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
           
@@ -307,11 +307,11 @@
         <div class="linha-div"></div>
         
         <div class="grid2">
-          <div class="knoll-brand-item-title pressura40">Dateweiser</div>
+          <h3 class="knoll-brand-item-title pressura40">Dateweiser</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text">For signature spaces with refined and flexible conference furniture product platforms that feature a broad range of finishes across wood, metal, glass and stone, DatesWeiser creates custom client-facing environments with the perfect proportions and best-in-class workmanship. From conference and meeting rooms to dining areas, collaborative spaces and executive C-suites, DatesWeiser’s approach distinguishes the look of spaces built to last.</li>
-              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/datesweiser" target="_blank">Visite o site da Dateweiser ↗</a></li>
+              <li class="knoll-brand-item-description-text"><h4>For signature spaces with refined and flexible conference furniture product platforms that feature a broad range of finishes across wood, metal, glass and stone, DatesWeiser creates custom client-facing environments with the perfect proportions and best-in-class workmanship. From conference and meeting rooms to dining areas, collaborative spaces and executive C-suites, DatesWeiser’s approach distinguishes the look of spaces built to last.</h4></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/datesweiser" target="_blank">Visite o site da Dateweiser <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
           

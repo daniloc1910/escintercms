@@ -4,9 +4,9 @@
     <MenuMobile />
 
     <div class="grid3">
-      <div class="servicos-title pressura60">
-        serviços que ajudam nossos clientes, desde o primeiro contato comercial até a pós-ocupação
-      </div>
+      <h1 class="servicos-title pressura60">
+        Serviços que ajudam nossos clientes, desde o primeiro contato comercial até a pós-ocupação.
+      </h1>
     </div>
     <ServicosItem
         numero="1"

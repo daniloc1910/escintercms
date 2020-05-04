@@ -5,16 +5,19 @@
   <MenuMobile />
 
   <div class="category-list grid3">
-    <div class="category-name pressura60">Colaborativos</div>
+    <h1 class="category-name pressura60">Colaborativos</h1>
 
         <div class="menu-anchor graphik18 gray">
         <ul>
-          <li><a href="#" v-scroll-to="'#knollstudio'">Cadeiras</a></li>
-          <li><a href="#" v-scroll-to="'#knollextra'">Poltronas</a></li>
-          <li><a href="#" v-scroll-to="'#knolltextiles'">Sofás</a></li>
-          <li><a href="#" v-scroll-to="'#muuto'">Puffs</a></li>
-          <li><a href="#" v-scroll-to="'#spinneyback'">Bancadas altas</a></li>
-          <li><a href="#" v-scroll-to="'#filzfelt'">Mesas</a></li>
+          <li class="black" style="margin-bottom: 8px;">Tipos</li>
+          <li><a href="#" v-scroll-to="'#cadeiras'">Cadeiras</a></li>
+          <li><a href="#" v-scroll-to="'#poltronas'">Poltronas</a></li>
+          <li><a href="#" v-scroll-to="'#sofas'">Sofás</a></li>
+          <li><a href="#" v-scroll-to="'#puffs'">Puffs</a></li>
+          <li><a href="#" v-scroll-to="'#bancadas-altas'">Bancadas altas</a></li>
+          <li><a href="#" v-scroll-to="'#mesas'">Mesas</a></li>
+          <li><a href="#" v-scroll-to="'#mesas-cafe'">Mesas café</a></li>
+          <li><a href="#" v-scroll-to="'#lap-table'">Lap table</a></li>
         </ul>
       </div>
 
@@ -23,7 +26,7 @@
       
       <!-- CADEIRAS -->
 
-      <div class="sub-category-name pressura40">Cadeiras</div>
+      <h2 id="cadeiras" class="sub-category-name pressura40">Cadeiras</h2>
 
       <ItemProduto
         linkproduct="#"
@@ -134,7 +137,7 @@
       <!-- POLTRONAS -->
 
       <div class="linha-div space"></div>
-      <div class="sub-category-name pressura40">Poltronas</div>
+      <h2 id="poltronas" class="sub-category-name pressura40">Poltronas</h2>
 
       <ItemProduto
         linkproduct="#"
@@ -225,7 +228,7 @@
       <!-- SOFAS -->
 
       <div class="linha-div space"></div>
-      <div class="sub-category-name pressura40">Sofás</div>
+      <h2 id="sofas" class="sub-category-name pressura40">Sofás</h2>
 
       <ItemProduto
         linkproduct="#"
@@ -267,7 +270,7 @@
       <!-- PUFFS -->
 
       <div class="linha-div space"></div>
-      <div class="sub-category-name pressura40">Puffs</div>
+      <h2 id="puffs" class="sub-category-name pressura40">Puffs</h2>
 
       <ItemProduto
         linkproduct="#"
@@ -295,7 +298,7 @@
       <!-- Bancadas Altas -->
 
       <div class="linha-div space"></div>
-      <div class="sub-category-name pressura40">Bancadas Altas</div>
+      <h2 id="bancadas-altas" class="sub-category-name pressura40">Bancadas Altas</h2>
 
       <ItemProduto
         linkproduct="#"
@@ -323,7 +326,7 @@
       <!-- Mesas -->
 
       <div class="linha-div space"></div>
-      <div class="sub-category-name pressura40">Mesas</div>
+      <h2 id="mesas" class="sub-category-name pressura40">Mesas</h2>
 
       <ItemProduto
         linkproduct="#"
@@ -386,6 +389,48 @@
         imgproduct="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_9_Fway_Jelly/hero.jpg"
         nameproduct="Jelly"
         brandproduct="F.Way"
+      /> 
+
+
+
+      <!-- Mesas café -->
+
+      <div class="linha-div space"></div>
+      <h2 id="mesas-cafe" class="sub-category-name pressura40">Mesas café</h2>
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_1_Escinter_Joy/hero.jpg"
+        nameproduct="Joy"
+        brandproduct="Escinter"
+      /> 
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_2_Kusch_Plieto/hero.jpg"
+        nameproduct="Pileto"
+        brandproduct="Kusch"
+      /> 
+
+
+
+      <!-- Lap table -->
+
+      <div class="linha-div space"></div>
+      <h2 id="lap-table" class="sub-category-name pressura40">Lap table</h2>
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/colaborativos/5_8_Lap_Table/5_8_1_Escinter_Joy/hero.jpg"
+        nameproduct="Joy"
+        brandproduct="Escinter"
+      /> 
+
+      <ItemProduto
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/colaborativos/5_8_Lap_Table/5_8_2_Frisokar_Note/hero.jpg"
+        nameproduct="Note"
+        brandproduct="Frisokar"
       /> 
  
 
