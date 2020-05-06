@@ -86,7 +86,7 @@
 
 <style scoped>
   .content {
-    padding-top: 295px;
+    padding-top: 415px;
     margin-bottom: 158px;
   }
 

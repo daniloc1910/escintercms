@@ -306,6 +306,14 @@
       margin-bottom: 19px;
     }
 
+    .linha-div {
+      grid-column: 1/3;
+    }
+
+  .sub-category-name {
+    grid-column: 1/3;
+  }
+
   }
 </style>
 

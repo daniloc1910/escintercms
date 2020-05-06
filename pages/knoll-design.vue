@@ -337,11 +337,11 @@
     height: 100vh;
     background-color: white;
     z-index: -1;
-    margin-top: -295px;
+    margin-top: -415px;
   }
 
   .content {
-    padding-top: 295px;
+    padding-top: 415px;
   }
 
   .servicos-title {
@@ -451,7 +451,7 @@
         margin-bottom: 64px;
       }
 
-      .title-history[data-v-048d8638] {
+      .title-history {
         grid-column: 1/3;
         grid-row: 1;
         margin-bottom: 32px;

@@ -10,7 +10,6 @@
     </nuxt-link>
 
       <ul class="secondary-menu graphik16">
-        <nuxt-link to="/projetos" exact-active-class="active-link"><li class="secondary-menu-item">Projetos</li></nuxt-link>
         <nuxt-link to="/servicos" exact-active-class="active-link"><li class="secondary-menu-item">Serviços</li></nuxt-link>
         <nuxt-link to="/sobre" exact-active-class="active-link"><li class="secondary-menu-item">Sobre</li></nuxt-link>
         <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Contato</li></nuxt-link>
@@ -20,8 +19,6 @@
     <div class="primary-menu grid4">
     <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/mobiliario-corporativo" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/knoll-design" exact-active-class="active-link">Knoll Design</nuxt-link>
-    <nuxt-link class="menu-primario-hover graphik18" to="/sollo" exact-active-class="active-link">Sollo</nuxt-link>
-    <nuxt-link class="menu-primario-hover graphik18" to="/tecnologia" exact-active-class="active-link">Tecnologia</nuxt-link>
 
     <div class="category-products category-products2">
     <ul class="graphik18">
@@ -44,10 +41,11 @@
     <!-- FOOTER -->
 
     <footer class="grid3">
+      <div class="linha-div" />
+
       <div class="item-footer">
-        <div class="linha-div" />
         <ul>
-          <li class="pressura19 footer-item-title">Mobiliário corporativo</li>
+          <nuxt-link to="/mobiliario-corporativo" exact-active-class="active-link"><li class="graphik16 footer-item-title black">Mobiliário corporativo</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/estacoes_de_trabalho" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Estações de trabalho</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/assentos" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Assentos</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/reunioes" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Reuniões</li></nuxt-link>
@@ -61,32 +59,25 @@
       </div> 
 
       <div class="item-footer">
-        <div class="linha-div" />
         <ul>
-          <li class="pressura19 footer-item-title">Knoll design</li>
-          <nuxt-link to="/trabalho" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Estações de trabalho</li></nuxt-link>
-          <nuxt-link to="/blog" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Assentos</li></nuxt-link>
-          <nuxt-link to="/sollo" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Reuniões</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Armazenamento</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Divisórias</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Carpetes</li></nuxt-link>
+          <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Knoll Design</li></nuxt-link>
+          <nuxt-link to="/servicos" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Serviços</li></nuxt-link>
+          <nuxt-link to="/sobre" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Sobre</li></nuxt-link>
+          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Contato</li></nuxt-link>
         </ul>
       </div> 
 
       <div class="item-footer">
-        <div class="linha-div" />
         <ul>
-          <li class="pressura19 footer-item-title">Tecnologia</li>
-          <nuxt-link to="/trabalho" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Estações de trabalho</li></nuxt-link>
-          <nuxt-link to="/blog" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Assentos</li></nuxt-link>
-          <nuxt-link to="/sollo" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Reuniões</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Armazenamento</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Divisórias</li></nuxt-link>
-          <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Carpetes</li></nuxt-link>
+          <li class="graphik16 footer-item-title black">Showroom</li>
+          <li class="graphik16 gray">Rua Aspicuelta, 248</li>
+          <li class="graphik16 gray">Vila Madalena</li>
+          <li class="graphik16 gray">São Paulo, SP</li>
+          <li class="footer-item-title"><br></li>
+          <li><br></li>
+          <li class="graphik16 footer-item-title black">Contato</li>
+          <li class="graphik16 gray">11 3062 5044</li>
+          <li class="graphik16 gray"><a href="mailto:contato@escinter.com.br" target="_blank">contato@escinter.com.br</a></li>
         </ul>
       </div>  
 
@@ -96,17 +87,11 @@
         </ul>
       </div>   
 
-      <div class="item-footer-end">
-        <ul>
-          <li class="pressura15 gray">R. Aspicuelta, 248</li>
-          <li class="pressura15 gray">Vila Madalena — SP</li>
-        </ul>
-      </div>   
+      <div class="item-footer-end" />   
 
       <div class="item-footer-end">
         <ul>
-          <li class="pressura15 gray">11 3062 5044</li>
-          <li class="pressura15 gray"><a href="mailto:contato@escinter.com.br" target="_blank">contato@escinter.com.br</a></li>
+          <li class="pressura15 gray">© escinter, todos os direitos reservados</li>
         </ul>
       </div>   
     </footer>
@@ -158,7 +143,7 @@
   .category-products {
     opacity: 0;
     transition: 0.3s;
-    margin-top: -83px;
+    margin-top: -27px;
   }
 
   #mobiliario-corporativo:hover ~ .category-products {
@@ -176,9 +161,10 @@
   }
 
   .linha-div {
+    grid-column: 1/4;
     height: 1px;
     background-color: #DEDCDB;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
   }
 
   .item-footer {
@@ -190,11 +176,15 @@
   }
 
   .footer-item-title {
-    margin-bottom: 26px;
+    margin-bottom: 12px;
   }
 
   .footer-item-list {
     padding-bottom: 4px;
+  }
+
+    .footer-item-list:hover {
+    color: #222222;
   }
 
 
@@ -282,6 +272,10 @@
     .category-products {
       display: none;
     }
+
+  .linha-div {
+    grid-column: 1/3;
+  }
 
   }
 </style>
