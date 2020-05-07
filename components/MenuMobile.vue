@@ -74,7 +74,7 @@
       transform: translate(-50%);
       pointer-events: none;
       z-index: 10002;
-      transition: 0.3s ease-out;  
+      transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);  
       transition-delay: 0.25s;
     }
 
@@ -87,7 +87,7 @@
       pointer-events: none;
       z-index: 10002;
       opacity: 0;
-      transition: 0.3s ease-out;
+      transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
       transition-delay: 0.25s;
     }
 
@@ -104,19 +104,19 @@
 
     #burger:checked ~ .menu-open {
       transform: translateY(0vh);
-      transition: 0.4s ease-out;
+      transition: 0.5s cubic-bezier(0.65,0.05,0.36,1);
     }
 
     #burger:checked ~ .button-closed  {
-      border-top: solid 1px #D2B6B6;
+      border-top: solid 1px #c18282;
       background-color: #EF4545;
-      transition: 0.2s ease-out;
+      transition: 0.2s cubic-bezier(0.65,0.05,0.36,1);
     }
 
     #burger:checked ~ .button-closed-label  {
       transform: translate(-50%, -16px);
       opacity: 0;
-      transition: 0.3s ease-out;
+      transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
     }
 
     #burger:checked ~ .button-closed-label-close  {
@@ -124,7 +124,7 @@
       pointer-events: none;
       z-index: 10002;
       opacity: 1;
-      transition: 0.3s ease-out;
+      transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
     }
 
 
@@ -136,7 +136,7 @@
       transform: translateY(100vh);
       top: 0;
       z-index: 10000;
-      transition: 0.4s ease-in-out;
+      transition: 0.5s cubic-bezier(0.65,0.05,0.36,1);
     }
 
     .scrollable {

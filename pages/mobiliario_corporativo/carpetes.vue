@@ -17,7 +17,7 @@
 
     <!-- Creating space coleção -->
 
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Creating space coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Creating space</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="carousel lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/creating-space/hero.jpg').srcSet" />
@@ -45,7 +45,7 @@
     <!-- Community coleção -->
 
     <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Community coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Community</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="knoll-brand-item-secondary-img space28 lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/community/detail1.png').srcSet" />
@@ -72,7 +72,7 @@
     <!-- Rapid select coleção -->
 
     <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Rapid select coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Rapid select</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="carousel lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/rapid-select/hero.jpg').srcSet" />
@@ -98,7 +98,7 @@
     <!-- Active coleção -->
 
     <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Active coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Active</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="knoll-brand-item-secondary-img space28 lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/active/detail1.jpg').srcSet" />
@@ -125,7 +125,7 @@
     <!-- Configure coleção -->
 
     <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Configure coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Configure</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="carousel lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/configure/hero.jpg').srcSet" />
@@ -138,7 +138,7 @@
 
           <ul class="tabela bottom">
             <li class="pressura15"><span class="gray">Cores disponíveis</span><span style="float:right">5 cores</span></li>
-            <li class="pressura15"><span class="gray">Tamanho</span><span style="float:right">Hexagon 25" X 29" 63.20Cm H X 73.15Cm Dia. X 36.58Cm Side</span></li>
+            <li class="pressura15"><span class="gray">Tamanho</span><span class="long-item">Hexagon 25" X 29" 63.20Cm H X 73.15Cm Dia. X 36.58Cm Side</span></li>
             <li class="pressura15"><span class="gray">Fibra</span><span style="float:right">eco solution q® nylon</span></li>
           </ul>
         </div>
@@ -153,7 +153,7 @@
     <!-- The park coleção -->
 
     <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">The park coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">The park</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="knoll-brand-item-secondary-img space28 lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/the-park/detail1.jpg').srcSet" />
@@ -180,7 +180,7 @@
     <!-- Mindful play coleção -->
 
     <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Mindful play coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Mindful play</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="carousel lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/mindful-play/hero.jpg').srcSet" />
@@ -206,7 +206,7 @@
     <!-- Vertical layers coleção -->
 
     <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Vertical layers coleção</span></h3>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Vertical layers</span></h3>
     <div class="knoll-brand-item">
       <div class="grid2">
         <img class="knoll-brand-item-secondary-img lazyload" :data-srcset="require('~/assets/images/mobiliariocorporativo/carpetes/vertical-layers/detail.jpg').srcSet" />
@@ -300,6 +300,8 @@
   .tabela li {
     border-top: solid #DEDCDB 1px;
     padding: 14px 0 17px 0;
+    display: inline-block;
+    width: 100%;
   }
 
   .tabela li:last-child {
@@ -310,12 +312,22 @@
     margin-bottom: 28px;
   }
 
+  .long-item {
+    float: right;
+    text-align: right;
+    width: calc(100% - 96px)
+  }
+
 
   @media screen and (max-width: 1020px) {
 
     .category-name {
       grid-column: 1/3;
       margin-bottom: 19px;
+    }
+
+    .category-description {
+      margin-bottom: 56px;
     }
 
       .linha-div {
@@ -329,7 +341,7 @@
 
       .knoll-brand-item {
          grid-column: 1/3;
-        margin-bottom: 64px;
+        margin-bottom: 36px;
       }
 
       .knoll-brand-item-title {
@@ -339,11 +351,17 @@
 
       .knoll-brand-item-description {
         grid-column: 1/3;
-        margin: -7px 0 50px 0;
+        margin: 0px 0 28px 0;
       }
 
       .knoll-brand-item-secondary-img {
         grid-column: 1/3;
+        margin-bottom: 28px;
+      }
+
+      .tabela {
+        grid-column: 1/3;
+        margin-bottom: 28px;
       }
 
 

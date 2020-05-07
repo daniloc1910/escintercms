@@ -67,7 +67,7 @@
         </ul>
       </div> 
 
-      <div class="item-footer">
+      <div class="item-footer contact">
         <ul>
           <li class="graphik16 footer-item-title black">Showroom</li>
           <li class="graphik16 gray">Rua Aspicuelta, 248</li>
@@ -89,7 +89,7 @@
 
       <div class="item-footer-end" />   
 
-      <div class="item-footer-end">
+      <div class="item-footer-end copyright">
         <ul>
           <li class="pressura15 gray">© escinter, todos os direitos reservados</li>
         </ul>
@@ -99,6 +99,10 @@
 </template>
 
 <style scoped>
+  footer {
+    overflow-x: hidden;
+  }
+
   .navigation-mobile {
     display: none;
   }
@@ -275,8 +279,24 @@
 
   .linha-div {
     grid-column: 1/3;
+        margin-bottom: 28px;
+
   }
 
+  .item-footer {
+    margin-bottom: 40px;
+  }
+
+  .contact {
+    grid-column: 1/3;
+  }
+
+
+  .copyright {
+    grid-column: 1/3;
+    margin-bottom: 80px;
+    margin-right: -40px;
+  }
   }
 </style>
 

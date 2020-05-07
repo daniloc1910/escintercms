@@ -146,6 +146,43 @@
   .cliente-grid {
     grid-column: 1/4;
   }
+
+  @media screen and (max-width: 1020px) {
+
+    .linha-div {
+      grid-column: 1/3;
+    }
+
+    .sobre-description {
+      grid-column: 1/3;
+      margin: 38px 0 0px 0;
+    }
+
+    .showroom-adress {
+        grid-column: 1/3;
+        grid-row: 6;
+    }
+
+    .img-showroom {
+    grid-column: 1/3;
+    margin-top: 40px;
+    margin-bottom: 16px;
+    }
+
+    .marcas {
+      grid-column: 1/3;
+      margin-bottom: 64px;
+    }
+
+    .cliente-grid {
+      grid-column: 1/3; 
+    }
+
+    .nossas-marcas-description {
+    margin-bottom: 64px;
+  }
+
+  }
 </style>
 
 <script>
