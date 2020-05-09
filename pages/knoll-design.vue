@@ -136,6 +136,10 @@
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel2.jpg')" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel3.jpg')" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel4.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel5.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel6.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel7.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel8.jpg')" /></div>
           </Flickity>
 
           <div class="knoll-brand-item-secondary-description graphik16 gray">
@@ -254,8 +258,9 @@
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/spinneyback/carousel1.jpg')" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/spinneyback/carousel2.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/spinneyback/carousel3.jpg')" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/spinneyback/carousel4.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/spinneyback/carousel5.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/spinneyback/carousel6.jpg')" /></div>
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">
@@ -287,7 +292,6 @@
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/filzfelt/carousel1.jpg')" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/filzfelt/carousel2.jpg')" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/filzfelt/carousel3.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/filzfelt/carousel4.jpg')" /></div>
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">
@@ -484,6 +488,14 @@
         grid-column: 1/3;
         margin: -7px 0 50px 0;
       }
+
+      .backgroundwhite {
+        margin-top: -227px;
+      }
+
+    .content {
+      padding-top: 227px;
+    }
 
     }
 

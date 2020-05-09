@@ -1,9 +1,13 @@
 <template>
     <div class="navigation-mobile">
-      
+   
       <input type="checkbox" id="burger">
       <div class="pressura15 pink button-closed-label">Menu</div>
       <div class="pressura15 button-closed-label-close">Fechar</div>
+
+      <nuxt-link class="logo-white" to="/">
+        <lottie class="logo-escinter" :options="defaultOptions" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
+      </nuxt-link>
 
       <div class="button-closed">
       </div>
@@ -41,6 +45,21 @@
   }
 
   @media screen and (max-width: 1020px) {
+
+    .logo-white {
+      opacity: 0;
+    }
+
+    .logo-escinter {
+    width: 45px;
+    height: 74px;
+    left: 20px;
+    top: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100001;
+    }
 
     .navigation-mobile {
       display: block;
@@ -127,6 +146,12 @@
       transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
     }
 
+    #burger:checked ~ .logo-white  {
+      opacity: 1;
+      transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
+      transition-delay: 0.08s;
+    }
+
 
     .menu-open {
       position: fixed;
@@ -166,3 +191,26 @@
 
   }
 </style>
+
+<script>
+import Lottie from "~/components/lottie.vue";
+
+import * as animationData from "~/assets/logo/logo-white.json";
+
+export default {
+  components: {
+    Lottie
+  },
+  data() {
+    return {
+      defaultOptions: { animationData: animationData },
+      animationSpeed: 1
+    };
+  },
+  methods: {
+    handleAnimation: function(anim) {
+      this.anim = anim;
+    },
+  }
+};
+</script>

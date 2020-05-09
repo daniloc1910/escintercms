@@ -24,4 +24,10 @@
   .primary-menu li {
     padding-bottom: 4px;
   }
+
+    @media screen and (max-width: 1020px) {
+      .primary-menu {
+        display: none;
+      }
+    }
 </style>

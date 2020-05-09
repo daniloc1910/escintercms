@@ -21,16 +21,76 @@
 
       <CategoryItem
         title="Assentos"
-        link="blog"
+        link="mobiliario_corporativo/assentos"
 
-        imgproduct1="image-cadeira.png"
+        imgproduct1="mobiliariocorporativo/assentos/2_1_Knoll_Generation/hero.jpg"
         nameproduct1="Generation"
         brandproduct1="Knoll"
         linkproduct1="blog/2020-03-29-re-generation"
 
-        imgproduct2="image-cadeira.png"
-        nameproduct2="Generation"
+        imgproduct2="mobiliariocorporativo/assentos/2_2_Knoll_Regeneration/hero.jpg"
+        nameproduct2="Regeneration"
         brandproduct2="Knoll"
+        linkproduct2="blog/2020-03-29-re-generation"
+      />
+
+      <CategoryItem
+        title="Reuniões"
+        link="mobiliario_corporativo/reunioes"
+
+        imgproduct1="mobiliariocorporativo/reunioes/3_1_Escinter_Point/hero.jpg"
+        nameproduct1="Point"
+        brandproduct1="Escinter"
+        linkproduct1="blog/2020-03-29-re-generation"
+
+        imgproduct2="mobiliariocorporativo/reunioes/3_2_Escinter_Componivel/hero.jpg"
+        nameproduct2="Componivel"
+        brandproduct2="Escinter"
+        linkproduct2="blog/2020-03-29-re-generation"
+      />
+
+      <CategoryItem
+        title="Armazenamento"
+        link="mobiliario_corporativo/armazenamento"
+
+        imgproduct1="mobiliariocorporativo/armazenamento/4_1_Escinter_Case_Armarios/hero.jpg"
+        nameproduct1="Case Armários"
+        brandproduct1="Escinter"
+        linkproduct1="blog/2020-03-29-re-generation"
+
+        imgproduct2="mobiliariocorporativo/armazenamento/4_2_Escinter_Case_Gaveteiros/hero.jpg"
+        nameproduct2="Case Gaveteiros"
+        brandproduct2="Escinter"
+        linkproduct2="blog/2020-03-29-re-generation"
+      />
+
+      <CategoryItem
+        title="Colaborativos"
+        link="mobiliario_corporativo/colaborativos"
+
+        imgproduct1="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_1_Kusch_Trio/hero.jpg"
+        nameproduct1="Trio"
+        brandproduct1="Kusch"
+        linkproduct1="blog/2020-03-29-re-generation"
+
+        imgproduct2="mobiliariocorporativo/colaborativos/5_2_Poltronas/5_2_1_Kusch_Njord/hero.jpg"
+        nameproduct2="Njord"
+        brandproduct2="Kusch"
+        linkproduct2="blog/2020-03-29-re-generation"
+      />
+
+      <CategoryItem
+        title="Workbetter"
+        link="mobiliario_corporativo/workbetter"
+
+        imgproduct1="mobiliariocorporativo/workbetter/6_1_Escinter_Duvo/hero.jpg"
+        nameproduct1="Duvo"
+        brandproduct1="Escinter"
+        linkproduct1="blog/2020-03-29-re-generation"
+
+        imgproduct2="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
+        nameproduct2="Shelter"
+        brandproduct2="Escinter"
         linkproduct2="blog/2020-03-29-re-generation"
       />
 </div>
@@ -72,6 +132,10 @@ export default {
       .category-mame {
         grid-column: 1/3;
       }
+
+    .content {
+      padding-top: 227px;
+    }
 
     }
 </style>

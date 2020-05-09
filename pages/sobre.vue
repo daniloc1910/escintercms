@@ -182,6 +182,10 @@
     margin-bottom: 64px;
   }
 
+    .content {
+      padding-top: 227px;
+    }
+
   }
 </style>
 

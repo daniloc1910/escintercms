@@ -314,6 +314,10 @@
     grid-column: 1/3;
   }
 
+      .content {
+        padding-top: 227px;
+    }
+
   }
 </style>
 

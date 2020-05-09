@@ -84,6 +84,10 @@
       margin-bottom: 19px;
     }
 
+    .content {
+      padding-top: 227px;
+    }
+
   }
 </style>
 

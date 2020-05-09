@@ -18,7 +18,7 @@ import MenuMobile from '~/components/MenuMobile.vue'
 
 export default {
   components: {
-    MenuMobile
+    MenuMobile 
   },
   head() {
     return {

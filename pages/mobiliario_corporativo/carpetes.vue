@@ -364,6 +364,9 @@
         margin-bottom: 28px;
       }
 
+    .content {
+      padding-top: 227px;
+    }
 
 
   }
