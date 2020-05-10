@@ -271,6 +271,68 @@ img {
 }
 
 
+  /* PRODUCT PAGE */
+
+  .coluna2 {
+    grid-column: 2/3;
+  }
+
+  .product-highlight {
+    margin-bottom: 80px;
+  }
+  
+  .product-image {
+    grid-column: 2/4;
+  }
+
+  .product-name {
+    grid-column: 1/2;
+    position: relative;
+  }
+
+  .product-info {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .galeria-imagens {
+    margin-bottom: 80px;
+  }
+  
+  .informacoes-tecnicas {
+    margin-bottom: 80px;
+  }
+
+  .desenho-tecnico {
+    margin-bottom: 28px;
+  }
+
+  .tabela li {
+    border-top: solid #DEDCDB 1px;
+    padding: 14px 0 17px 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .tabela li:last-child {
+    padding: 14px 0 0px 0;
+  }
+
+  .item-right {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+
+  .tabela a {
+    color: #EF4545;
+  }
+
+  .tabela a:hover {
+    color: #222;
+  }
+
+
 
 
 /* RESPONSIVE */

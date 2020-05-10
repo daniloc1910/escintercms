@@ -10,15 +10,21 @@
     </div>
 
       <n-link class="product-item-1" :to="'/' + linkproduct1">
+        <ul class="product-item-container">
         <li><img :data-srcset="require('~/assets/images/' + imgproduct1).srcSet" class="lazyload" /></li>
         <li class="category-item-productname pressura19">{{ nameproduct1 }}</li>
-        <li class="graphik16 gray">{{ brandproduct1 }}</li>
+        <li class="brand-product graphik16 gray">{{ brandproduct1 }}</li>
+        <li class="link-label graphik16 pink"> Ver detalhes</li>
+        </ul>
       </n-link>
 
       <n-link class="product-item-1" :to="'/' + linkproduct2">
+        <ul class="product-item-container">
         <li><img :data-srcset="require('~/assets/images/' + imgproduct2).srcSet" class="lazyload" /></li>
         <li class="category-item-productname pressura19">{{ nameproduct2 }}</li>
-        <li class="graphik16 gray">{{ brandproduct2 }}</li>
+        <li class="brand-product graphik16 gray">{{ brandproduct2 }}</li>
+        <li class="link-label graphik16 pink"> Ver detalhes</li>
+        </ul>
       </n-link>
   </div>
 </template>
@@ -93,6 +99,41 @@ export default {
     a {
     color: #222;
   }
+
+    .link-label {
+    opacity: 0;
+    transform: translateY(-18px);
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
+  }
+
+    .brand-product {
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
+  }
+
+  .category-item-productname {
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
+  }
+
+  .product-item-1:hover  img {
+    opacity: 1;
+    transition: 0.4s cubic-bezier(0.65,0.05,0.36,1);  
+  }
+
+  .product-item-1:hover  .link-label {
+    opacity: 1;
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
+  }
+
+  .product-item-1:hover  .brand-product {
+    transform: translateY(-18px);
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
+  }
+
+  .product-item-1:hover  .category-item-productname {
+    transform: translateY(-18px);
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
+  }
+  
 
       @media screen and (max-width: 1020px) {
 

@@ -32,7 +32,7 @@
       />  
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="product-template"
         imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/hero.jpg"
         nameproduct="Unfold"
         brandproduct="Muuto"

@@ -48,42 +48,35 @@ export default {
   .link-label {
     opacity: 0;
     transform: translateY(-18px);
-    transition: 0.15s;
-    transition-timing-function: ease-in-out;
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
   }
 
   .brand-product {
-    transition: 0.15s;
-    transition-timing-function: ease-in-out;
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
   }
 
   .category-item-productname {
-    transition: 0.15s;
-    transition-timing-function: ease-in-out;
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
   }
 
   .product-item:hover  img {
     opacity: 1;
-    transition: 0.4s;
-    transition-timing-function: ease-in-out;
+    transition: 0.4s cubic-bezier(0.65,0.05,0.36,1);  
   }
 
   .product-item:hover  .link-label {
     opacity: 1;
-    transition: 0.15s;
-    transition-timing-function: ease-in-out;
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
   }
 
   .product-item:hover  .brand-product {
     transform: translateY(-18px);
-    transition: 0.15s;
-    transition-timing-function: ease-in-out;
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
   }
 
   .product-item:hover  .category-item-productname {
     transform: translateY(-18px);
-    transition: 0.15s;
-    transition-timing-function: ease-in-out;
+    transition: 0.15s cubic-bezier(0.65,0.05,0.36,1);  
   }
 
   a {
