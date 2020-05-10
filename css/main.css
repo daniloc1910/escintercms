@@ -273,8 +273,24 @@ img {
 
   /* PRODUCT PAGE */
 
+  .coluna1 {
+    grid-column: 1/2;
+  }
+
   .coluna2 {
     grid-column: 2/3;
+  }
+
+  .coluna3 {
+    grid-column: 3/4;
+  }
+
+  .coluna1-2 {
+    grid-column: 1/3;
+  }
+
+  .coluna1-3 {
+    grid-column: 1/4;
   }
 
   .product-highlight {
@@ -287,12 +303,11 @@ img {
 
   .product-name {
     grid-column: 1/2;
-    position: relative;
+    display: grid;
   }
 
   .product-info {
-    position: absolute;
-    bottom: 0;
+    align-self: end;
   }
 
   .galeria-imagens {
@@ -330,6 +345,43 @@ img {
 
   .tabela a:hover {
     color: #222;
+  }
+
+  .cores-disponiveis {
+    border-top: #DEDCDB 1px solid;
+    padding-top: 15px;
+  }
+
+  .cores-disponiveis-title {
+    margin-bottom: 24px;
+  }
+
+  .cor-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+    margin: 8px 8px 0 0;
+  }
+
+  .servicos {
+    margin-bottom: 80px;
+  }
+
+  .servicos-title {
+    margin-bottom: 59px;
+  }
+
+  .servicos-list li {
+    padding-bottom: 4px;
+  }
+
+  .variacoes {
+    margin-bottom: 80px;
+  }
+
+  .variacoes-title {
+    margin-bottom: 40px;
   }
 
 
@@ -407,6 +459,77 @@ img {
 
     .flickity-button {
         display: none !important;
+    }
+
+
+    /* PRODUCT PAGE */
+
+    .coluna1 {
+      grid-column: 1/3;
+    }
+
+    .coluna2 {
+      grid-column: 1/3;
+    }
+
+    .coluna3 {
+      grid-column: 1/3;
+    }
+
+    .coluna1-2 {
+      grid-column: 1/3;
+    }
+
+    .coluna1-3 {
+      grid-column: 1/3;
+    }
+
+    .galeria-imagens img {
+      margin-bottom: 20px;
+    }
+
+    .title-info-tecnica {
+      margin-bottom: 20px;
+    }
+  
+    .product-image {
+      grid-column: 1/3;
+      grid-row: 1;
+      margin-bottom: 20px;
+    }
+  
+    .product-name {
+      grid-column: 1/3;
+      grid-row: 2;
+      position: relative;
+    }
+
+    .product-highlight {
+      margin-bottom: 40px;
+    }
+
+    .tabela li:last-child {
+      padding: 14px 0 17px 0;
+    }
+
+    .galeria-imagens {
+      margin-bottom: 20px;
+    }
+    
+    .informacoes-tecnicas {
+      margin-bottom: 40px;
+    }
+
+    .servicos {
+      margin-bottom: 40px;
+    }
+
+    .variacoes {
+      margin-bottom: 40px;
+    }
+
+    .servicos-title {
+      margin-bottom: 40px;
     }
 
 }

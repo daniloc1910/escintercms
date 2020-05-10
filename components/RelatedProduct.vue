@@ -4,8 +4,7 @@
 
     <div class="titlebutton">
       <ul>
-        <li class="pressura40 title">{{ title }}</li>
-        <n-link :to="'/' + link"><li class="graphik18 gray">Ver todos</li></n-link>
+        <h3 class="pressura40 title">Produtos relacionados</h3>
       </ul>
     </div>
 
@@ -32,14 +31,6 @@
 <script>
 export default {
   props: {
-    title: {
-      type: String,
-      required: true
-    },
-    link: {
-      type: String,
-      required: true
-    },
     imgproduct1: {
       type: String,
       required: true
@@ -139,6 +130,7 @@ export default {
 
   .linha-div {
     grid-column: 1/3;
+    margin-bottom: 28px;
   }
 
     .category-item {

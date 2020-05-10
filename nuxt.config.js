@@ -5,11 +5,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || 'Escinter',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'A Escinter é uma empresa familiar com 30 anos de atuação no mercado de interiores de espaços corporativos.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -27,7 +27,7 @@ export default {
     steps: 3,
     format: 'jpg',
     quality: 80,
-    disable: true
+    disable: false
   },
   /*
   ** Global CSS
@@ -87,6 +87,6 @@ export default {
       vue.transformAssetUrls.img = ['data-src', 'src']
       vue.transformAssetUrls.source = ['data-srcset', 'srcset']
     }
-  }
+  },
 }
 }

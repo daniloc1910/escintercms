@@ -191,6 +191,10 @@
     color: #222222;
   }
 
+  .copyright {
+    margin-top: 15px;
+  }
+
 
 
 
