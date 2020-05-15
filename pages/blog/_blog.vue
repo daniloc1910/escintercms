@@ -60,7 +60,7 @@
 </div>
 </template>
 
-<style>
+<style scoped>
   .product-highlight {
     margin-bottom: 73px;
   }

@@ -33,7 +33,7 @@
     <ul class="tabela coluna2">
       <li class="pressura15 gray">Cores disponíveis<span class="item-right black">15 cores</span></li>
       <li class="pressura15 gray">Tamanho<span class="item-right black">9" X 36" | 22.86 cm x 91.44 cm</span></li>
-      <li class="pressura15 pink"><a href="pdf/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/Unfold Pendant Lamp - US - PFS.pdf" target="_blank">Download catálogo<span class="item-right">↓</span></a></li>
+      <li class="download pressura15 pink"><a href="pdf/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/Unfold Pendant Lamp - US - PFS.pdf" target="_blank">Download catálogo<span class="item-right"><span class="arrow">↓</span><span class="arrow-hover">↓</span></span></a></li>
     </ul>
 
     <div class="cores-disponiveis coluna3">
@@ -93,27 +93,7 @@
 
 
   <!-- SERVIÇOS -->
-  <div class="servicos grid3">
-    <div class="linha-div" />
-
-    <h2 class="servicos-title pressura60 coluna1-2">Serviços prestados aos nossos clientes, desde o primeiro contato comercial até a pós-ocupação</h2>
-
-    <ul class="servicos-list graphik18 coluna1">
-      <li>Design & Specification</li>
-      <li>Commercial Support</li>
-      <li>Order Placement</li>
-      <li>Production Follow Up</li>
-      <li>Logistics & Delivery</li>
-    </ul>
-
-    <ul class="servicos-list graphik18 coluna2">
-      <li>Installation</li>
-      <li>Moving Services</li>
-      <li>Technical Assistance</li>
-      <li>Warehousing</li>
-      <li>Care Maintence</li>
-    </ul>
-  </div>
+    <Servicos />
 
 
 
@@ -161,12 +141,14 @@
 import RelatedProduct from '~/components/RelatedProduct.vue'
 import MenuMobile from '~/components/MenuMobile.vue'
 import ProdutoVariacao from '~/components/ProdutoVariacao.vue'
+import Servicos from '~/components/Servicos.vue'
 
 export default {
   components: {
     RelatedProduct,
     MenuMobile,
-    ProdutoVariacao
+    ProdutoVariacao,
+    Servicos
   },
   data() {
     return {
