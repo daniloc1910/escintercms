@@ -542,7 +542,9 @@ img {
       margin-bottom: 20px;
     }
 
-    
+    .galeria-imagens img {
+      grid-column: 1/3;
+    }
   
     .product-name {
       grid-column: 1/3;

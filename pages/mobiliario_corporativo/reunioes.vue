@@ -8,49 +8,49 @@
     <h1 class="category-name pressura60">Reuniões</h1>
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="mobiliario_corporativo/reuniao/point"
         imgproduct="mobiliariocorporativo/reunioes/3_1_Escinter_Point/hero.jpg"
         nameproduct="Point"
         brandproduct="Escinter"
       /> 
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="mobiliario_corporativo/reuniao/componivel"
         imgproduct="mobiliariocorporativo/reunioes/3_2_Escinter_Componivel/hero.jpg"
         nameproduct="Componivel"
         brandproduct="Escinter"
       /> 
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="mobiliario_corporativo/reuniao/antenna"
         imgproduct="mobiliariocorporativo/reunioes/3_3_Knoll_Antenna/hero.jpg"
         nameproduct="Antenna"
         brandproduct="Knoll"
       /> 
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="mobiliario_corporativo/reuniao/profesion"
         imgproduct="mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg"
         nameproduct="Profesion"
-        brandproduct="Knoll"
+        brandproduct="Kusch"
       /> 
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="mobiliario_corporativo/reuniao/san-siro"
         imgproduct="mobiliariocorporativo/reunioes/3_5_Kush_Sansiro/hero.jpg"
         nameproduct="San Siro"
-        brandproduct="Knoll"
+        brandproduct="Kusch"
       /> 
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="mobiliario_corporativo/reuniao/componivel-fway"
         imgproduct="mobiliariocorporativo/reunioes/3_6_Fway_Componivel/hero.jpg"
         nameproduct="Componivel"
-        brandproduct="F.Way"
+        brandproduct="F.WAY"
       /> 
 
       <ItemProduto
-        linkproduct="#"
+        linkproduct="mobiliario_corporativo/reuniao/offset-table"
         imgproduct="mobiliariocorporativo/reunioes/3_7_Maxdesign_Offsettable/hero.jpg"
         nameproduct="Offset table"
         brandproduct="Maxdesign"

@@ -31,7 +31,7 @@
     <img :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_1_Knoll_Generation/desenho.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
     <ul class="tabela coluna2">
       <li class="pressura15 gray">Cores disponíveis<span class="item-right black">9</span></li>
-      <li class="pressura15 gray">Opções de acabado<span class="item-right black">2</span></li>
+      <li class="pressura15 gray">Opções de acabamento<span class="item-right black">2</span></li>
       <li class="pressura15 gray">Opções de base<span class="item-right black">3</span></li>
     </ul>
 
