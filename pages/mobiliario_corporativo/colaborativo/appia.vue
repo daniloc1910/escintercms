@@ -30,8 +30,8 @@
 
     <img :data-srcset="require('~/assets/images/mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_9_Maxdesign_Appia/desenho.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
     <ul class="tabela coluna2">
-      <li class="pressura15 gray">Cores disponíveis<span class="item-right black">13</span></li>
-      <li class="pressura15 gray">Opções de base<span class="item-right black">3</span></li>
+      <li class="pressura15 gray">Cores disponíveis<span class="item-right black">15</span></li>
+      <li class="pressura15 gray">Opções de base<span class="item-right black">14</span></li>
     </ul>
 
     <ul class="tabela coluna3">
@@ -49,15 +49,15 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_7_Kusch_Arn/hero.jpg"
-      nameproduct1="Arn"
-      brandproduct1="Kusch"
-      linkproduct1="mobiliario_corporativo/colaborativo/arn"
+      imgproduct1="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_8_Maxdesign_Max/hero.jpg"
+      nameproduct1="max"
+      brandproduct1="Maxdesign"
+      linkproduct1="mobiliario_corporativo/colaborativo/max"
 
-      imgproduct2="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_9_Maxdesign_Appia/hero.jpg"
-      nameproduct2="Appia"
+      imgproduct2="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_10_Maxdesign_Strattos/hero.jpg"
+      nameproduct2="Strattos"
       brandproduct2="Maxdesign"
-      linkproduct2="mobiliario_corporativo/colaborativo/appia"
+      linkproduct2="mobiliario_corporativo/colaborativo/strattos"
     />
 
 

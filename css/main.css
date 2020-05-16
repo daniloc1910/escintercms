@@ -344,6 +344,7 @@ img {
   }
 
   .tabela a {
+    display: block;
     color: #EF4545;
     transition: 0.4s;
   }

@@ -114,6 +114,7 @@
           <li><a href="#" v-scroll-to="'#knolltextiles'">Knoll Textiles</a></li>
           <li><a href="#" v-scroll-to="'#muuto'">Muuto</a></li>
           <li><a href="#" v-scroll-to="'#spinneyback'">Spinneyback</a></li>
+          <li><a href="#" v-scroll-to="'#rockwell'">Rockwell Unscripted</a></li>
           <li><a href="#" v-scroll-to="'#filzfelt'">FilzFelt</a></li>
           <li><a href="#" v-scroll-to="'#dateweiser'">Dateweiser</a></li>
         </ul>
@@ -132,14 +133,14 @@
               </div>
           
           <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel1.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel2.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel3.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel4.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel5.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel6.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel7.jpg')" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/knollstudio/carousel8.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel1.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel2.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel3.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel4.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel5.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel6.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel7.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel8.jpg').srcSet" /></div>
           </Flickity>
 
           <div class="knoll-brand-item-secondary-description graphik16 gray">
@@ -270,6 +271,31 @@
           <div class="knoll-brand-item-secondary-img">
           <img :data-srcset="require('~/assets/images/spinneyback/spinneyback1.jpg').srcSet" class="lazyload" />
           </div>
+
+        </div>
+      </div>
+
+
+      <!-- ROCKWELL UNSCRIPTED -->
+      <div id="rockwell" class="knoll-brand-item">
+        <div class="linha-div"></div>
+        
+        <div class="grid2">
+          <h3 class="knoll-brand-item-title pressura40">Rockwell Unscripted</h3>
+          <div class="knoll-brand-item-description graphik24">
+            <ul>
+              <li class="knoll-brand-item-description-text"><h4>Hospitality, theater and play at work. From Knoll and David Rockwell, renowned for creating places where people want to be, comes an unrivaled work experience designed to let spontaneity unfold and people complete the story. </h4></li>
+              <li class="graphik18"><a class="pink" href="https://www.knoll.com/story/design-plan/rockwell-unscripted" target="_blank">Visite o site da Rockwell Unscripted <span class="pressura21">↗</span></a></li>
+            </ul>
+              </div>
+          
+          <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/rockwellunscripted/carousel1.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/rockwellunscripted/carousel2.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/rockwellunscripted/carousel3.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/rockwellunscripted/carousel4.jpg')" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload="require('~/images/rockwellunscripted/carousel5.jpg')" /></div>
+          </Flickity>
 
         </div>
       </div>
