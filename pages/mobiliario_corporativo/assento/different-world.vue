@@ -30,7 +30,7 @@
 
     <img :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/desenho.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
     <ul class="tabela coluna2">
-      <li class="download pressura15 pink"><a href="/pdf/assentos/2_16_Humanscale_Different_World/hs_seating_diffrient_world_brochure_022519.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow">↓</span><span class="arrow-hover">↓</span></span></a></li>
+      <li class="download pressura15 pink"><a href="/pdf/assentos/2_16_Humanscale_Different_World/hs_seating_diffrient_world_brochure_022519.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow-btn">↓</span><span class="arrow-btn-hover">↓</span></span></a></li>
     </ul>
   </div>
 

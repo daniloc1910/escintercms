@@ -17,9 +17,9 @@
 
   <!-- GALERIA DE IMAGENS -->
   <div class="galeria-imagens grid3">
-    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/gallery1.jpg').srcSet" class="lazyload" />
-    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/gallery2.jpg').srcSet" class="lazyload" />
-    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/gallery3.jpg').srcSet" class="lazyload" />
+    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/vertical1.jpg').srcSet" class="lazyload" />
+    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/vertical2.jpg').srcSet" class="lazyload" />
+    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/vertical3.jpg').srcSet" class="lazyload" />
   </div>
 
 
@@ -29,7 +29,7 @@
     <div class="linha-div" />
     <h3 class="title-info-tecnica pressura40">Informações técnicas</h3>
 
-    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/desenhotecnico.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
+    <img :data-srcset="require('~/assets/images/mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/desenho.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
     <ul class="tabela coluna2">
       <li class="pressura15 gray">Cores disponíveis<span class="item-right black">15 cores</span></li>
       <li class="pressura15 gray">Tamanho<span class="item-right black">9" X 36" | 22.86 cm x 91.44 cm</span></li>

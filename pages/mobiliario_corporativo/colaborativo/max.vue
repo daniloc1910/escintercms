@@ -35,7 +35,7 @@
     </ul>
 
     <ul class="tabela coluna3">
-      <li class="download pressura15 pink"><a href="/pdf/colaborativos/5_1_Cadeiras/5_1_8_Maxdesign_Max/News-MAX-20191.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow">↓</span><span class="arrow-hover">↓</span></span></a></li>
+      <li class="download pressura15 pink"><a href="/pdf/colaborativos/5_1_Cadeiras/5_1_8_Maxdesign_Max/News-MAX-20191.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow-btn">↓</span><span class="arrow-btn-hover">↓</span></span></a></li>
     </ul>
   </div>
 

@@ -395,14 +395,14 @@ img {
     position: relative;
   }
   
-  .arrow {
+  .arrow-btn {
     position: absolute;
     right: 0;
     color: #EF4545;
     transition: 0.4s;
   }
 
-  .arrow-hover {
+  .arrow-btn-hover {
     position: absolute;
     right: 0px;
     transform: translateY(-10px);
@@ -411,14 +411,14 @@ img {
     transition: 0.4s;
   }
 
-  .download:hover .arrow-hover {
+  .download:hover .arrow-btn-hover {
     opacity: 1;
     transform: translateY(0px);
     color: #222;
     transition: 0.4s;
   }
 
-  .download:hover .arrow {
+  .download:hover .arrow-btn {
     transform: translateY(10px);
     opacity: 0;
     color: #222;

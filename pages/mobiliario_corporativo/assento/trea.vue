@@ -30,7 +30,7 @@
 
     <img :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_17_Humanscale_Trea/desenho.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
     <ul class="tabela coluna2">
-      <li class="download pressura15 pink"><a href="/pdf/assentos/2_17_Humanscale_Trea/hs_seating_trea_brochure_1218.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow">↓</span><span class="arrow-hover">↓</span></span></a></li>
+      <li class="download pressura15 pink"><a href="/pdf/assentos/2_17_Humanscale_Trea/hs_seating_trea_brochure_1218.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow-btn">↓</span><span class="arrow-btn-hover">↓</span></span></a></li>
     </ul>
   </div>
 
