@@ -2,8 +2,8 @@
     <div class="navigation-mobile">
    
       <input type="checkbox" id="burger">
-      <div class="pressura15 pink button-closed-label">Menu</div>
-      <div class="pressura15 button-closed-label-close">Fechar</div>
+      <div class="graphik18 pink button-closed-label">Menu</div>
+      <div class="graphik18 button-closed-label-close">Fechar</div>
 
       <nuxt-link class="logo-white" to="/">
         <lottie class="logo-escinter" :options="defaultOptions" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
@@ -76,11 +76,14 @@
 
     .button-closed {
       position: fixed;
-      width: 100vw;
-      height: 56px;
-      border-top: solid 1px #c4c4c4;
-      background-color: #F8F5F2;
-      bottom: 0;
+      width: 200px;
+      left: 50%;
+      border-radius: 50px;
+      transform: translateX(-50%);
+      height: 56px; 
+      background-color: #fff;
+      border: solid 1px #F8F5F2;
+      bottom: 20px;
       z-index: 10001;
       transition: 0.2s;
       transition-delay: 0.3s;
@@ -89,7 +92,7 @@
     .button-closed-label {
       position: fixed;
       left: 50%;
-      bottom: 22px;
+      bottom: 38px;
       transform: translate(-50%);
       pointer-events: none;
       z-index: 10002;
@@ -101,7 +104,7 @@
       position: fixed;
       color: white;
       left: 50%;
-      bottom: 22px;
+      bottom: 38px;
       transform: translate(-50%, 16px);
       pointer-events: none;
       z-index: 10002;
@@ -112,9 +115,11 @@
 
     #burger {
       position: fixed;
-      width: 100%;
-      height: 56px;
-      bottom: 0;
+      width: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 58px;
+      bottom: 20px;
       z-index: 10002;
       padding: 0;
       margin: 0;
@@ -127,7 +132,7 @@
     }
 
     #burger:checked ~ .button-closed  {
-      border-top: solid 1px #c18282;
+      border: solid 1px #c18282;
       background-color: #EF4545;
       transition: 0.2s cubic-bezier(0.65,0.05,0.36,1);
     }

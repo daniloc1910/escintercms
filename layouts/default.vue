@@ -19,6 +19,7 @@
     <div class="primary-menu grid4">
     <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/mobiliario-corporativo" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/knoll-design" exact-active-class="active-link">Knoll Design</nuxt-link>
+    <div class="menu-primario-hover graphik18" />
 
     <div class="category-products category-products2">
     <ul class="graphik18">
@@ -147,7 +148,7 @@
   .category-products {
     opacity: 0;
     transition: 0.3s;
-    margin-top: -27px;
+    margin-top: -55px;
   }
 
   #mobiliario-corporativo:hover ~ .category-products {
