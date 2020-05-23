@@ -76,11 +76,11 @@
 
     .button-closed {
       position: fixed;
-      width: 200px;
+      width: 160px;
       left: 50%;
       border-radius: 50px;
       transform: translateX(-50%);
-      height: 56px; 
+      height: 48px; 
       background-color: #fff;
       border: solid 1px #F8F5F2;
       bottom: 20px;
@@ -92,7 +92,7 @@
     .button-closed-label {
       position: fixed;
       left: 50%;
-      bottom: 38px;
+      bottom: 35px;
       transform: translate(-50%);
       pointer-events: none;
       z-index: 10002;
@@ -104,7 +104,7 @@
       position: fixed;
       color: white;
       left: 50%;
-      bottom: 38px;
+      bottom: 35px;
       transform: translate(-50%, 16px);
       pointer-events: none;
       z-index: 10002;
@@ -115,7 +115,7 @@
 
     #burger {
       position: fixed;
-      width: 200px;
+      width: 160px;
       left: 50%;
       transform: translateX(-50%);
       height: 58px;

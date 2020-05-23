@@ -77,7 +77,6 @@
 
       .mapa {
         grid-column: 1/3;
-        padding-bottom: 100%;
       }
 
       .table {
