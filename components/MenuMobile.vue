@@ -1,15 +1,15 @@
 <template>
     <div class="navigation-mobile">
    
-      <input type="checkbox" id="burger">
-      <div class="graphik18 pink button-closed-label">Menu</div>
+      <input type="checkbox" id="burger" class="navbar" :class="{ 'hidden-navbar': !showNavbar }">
+      <div class="graphik18 pink button-closed-label navbar" :class="{ 'hidden-navbar': !showNavbar }">Menu</div>
       <div class="graphik18 button-closed-label-close">Fechar</div>
 
       <nuxt-link class="logo-white" to="/">
         <lottie class="logo-escinter" :options="defaultOptions" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
       </nuxt-link>
 
-      <div class="button-closed">
+      <div class="button-closed navbar" :class="{ 'hidden-navbar': !showNavbar }">
       </div>
 
       <div class="menu-open">
@@ -45,6 +45,12 @@
   }
 
   @media screen and (max-width: 1020px) {
+    
+    .navbar.hidden-navbar {
+      bottom: -50px;
+      transition: 0.2s cubic-bezier(0.65,0.05,0.36,1); 
+    }
+    
 
     .logo-white {
       opacity: 0;
@@ -202,6 +208,8 @@ import Lottie from "~/components/lottie.vue";
 
 import * as animationData from "~/assets/logo/logo-white.json";
 
+const OFFSET = 60
+
 export default {
   components: {
     Lottie
@@ -209,13 +217,38 @@ export default {
   data() {
     return {
       defaultOptions: { animationData: animationData },
-      animationSpeed: 1
+      animationSpeed: 1,
+      showNavbar: true,
+      lastScrollPosition: 0,
+      scrollValue: 0
     };
+  },
+  mounted () {
+    this.lastScrollPosition = window.pageYOffset
+    window.addEventListener('scroll', this.onScroll)
+    const viewportMeta = document.createElement('meta')
+    viewportMeta.name = 'viewport'
+    viewportMeta.content = 'width=device-width, initial-scale=1'
+    document.head.appendChild(viewportMeta)
+  },
+
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
   },
   methods: {
     handleAnimation: function(anim) {
       this.anim = anim;
     },
+        onScroll () {
+      if (window.pageYOffset < 0) {
+        return
+      }
+      if (Math.abs(window.pageYOffset - this.lastScrollPosition) < OFFSET) {
+        return
+      }
+      this.showNavbar = window.pageYOffset < this.lastScrollPosition
+      this.lastScrollPosition = window.pageYOffset
+    }
   }
 };
 </script>
