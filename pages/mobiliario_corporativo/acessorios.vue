@@ -4,6 +4,19 @@
   <Menu />
   <MenuMobile />
 
+ <div class="nav-tipos navbar" :class="{ 'hidden-navbar': !showNavbar }">
+      <div class="nav-tipos-menu">
+      <div class="nav-tipos-hover" />
+      <div class="nav-tipos-toggle"><div class="nav-tipos-toggle-label graphik16">Tipos</div></div>
+        <ul class="nav-tipos-items graphik16">
+          <li><a href="#" v-scroll-to="'#luminarias'">Luminárias</a></li>
+          <li><a href="#" v-scroll-to="'#suporte-monitor'">Suporte de monitor</a></li>
+          <li><a href="#" v-scroll-to="'#quickstand'">Quickstand</a></li>
+          <li><a href="#" v-scroll-to="'#diversos'">Diversos</a></li>
+        </ul>
+    </div>
+  </div>
+
   <div class="category-list grid3">
     <h1 class="category-name pressura60">Acessórios</h1>
 
@@ -269,6 +282,12 @@
 </template>
 
 <style scoped>
+  .navbar.hidden-navbar {
+    transform: translateY(0px);
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1); 
+    pointer-events: all;
+  }
+
   .content {
     padding-top: 31px;
   }
@@ -327,6 +346,8 @@ import ItemProduto from '~/components/ItemProduto.vue'
 import Menu from '~/components/Menu.vue'
 import MenuMobile from '~/components/MenuMobile.vue'
 
+const OFFSET = 450
+
 export default {
   components: {
     ItemProduto,
@@ -335,12 +356,42 @@ export default {
   },
   data() {
     return {
-      title: 'Acessórios'
+      title: 'Acessórios',
+      showNavbar: true,
+      lastScrollPosition: 0,
+      scrollValue: 0
     }
   },
   head() {
     return {
       title: this.title
+    }
+  },
+  mounted () {
+    this.lastScrollPosition = window.pageYOffset
+    window.addEventListener('scroll', this.onScroll)
+    const viewportMeta = document.createElement('meta')
+    viewportMeta.name = 'viewport'
+    viewportMeta.content = 'width=device-width, initial-scale=1'
+    document.head.appendChild(viewportMeta)
+  },
+
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
+  },
+  methods: {
+    handleAnimation: function(anim) {
+      this.anim = anim;
+    },
+        onScroll () {
+      if (window.pageYOffset < 0) {
+        return
+      }
+      if (Math.abs(window.pageYOffset - this.lastScrollPosition) < OFFSET) {
+        return
+      }
+      this.showNavbar = window.pageYOffset < this.lastScrollPosition
+      this.lastScrollPosition = window.pageYOffset
     }
   }
 }

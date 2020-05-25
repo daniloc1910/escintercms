@@ -271,6 +271,83 @@ img {
 }
 
 
+  /* NAV TIPOS */
+
+  .nav-tipos {
+    position: fixed;
+    top: 28px;
+    width: 100vw;
+    z-index: 9999;
+    transform: translateY(-80px);
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1); 
+    pointer-events: none;
+  }
+
+  .nav-tipos-menu {
+    grid-column: 3/4;
+  }
+
+  .nav-tipos-toggle {
+    background-color: white;
+    position: absolute;
+    height: 48px;
+    border-radius: 24px;
+    width: 160px;
+    right: 28px;
+  }
+
+  .nav-tipos-toggle-label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-tipos-items {
+    position: absolute;
+    background-color: white;
+    top: 56px;
+    right: 28px;
+    border-radius: 8px;
+    padding: 16px;
+    width: 200px;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .nav-tipos-items li {
+    padding-bottom: 4px;
+    z-index: 100;
+  }
+
+  .nav-tipos-hover {
+    position: absolute;
+    width: 160px;
+    height: 48px;
+    opacity: 0.2;
+    z-index: 99;
+    right: 28px;
+    cursor: pointer;
+  }
+
+  .nav-tipos-hover:hover ~ .nav-tipos-items {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
+  }
+
+  .nav-tipos-hover:hover {
+    width: 232px;
+    height: 56px;
+  }
+
+  .nav-tipos-items:hover {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
+  }
+
+
   /* PRODUCT PAGE */
 
   .coluna1 {
@@ -500,6 +577,29 @@ img {
 
     .flickity-button {
         display: none !important;
+    }
+
+
+
+    /* NAV TIPOS */
+
+    .nav-tipos-hover {
+      right: 20px;
+      top: -8px;
+    }
+
+    .nav-tipos-menu {
+      grid-column: 2/3;
+    }
+
+    .nav-tipos-items {
+      top: 48px;
+    }
+
+    .nav-tipos-toggle {
+      position: absolute;
+      right: 20px;
+      top: -8px;
     }
 
 

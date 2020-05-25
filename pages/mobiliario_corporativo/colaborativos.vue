@@ -4,9 +4,25 @@
   <Menu />
   <MenuMobile />
 
+ <div class="nav-tipos navbar" :class="{ 'hidden-navbar': !showNavbar }">
+      <div class="nav-tipos-menu">
+      <div class="nav-tipos-hover" />
+      <div class="nav-tipos-toggle"><div class="nav-tipos-toggle-label graphik16">Tipos</div></div>
+        <ul class="nav-tipos-items graphik16">
+          <li><a href="#" v-scroll-to="'#cadeiras'">Cadeiras</a></li>
+          <li><a href="#" v-scroll-to="'#poltronas'">Poltronas</a></li>
+          <li><a href="#" v-scroll-to="'#sofas'">Sofás</a></li>
+          <li><a href="#" v-scroll-to="'#puffs'">Puffs</a></li>
+          <li><a href="#" v-scroll-to="'#bancadas-altas'">Bancadas altas</a></li>
+          <li><a href="#" v-scroll-to="'#mesas'">Mesas</a></li>
+          <li><a href="#" v-scroll-to="'#mesas-cafe'">Mesas café</a></li>
+          <li><a href="#" v-scroll-to="'#lap-table'">Lap table</a></li>
+        </ul>
+    </div>
+  </div>
+
   <div class="category-list grid3">
     <h1 class="category-name pressura60">Colaborativos</h1>
-
         <div class="menu-anchor graphik18 gray">
         <ul>
           <li class="black" style="margin-bottom: 8px;">Tipos</li>
@@ -441,6 +457,13 @@
 </template>
 
 <style scoped>
+
+  .navbar.hidden-navbar {
+    transform: translateY(0px);
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1); 
+    pointer-events: all;
+  }
+
   .content {
     padding-top: 31px;
   }
@@ -507,6 +530,8 @@ import ItemProduto from '~/components/ItemProduto.vue'
 import Menu from '~/components/Menu.vue'
 import MenuMobile from '~/components/MenuMobile.vue'
 
+const OFFSET = 450
+
 export default {
   components: {
     ItemProduto,
@@ -515,12 +540,42 @@ export default {
   },
   data() {
     return {
-      title: 'Colaborativos'
+      title: 'Colaborativos',
+      showNavbar: true,
+      lastScrollPosition: 0,
+      scrollValue: 0
     }
   },
   head() {
     return {
       title: this.title
+    }
+  },
+  mounted () {
+    this.lastScrollPosition = window.pageYOffset
+    window.addEventListener('scroll', this.onScroll)
+    const viewportMeta = document.createElement('meta')
+    viewportMeta.name = 'viewport'
+    viewportMeta.content = 'width=device-width, initial-scale=1'
+    document.head.appendChild(viewportMeta)
+  },
+
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
+  },
+  methods: {
+    handleAnimation: function(anim) {
+      this.anim = anim;
+    },
+        onScroll () {
+      if (window.pageYOffset < 0) {
+        return
+      }
+      if (Math.abs(window.pageYOffset - this.lastScrollPosition) < OFFSET) {
+        return
+      }
+      this.showNavbar = window.pageYOffset < this.lastScrollPosition
+      this.lastScrollPosition = window.pageYOffset
     }
   }
 }
