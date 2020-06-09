@@ -10,11 +10,21 @@
       <div class="linha-div" />
 
       <ul class="table">
-        <li class="graphik16">Endereço</li>
+        <li class="graphik16">Showroom</li>
         <li><br></li>
         <li class="graphik16 gray">Rua Aspicuelta, 248</li>
         <li class="graphik16 gray">Vila Madalena</li>
         <li class="graphik16 gray">CEP 05433-010</li>
+        <li class="graphik16 gray">São Paulo - SP</li>
+      </ul>
+
+      <ul class="table">
+        <li class="graphik16">Centro de distribuição</li>
+        <li><br></li>
+        <li class="graphik16 gray">Rua Jorge Nunes Kehdi, 182</li>
+        <li class="graphik16 gray">Vila Anastácio</li>
+        <li class="graphik16 gray">CEP 05092-050</li>
+        <li class="graphik16 gray">São Paulo - SP</li>
       </ul>
 
       <ul class="table">

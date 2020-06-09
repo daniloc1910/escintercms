@@ -41,48 +41,38 @@
       </div>
 
       <DesignerItem
-        desginerprofile="2x4.jpg"
-        designername="2x4"
+        desginerprofile="charles-pollock.jpg"
+        designername="Charles Pollock"
       />
 
       <DesignerItem
-        desginerprofile="antenna-design.jpg"
-        designername="Antenna Design"
+        desginerprofile="cini-boeri.jpg"
+        designername="Cini Boeri"
       />
 
       <DesignerItem
-        desginerprofile="leila-massimo-vignelli.jpg"
-        designername="Leila e Massimo Vignelli"
+        desginerprofile="david-adjaye.jpg"
+        designername="David Adjaye"
       />
 
       <DesignerItem
-        desginerprofile="george-nakashima.jpg"
-        designername="George Nakashima"
+        desginerprofile="florence-knoll.jpg"
+        designername="Florence Knoll"
       />
 
       <DesignerItem
-        desginerprofile="lucia-mercer.jpg"
-        designername="Lucia Mercer"
+        desginerprofile="formway-design.jpg"
+        designername="Formway Design"
       />
 
       <DesignerItem
-        desginerprofile="ludwig-miesrvanrder-rohe.jpg"
-        designername="Ludwig Mies van der Rohe"
+        desginerprofile="frank-gehry.jpg"
+        designername="Frank Gehry"
       />
 
       <DesignerItem
-        desginerprofile="ltl.jpg"
-        designername="LTL"
-      />
-
-      <DesignerItem
-        desginerprofile="maya-lin.jpg"
-        designername="Maya Lin"
-      />
-
-      <DesignerItem
-        desginerprofile="hans-knoll.jpg"
-        designername="Hans Knoll"
+        desginerprofile="harry-bertoia.jpg"
+        designername="Harry Bertoia"
       />
 
       <DesignerItem
@@ -91,13 +81,23 @@
       />
 
       <DesignerItem
-        desginerprofile="paul-haigh.jpg"
-        designername="Paul Haigh"
+        desginerprofile="ludwig-miesrvanrder-rohe.jpg"
+        designername="Ludwig Mies van der Rohe"
       />
 
       <DesignerItem
-        desginerprofile="cini-boeri.jpg"
-        designername="Cini Boeri"
+        desginerprofile="marc-krusin.jpg"
+        designername="Marc Krusin"
+      />
+
+      <DesignerItem
+        desginerprofile="marcel-breuer.jpg"
+        designername="Marcel Breuer"
+      />
+
+      <DesignerItem
+        desginerprofile="richard-schultz.jpg"
+        designername="Richard Schultz"
       />
 
       </div>
