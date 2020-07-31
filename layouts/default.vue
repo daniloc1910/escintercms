@@ -10,6 +10,7 @@
     </nuxt-link>
 
       <ul class="secondary-menu graphik16">
+        <nuxt-link to="/marcas" exact-active-class="active-link"><li class="secondary-menu-item">Marcas</li></nuxt-link>
         <nuxt-link to="/servicos" exact-active-class="active-link"><li class="secondary-menu-item">Serviços</li></nuxt-link>
         <nuxt-link to="/sobre" exact-active-class="active-link"><li class="secondary-menu-item">Sobre</li></nuxt-link>
         <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Contato</li></nuxt-link>
@@ -19,6 +20,9 @@
     <div class="primary-menu grid4">
     <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/mobiliario-corporativo" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/knoll-design" exact-active-class="active-link">Knoll Design</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/acusticas-revestimentos" exact-active-class="active-link">Acústicas e Revestimentos</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/divisorias" exact-active-class="active-link">Divisórias</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/tecnologia" exact-active-class="active-link">Tecnologia</nuxt-link>
     <div class="menu-primario-hover graphik18" />
 
     <div class="category-products category-products2">
@@ -30,7 +34,6 @@
       <nuxt-link to="/mobiliario_corporativo/colaborativos" exact-active-class="active-link"><li class="secondary-menu-item">Colaborativos</li></nuxt-link>
       <nuxt-link to="/mobiliario_corporativo/workbetter" exact-active-class="active-link"><li class="secondary-menu-item">Workbetter</li></nuxt-link>
       <nuxt-link to="/mobiliario_corporativo/acessorios" exact-active-class="active-link"><li class="secondary-menu-item">Acessórios</li></nuxt-link>
-      <nuxt-link to="/mobiliario_corporativo/divisorias" exact-active-class="active-link"><li class="secondary-menu-item">Divisórias</li></nuxt-link>
       <nuxt-link to="/mobiliario_corporativo/carpetes" exact-active-class="active-link"><li class="secondary-menu-item">Carpetes</li></nuxt-link>
     </ul>
     </div>
@@ -54,7 +57,6 @@
           <nuxt-link to="/mobiliario_corporativo/colaborativos" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/workbetter" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Workbetter</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/acessorios" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
-          <nuxt-link to="/mobiliario_corporativo/divisorias" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Divisórias</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/carpetes" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Carpetes</li></nuxt-link>
         </ul>
       </div> 
@@ -148,7 +150,7 @@
   .category-products {
     opacity: 0;
     transition: 0.3s;
-    margin-top: -55px;
+    margin-top: -139px;
   }
 
   #mobiliario-corporativo:hover ~ .category-products {

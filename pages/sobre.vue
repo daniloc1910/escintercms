@@ -106,63 +106,135 @@
       
       <div class="carousel-cell">
         <ProjetoItem
-          titleproject="JOHNSON & JOHNSON"
-          areavalue="15.000"
+          titleproject="AMAZON"
+          areavalue="5479,00m²"
+          yearvalue="2018, 2019, 2020"
           cityvalue="São Paulo"
-          yearvalue="2015"
-          description="Projeto executado em 2015 nas Torres JK. 5 andares totalizando 7200m², onde foram fornecidos Plataformas de Trabalho, mesas de reunião, Mesas com regulagem de altura, armários, call center, mesas de gerente."
+          torrevalue="JK"
+          andaresvalue="8º, 9º, 10º, 12º, 13º, 14º, 15º, 23º"
+          description="Mesas com regulagem de altura, plataformas,  mesas de gerentes, mesas de reunião, gaveteiros, armários, lockers, decorativos e colaborativos."
         />
       </div>
 
       <div class="carousel-cell">
         <ProjetoItem
-          titleproject="RECKITT BENCKISER"
-          areavalue="3.600"
+          titleproject="MILLIKEN"
+          areavalue="283,50m²"
+          yearvalue="2020"
           cityvalue="São Paulo"
-          yearvalue="2018"
-          description="Projeto executado em 2018 nas torres São Paulo Corporate Towers. 2 andares totalizando 3600 m², onde foram fornecidos Plataformas de Trabalho, armários e mesas de reunião."
+          torrevalue="WTC"
+          andaresvalue="1"
+          description="Mesas com regulame de altura, mesas de gerentes, mesas de reunião, armários, gaveteiros e colaborativos."
         />
       </div>
 
       <div class="carousel-cell">
         <ProjetoItem
-          titleproject="Nestlé"
-          areavalue="2.700"
+          titleproject="ZWIFT"
+          areavalue="568,60m²"
+          yearvalue="2020"
+          cityvalue="Rio de Janeiro"
+          torrevalue="Corporate Ipanema"
+          andaresvalue="6"
+          description="Mesas com ajuste de altura, armários, gaveteiros, mesas de reunião, mesas rebatíveis, cadeiras de reunião."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="PINHEIRO NETO"
+          areavalue="SP - 1.548m²  /  RJ - 608,00m²"
+          yearvalue="2020, 2019"
+          cityvalue="São Paulo e Rio de Janeiro"
+          torrevalue="Ed J.M Pinheiro Neto SP"
+          andaresvalue="SP - 1º, 2º, 3º, 4º, 5º, 6º / RJ - 14º, 15º"
+          description="Plataformas de trabalho, gaveteiros, gerencia e diretoria."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="STANDARD CHARTERED BANK"
+          areavalue="305,00 m²"
+          yearvalue="2020"
           cityvalue="São Paulo"
+          torrevalue="Pátio Malzoni"
+          andaresvalue="1"
+          description="Mesas com ajuste de altura, diretoria, gerência, reuniões, mesas rebatíveis e suportes de monitor."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="PROCTER & GAMBLE"
+          areavalue="1.785,00 m²"
           yearvalue="2019"
-          description="Projeto executado em 2019 nas torres SIGMA. 15 andares totalizando 27000 m², onde foram fornecidos Plataformas de Trabalho, Mesas com regulagem de altura, Lockers, Mesas Dobráveis, armários e mesas de reunião."
+          cityvalue="Louveira - SP"
+          torrevalue="Rua Francisco P. Dutra, 2405 GLB "
+          andaresvalue="3"
+          description="Plataformas, mesas com ajuste de altura, mesas de reunião, mesas rebatíveis, armários, gaveteiros, lockets, decorativos para área interna e externa  e colaborativos."
         />
       </div>
 
       <div class="carousel-cell">
         <ProjetoItem
-          titleproject="Accenture — New Content"
-          areavalue="12.000"
-          cityvalue="São Paulo"
+          titleproject="NETFLIX"
+          areavalue="3.900,64 m²"
+          yearvalue="2017, 2019"
+          cityvalue="Alphavile - SP (Barueri)"
+          torrevalue="I Tower Alphaville"
+          andaresvalue="3"
+          description="Mesas com ajuste de altura, mesas de reunião e decorativos."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="UBER"
+          areavalue="1750 m²"
           yearvalue="2019"
-          description="Projeto executado em 2019 na sede Própria da Empresa. 3 andares totalizando 12000m², onde foram fornecidos Plataformas de Trabalho, mesas de reunião, Mesas componíveis e armários."
+          cityvalue="São Paulo"
+          torrevalue="São Paulo Corporate Tower - Torre Sul"
+          andaresvalue="1"
+          description="Plataformas de trabalho, mesas  e reuniões."
         />
       </div>
 
       <div class="carousel-cell">
         <ProjetoItem
-          titleproject="Bank of America"
-          areavalue="8.500"
-          cityvalue="São Paulo"
-          yearvalue="2017 a 2019"
-          description="Projeto executado entre 2017 e 2019 nas torres Faria Lima Financial Center. 5 andares totalizando 8500m², onde foram fornecidos Plataformas de Trabalho, mesas Traders com regulagem de altura, suportes de monitor mesas de reunião, mesas diretores,  gerentes, armários."
+          titleproject="OHB"
+          areavalue="510,40 m²"
+          yearvalue="2019"
+          cityvalue="Jundiaí - SP"
+          torrevalue="Multivias"
+          andaresvalue="4"
+          description="Cadeiras, lockers e decorativos."
         />
       </div>
 
       <div class="carousel-cell">
         <ProjetoItem
-          titleproject="BNP Paribas"
-          areavalue="5.400"
+          titleproject="ATHENA"
+          areavalue="1.538,00m²"
+          yearvalue="2019"
           cityvalue="São Paulo"
-          yearvalue="2018"
-          description="Projeto executado em 2018 nas torres São Paulo Corporate Towers. 3 andares totalizando 5.400 m², onde foram fornecidos estações de Traders, Plataformas de Trabalho, armários, lockers e mesas de reunião."
+          torrevalue="Casa Olímpia Business"
+          andaresvalue="Mez, 1º, 2º, 3º, 4º, 5º, 6º"
+          description="Plataformas de trabalho, diretoria, gerência, mesas de reunião, gaveteiros, armários, cadeiras e decorativos"
         />
       </div>
+
+      <!--<div class="carousel-cell">
+        <ProjetoItem
+          titleproject=""
+          areavalue=""
+          yearvalue=""
+          cityvalue=""
+          torrevalue=""
+          andaresvalue=""
+          description=""
+        />
+      </div>-->
 
       </Flickity>
       </div>
