@@ -224,17 +224,236 @@
         />
       </div>
 
-      <!--<div class="carousel-cell">
+      <div class="carousel-cell">
         <ProjetoItem
-          titleproject=""
-          areavalue=""
-          yearvalue=""
-          cityvalue=""
-          torrevalue=""
-          andaresvalue=""
-          description=""
+          titleproject="MULTIPLAN"
+          areavalue="777,0m²"
+          yearvalue="2019"
+          cityvalue="São Paulo"
+          torrevalue="Morumbi Corporate"
+          andaresvalue="1"
+          description="Plataformas de trabalho, diretoria, reuniões, armários e gaveteiros."
         />
-      </div>-->
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="HDI"
+          areavalue="3.200,00m²"
+          yearvalue="2017"
+          cityvalue="São Paulo"
+          torrevalue="W Torre Morumbi"
+          andaresvalue="21º, 22º, 23º"
+          description="Cadeiras e suportes de moitor"
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="PROLOGIS"
+          areavalue="316,00m²"
+          yearvalue="2018"
+          cityvalue="São Paulo"
+          torrevalue="Vera Cruz II"
+          andaresvalue="1"
+          description="Mesas com ajuste de altura, gerência, diretoria, mesas de reunião, armários, suportes de monitor e colaborativos"
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="GEOKLOCK"
+          areavalue="1.141,66 m²"
+          yearvalue="2018"
+          cityvalue="São Paulo"
+          torrevalue="W Torres Morumbi"
+          andaresvalue="1"
+          description="Plataformas de trabalho, gerência, mesas de reunião, gaveteiros, armários, suportes de monitor e colaborativos"
+        />
+      </div>
+
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="GENERAL ATLANTIC"
+          areavalue="532 m²"
+          yearvalue="2018"
+          cityvalue="São Paulo"
+          torrevalue="Pateo Malzoni"
+          andaresvalue="1"
+          description="Mesas com ajuste de altura, plataformas de trabalho, gaveteiros, armários "
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="GENERAL ATLANTIC"
+          areavalue="532 m²"
+          yearvalue="2018"
+          cityvalue="São Paulo"
+          torrevalue="Pateo Malzoni"
+          andaresvalue="1"
+          description="Mesas com ajuste de altura, plataformas de trabalho, gaveteiros, armários "
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="CELGENE"
+          areavalue="822,00 m²"
+          yearvalue="2018"
+          cityvalue="São Paulo"
+          torrevalue="Rochaverá"
+          andaresvalue="1"
+          description="Mesas com ajuste de altura, gerência, diretoria, presidência, mesas rebatíveis e colaborativos"
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="ECOM"
+          areavalue="1211 m²"
+          yearvalue="2018"
+          cityvalue="São Paulo"
+          torrevalue="Vera Cruz "
+          andaresvalue="1"
+          description="Plataformas de trabalho, gerência, diretoria, reuniões, gaveteiros,armários e colaborativos"
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="FACEBOOK"
+          areavalue="3.727,30 m²"
+          yearvalue="2018, 2017"
+          cityvalue="São Paulo"
+          torrevalue="Infinity Tower"
+          andaresvalue="3"
+          description="Mesas com ajuste de altura, reuniões, armários, gaveteiros, decorativos e colaborativos."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="ORTHO CLINICAL"
+          areavalue="638,00 m²"
+          yearvalue="2017"
+          cityvalue="São Paulo"
+          torrevalue="Market Place Towe"
+          andaresvalue="1"
+          description="Plataformas de trabalho, gereência, diretoria, reuniões, armários e gaveteiros."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="LONE STAR"
+          areavalue="850,65 m²"
+          yearvalue="2017"
+          cityvalue="São Paulo"
+          torrevalue="São Paulo Corporate Tower"
+          andaresvalue="1"
+          description="Plataformas de trabalho, diretoria, gerência e suportes de monitor."
+        />
+      </div>
+
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="ALLERGAN"
+          areavalue="1662,30 m²"
+          yearvalue="2017"
+          cityvalue="São Paulo"
+          torrevalue="Thera Office"
+          andaresvalue="1"
+          description="Plataformas de trabalho, gerência, diretoria, reuniões, armários, gavteiros e colaborativos."
+        />
+      </div>
+
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="CYRELA"
+          areavalue="1780 m²"
+          yearvalue="2017"
+          cityvalue="São Paulo"
+          torrevalue="Pinus Plaza"
+          andaresvalue="7 andares"
+          description="Piso Vinílico"
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="AMPFY"
+          areavalue="622 m²"
+          yearvalue="2016"
+          cityvalue="São Paulo"
+          torrevalue="Rua Girassol, 953"
+          andaresvalue="2"
+          description="Plataformas de trabalho e mesas de reunião."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="PAUL HASTINGS"
+          areavalue="210,00 m²"
+          yearvalue="2016"
+          cityvalue="São Paulo"
+          torrevalue="JK"
+          andaresvalue="1"
+          description="Mesas de trabalho, gerência, diretoria, gaveteiros, armários, suportes de monitor, carpete e divisórias."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="MAC GRAW HILL - STANDARD & POORS"
+          areavalue="961,00 m²"
+          yearvalue="2014"
+          cityvalue="São Paulo"
+          torrevalue="Torre Faria Lima"
+          andaresvalue="18, 21º, 24º"
+          description="Plataformas de trabalho, diretoria, gerência, reuniões, mesas rebatíveis, gaveteiros, armários, decorativos, colaborativos e carpete."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="GOOGLE CAMPUS"
+          areavalue="700,00 m²"
+          yearvalue="2015"
+          cityvalue="São Paulo"
+          torrevalue="Campus SP"
+          andaresvalue="1º, 2º, 3º, 4º"
+          description="Plataformas de trabalho, mesas de reunião, mesas rebatíveis e gaveteiros"
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="ROCHA E BARCELLOS ADV"
+          areavalue="470,00 m²"
+          yearvalue="2014"
+          cityvalue="Alphavile - SP"
+          torrevalue=""
+          andaresvalue="1"
+          description="Plataformas de trabalho, mesas de reunião, gaveteiros e armários."
+        />
+      </div>
+
+      <div class="carousel-cell">
+        <ProjetoItem
+          titleproject="APPLE"
+          areavalue="2.484,866 m²"
+          yearvalue="2013"
+          cityvalue="São Paulo"
+          torrevalue="Infinity"
+          andaresvalue="2"
+          description="Plataformas de trabalho, gerência, diretoria, gaveteiros, armários, decorativos e colaborativos"
+        />
+      </div>
 
       </Flickity>
       </div>

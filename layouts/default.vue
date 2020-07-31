@@ -19,10 +19,11 @@
 
     <div class="primary-menu grid4">
     <nuxt-link id="mobiliario-corporativo" class="menu-primario-hover graphik18" to="/mobiliario-corporativo" exact-active-class="active-link">Mobiliário Corporativo</nuxt-link>
-    <nuxt-link class="menu-primario-hover graphik18" to="/knoll-design" exact-active-class="active-link">Knoll Design</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/acusticas-revestimentos" exact-active-class="active-link">Acústicas e Revestimentos</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/divisorias" exact-active-class="active-link">Divisórias</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/carpetes" exact-active-class="active-link">Carpetes</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/tecnologia" exact-active-class="active-link">Tecnologia</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/knoll-design" exact-active-class="active-link">Knoll Design</nuxt-link>
     <div class="menu-primario-hover graphik18" />
 
     <div class="category-products category-products2">
@@ -34,7 +35,6 @@
       <nuxt-link to="/mobiliario_corporativo/colaborativos" exact-active-class="active-link"><li class="secondary-menu-item">Colaborativos</li></nuxt-link>
       <nuxt-link to="/mobiliario_corporativo/workbetter" exact-active-class="active-link"><li class="secondary-menu-item">Workbetter</li></nuxt-link>
       <nuxt-link to="/mobiliario_corporativo/acessorios" exact-active-class="active-link"><li class="secondary-menu-item">Acessórios</li></nuxt-link>
-      <nuxt-link to="/mobiliario_corporativo/carpetes" exact-active-class="active-link"><li class="secondary-menu-item">Carpetes</li></nuxt-link>
     </ul>
     </div>
     </div>
@@ -57,12 +57,15 @@
           <nuxt-link to="/mobiliario_corporativo/colaborativos" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/workbetter" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Workbetter</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/acessorios" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
-          <nuxt-link to="/mobiliario_corporativo/carpetes" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Carpetes</li></nuxt-link>
         </ul>
       </div> 
 
       <div class="item-footer">
         <ul>
+          <nuxt-link to="/acusticas-revestimentos" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Acústicas e Revestimentos</li></nuxt-link>
+          <nuxt-link to="/divisorias" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Divisórias</li></nuxt-link>
+          <nuxt-link to="/carpetes" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Carpetes</li></nuxt-link>
+          <nuxt-link to="/tecnologia" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Tecnologia</li></nuxt-link>
           <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Knoll Design</li></nuxt-link>
           <nuxt-link to="/servicos" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Serviços</li></nuxt-link>
           <nuxt-link to="/sobre" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Sobre</li></nuxt-link>
@@ -150,7 +153,7 @@
   .category-products {
     opacity: 0;
     transition: 0.3s;
-    margin-top: -139px;
+    margin-top: -167px;
   }
 
   #mobiliario-corporativo:hover ~ .category-products {

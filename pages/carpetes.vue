@@ -1,7 +1,6 @@
 <template>
 <div class="content">
 
-  <Menu />
   <MenuMobile />
 
   <div class="category-list grid3">
@@ -235,7 +234,7 @@
 
 <style scoped>
   .content {
-    padding-top: 31px;
+    padding-top: 415px;
   }
 
   .category-name {
