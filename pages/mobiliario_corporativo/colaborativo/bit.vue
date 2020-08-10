@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 1020px) {
     .content {
-      padding-top: 251px;
+      padding-top: 157px;
     }
 
   .linha-div {

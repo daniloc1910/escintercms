@@ -87,7 +87,7 @@
     }
 
     .content {
-      padding-top: 251px;
+      padding-top: 157px;
     }
 
   }

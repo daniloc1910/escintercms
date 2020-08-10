@@ -520,7 +520,7 @@
       }
 
     .content {
-      padding-top: 227px;
+      padding-top: 157px;
     }
 
     }
