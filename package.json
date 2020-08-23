@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.9",
+    "flickity-fade": "^1.0.0",
     "flickity-imagesloaded": "^2.0.0",
     "front-matter-markdown": "^0.4.4",
     "frontmatter-markdown-loader": "^3.3.0",

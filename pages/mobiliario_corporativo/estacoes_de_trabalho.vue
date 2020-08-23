@@ -148,7 +148,7 @@
       <!-- EXECUTIVO -->
 
       <div class="linha-div space"></div>
-      <h2 id="quickstand" class="sub-category-name pressura40">Executivo</h2>
+      <h2 id="executivo" class="sub-category-name pressura40">Executivo</h2>
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/executivo-target"
