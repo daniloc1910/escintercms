@@ -42,15 +42,15 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_2_Knoll_Tone/hero.jpg"
-      nameproduct1="Tone"
-      brandproduct1="Knoll"
-      linkproduct1="mobiliario_corporativo/estacaodetrabalho/tone"
+      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_2_Escinter_Bowl/hero.jpg"
+      nameproduct1="Bowl"
+      brandproduct1="Escinter"
+      linkproduct1="mobiliario_corporativo/estacaodetrabalho/bowl"
 
-      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_3_Knoll_Kstand/hero.jpg"
-      nameproduct2="k. stand"
-      brandproduct2="Knoll"
-      linkproduct2="mobiliario_corporativo/estacaodetrabalho/kstand"
+      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_3_Escinter_Plate/hero.jpg"
+      nameproduct2="Plate"
+      brandproduct2="Escinter"
+      linkproduct2="mobiliario_corporativo/estacaodetrabalho/plate"
     />
 
 
