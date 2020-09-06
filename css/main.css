@@ -222,6 +222,23 @@ img {
   height: auto;
 }
 
+.carousel-variacoes-main .flickity-prev-next-button {
+  display: none;
+}
+
+.carousel-variacoes-main .flickity-viewport {
+  pointer-events: none;
+}
+
+.carousel-variacoes .carousel-cell {
+  width: 16.6%;
+  height: auto;
+}
+
+.carousel-variacoes .is-nav-selected {
+  border-top: solid 1px black;
+}
+
 .flickity-page-dots {
     bottom: -11px !important;
 }
@@ -270,6 +287,9 @@ img {
     padding-left: 4px !important; 
 }
 
+.target-name {
+  grid-row: 1/3;
+}
 
   /* NAV TIPOS */
 

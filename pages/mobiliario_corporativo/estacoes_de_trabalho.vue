@@ -42,7 +42,7 @@
         brandproduct="Escinter"
       />  
 
-      <ItemProduto
+ <!--     <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/bowl"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_2_Escinter_Bowl/hero.jpg"
         nameproduct="Bowl"
@@ -97,7 +97,7 @@
         nameproduct="Loop"
         brandproduct="Escinter"
       />  
-
+-->
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/antenna"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"

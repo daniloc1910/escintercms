@@ -18,7 +18,13 @@
   <!-- GALERIA DE IMAGENS -->
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/vertical.jpg').srcSet" class="lazyload" />
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true, fade: true}" class="carousel coluna2-3">
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal02.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal03.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal04.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal05.jpg').srcSet" /></div>
+    </Flickity>
   </div>
 
 

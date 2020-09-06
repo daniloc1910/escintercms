@@ -4,13 +4,34 @@
 
   <!-- HERO -->
   <div class="product-highlight grid3">
-    <div class="product-name">
+    <div class="product-name target-name">
       <ul class="product-info">
         <li class="graphik18 gray"><h2>Escinter</h2></li>
         <li class="pressura56 black"><h1>Target</h1></li>
       </ul>
     </div>
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero.jpg').srcSet" class="product-image lazyload" />
+    <!--<img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero.jpg').srcSet" class="product-image lazyload" />-->
+    <Flickity :options="{lazyLoad: 2, fade: true, sync: '.carousel-variacoes', pageDots: false}" class="carousel carousel-variacoes-main product-image">
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa01.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa02.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa03.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa04.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa05.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa06.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa07.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa08.jpg').srcSet" /></div>
+    </Flickity>
+
+    <Flickity :options="{lazyLoad: 4, groupCells: true, pageDots: false, asNavFor: '.carousel-variacoes-main',}" class="carousel carousel-variacoes product-image">
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes01.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes02.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes03.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes04.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes05.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes06.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes07.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes08.jpg').srcSet" /></div>
+    </Flickity>    
   </div>
 
 
