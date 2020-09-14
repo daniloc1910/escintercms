@@ -108,36 +108,6 @@
         brandproduct2="Muuto"
         linkproduct2="blog/2020-03-29-re-generation"
       />
-
-      <CategoryItem
-        title="Divisórias"
-        link="mobiliario_corporativo/divisorias"
-
-        imgproduct1="mobiliariocorporativo/divisorias/iw25/iw25.jpeg"
-        nameproduct1="Inwall IW25"
-        brandproduct1="Escinter"
-        linkproduct1="blog/2020-03-29-re-generation"
-
-        imgproduct2="mobiliariocorporativo/divisorias/iw70/iw70.jpeg"
-        nameproduct2="Inwall IW70"
-        brandproduct2="Escinter"
-        linkproduct2="blog/2020-03-29-re-generation"
-      />
-
-      <CategoryItem
-        title="Carpetes"
-        link="mobiliario_corporativo/carpetes"
-
-        imgproduct1="mobiliariocorporativo/carpetes/creating-space/hero.jpg"
-        nameproduct1="Creating Space"
-        brandproduct1="Shaw Contract"
-        linkproduct1="blog/2020-03-29-re-generation"
-
-        imgproduct2="mobiliariocorporativo/carpetes/rapid-select/hero.jpg"
-        nameproduct2="Rapid Select"
-        brandproduct2="Shaw Contract"
-        linkproduct2="blog/2020-03-29-re-generation"
-      />
 </div>
 </template>
 

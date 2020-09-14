@@ -22,7 +22,7 @@
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/mesa08.jpg').srcSet" /></div>
     </Flickity>
 
-    <Flickity :options="{lazyLoad: 4, groupCells: true, pageDots: false, asNavFor: '.carousel-variacoes-main',}" class="carousel carousel-variacoes product-image">
+    <Flickity :options="{lazyLoad: 4, groupCells: true, pageDots: false, asNavFor: '.carousel-variacoes-main',}" class="carousel carousel-variacoes">
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes01.jpg').srcSet" /></div>
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes02.jpg').srcSet" /></div>
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pes03.jpg').srcSet" /></div>
