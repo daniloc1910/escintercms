@@ -27,7 +27,7 @@
       <p class="pressura15 pink">Conhecer a linha completa</p>
     </div>
 
-    <img :data-srcset="require('~/assets/workbetter-destaque.png').srcSet" class="wb-destaque lazyload" />
+    <img :data-srcset="require('~/assets/workbetter-destaque.jpg').srcSet" class="wb-destaque lazyload" />
   </nuxt-link>
 
 

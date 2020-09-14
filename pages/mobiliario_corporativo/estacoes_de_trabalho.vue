@@ -42,62 +42,6 @@
         brandproduct="Escinter"
       />  
 
- <!--     <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/bowl"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_2_Escinter_Bowl/hero.jpg"
-        nameproduct="Bowl"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/plate"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_3_Escinter_Plate/hero.jpg"
-        nameproduct="Plate"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/cross"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_4_Escinter_Cross/hero.jpg"
-        nameproduct="Cross"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/block"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_5_Escinter_Block/hero.jpg"
-        nameproduct="Block"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/painel"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_6_Escinter_Painel/hero.jpg"
-        nameproduct="Painel"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/mix"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_7_Escinter_Mix/hero.jpg"
-        nameproduct="Mix"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/fit"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_8_Escinter_Fit/hero.jpg"
-        nameproduct="Fit"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/loop"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_9_Escinter_Loop/hero.jpg"
-        nameproduct="Loop"
-        brandproduct="Escinter"
-      />  
--->
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/antenna"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"

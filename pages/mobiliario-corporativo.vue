@@ -6,16 +6,16 @@
 
       <CategoryItem
         title="Estações de trabalho"
-        link="blog"
+        link="mobiliario_corporativo/estacoes_de_trabalho"
 
-        imgproduct1="image-cadeira.png"
-        nameproduct1="Generation"
-        brandproduct1="Knoll"
+        imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero.jpg"
+        nameproduct1="Target"
+        brandproduct1="Escinter"
         linkproduct1="blog/2020-03-29-re-generation"
 
-        imgproduct2="image-cadeira.png"
-        nameproduct2="Generation"
-        brandproduct2="Knoll"
+        imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"
+        nameproduct2="Alto"
+        brandproduct2="Escinter"
         linkproduct2="blog/2020-03-29-re-generation"
       />
 
