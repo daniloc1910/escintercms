@@ -11,12 +11,12 @@
         imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero.jpg"
         nameproduct1="Target"
         brandproduct1="Escinter"
-        linkproduct1="blog/2020-03-29-re-generation"
+        linkproduct1="mobiliario_corporativo/estacaodetrabalho/target"
 
         imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"
         nameproduct2="Alto"
         brandproduct2="Escinter"
-        linkproduct2="blog/2020-03-29-re-generation"
+        linkproduct2="mobiliario_corporativo/estacaodetrabalho/antenna"
       />
 
       <CategoryItem
@@ -26,12 +26,12 @@
         imgproduct1="mobiliariocorporativo/assentos/2_1_Knoll_Generation/hero.jpg"
         nameproduct1="Generation"
         brandproduct1="Knoll"
-        linkproduct1="blog/2020-03-29-re-generation"
+        linkproduct1="mobiliario_corporativo/assento/generation"
 
         imgproduct2="mobiliariocorporativo/assentos/2_2_Knoll_Regeneration/hero.jpg"
         nameproduct2="Regeneration"
         brandproduct2="Knoll"
-        linkproduct2="blog/2020-03-29-re-generation"
+        linkproduct2="mobiliario_corporativo/assento/regeneration"
       />
 
       <CategoryItem
@@ -41,12 +41,12 @@
         imgproduct1="mobiliariocorporativo/reunioes/3_1_Escinter_Point/hero.jpg"
         nameproduct1="Point"
         brandproduct1="Escinter"
-        linkproduct1="blog/2020-03-29-re-generation"
+        linkproduct1="mobiliario_corporativo/reuniao/point"
 
         imgproduct2="mobiliariocorporativo/reunioes/3_2_Escinter_Componivel/hero.jpg"
         nameproduct2="Componivel"
         brandproduct2="Escinter"
-        linkproduct2="blog/2020-03-29-re-generation"
+        linkproduct2="mobiliario_corporativo/reuniao/componivel"
       />
 
       <CategoryItem
@@ -56,12 +56,12 @@
         imgproduct1="mobiliariocorporativo/armazenamento/4_1_Escinter_Case_Armarios/hero.jpg"
         nameproduct1="Case Armários"
         brandproduct1="Escinter"
-        linkproduct1="blog/2020-03-29-re-generation"
+        linkproduct1="mobiliario_corporativo/armazenamentos/case-armarios"
 
         imgproduct2="mobiliariocorporativo/armazenamento/4_2_Escinter_Case_Gaveteiros/hero.jpg"
         nameproduct2="Case Gaveteiros"
         brandproduct2="Escinter"
-        linkproduct2="blog/2020-03-29-re-generation"
+        linkproduct2="mobiliario_corporativo/armazenamentos/case-gaveteiros"
       />
 
       <CategoryItem
@@ -71,12 +71,12 @@
         imgproduct1="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_1_Kusch_Trio/hero.jpg"
         nameproduct1="Trio"
         brandproduct1="Kusch"
-        linkproduct1="blog/2020-03-29-re-generation"
+        linkproduct1="mobiliario_corporativo/colaborativo/trio"
 
         imgproduct2="mobiliariocorporativo/colaborativos/5_2_Poltronas/5_2_1_Kusch_Njord/hero.jpg"
         nameproduct2="Njord"
         brandproduct2="Kusch"
-        linkproduct2="blog/2020-03-29-re-generation"
+        linkproduct2="mobiliario_corporativo/colaborativo/njord-poltrona"
       />
 
       <CategoryItem
@@ -86,12 +86,12 @@
         imgproduct1="mobiliariocorporativo/workbetter/6_1_Escinter_Duvo/hero.jpg"
         nameproduct1="Duvo"
         brandproduct1="Escinter"
-        linkproduct1="blog/2020-03-29-re-generation"
+        linkproduct1="mobiliario_corporativo/workbetter"
 
         imgproduct2="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
         nameproduct2="Shelter"
         brandproduct2="Escinter"
-        linkproduct2="blog/2020-03-29-re-generation"
+        linkproduct2="mobiliario_corporativo/workbetter"
       />
 
       <CategoryItem
@@ -101,12 +101,12 @@
         imgproduct1="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/hero.jpg"
         nameproduct1="Unfold"
         brandproduct1="Muuto"
-        linkproduct1="blog/2020-03-29-re-generation"
+        linkproduct1="mobiliario_corporativo/acessorio/unfold"
 
         imgproduct2="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_7_Muuto_Postwall/hero.jpg"
         nameproduct2="Postwall"
         brandproduct2="Muuto"
-        linkproduct2="blog/2020-03-29-re-generation"
+        linkproduct2="mobiliario_corporativo/acessorio/post-wall"
       />
 </div>
 </template>

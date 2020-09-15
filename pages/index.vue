@@ -83,6 +83,13 @@
   </div>
 
 
+
+
+
+  <!-- SERVIÇOS -->
+  <Servicos class="servicos-home" />
+
+
   
 
 
@@ -107,10 +114,39 @@
 
 
 
+  <!-- CASES -->
 
-  <!-- SERVIÇOS -->
-  <Servicos />
+  <nuxt-link to="/sobre" class="cases-container grid3">
+    <div class="cases-block-txt">
+      <h2 class="workbetter-block-txt-title pressura56">Nossos cases de sucesso</h2>
+      <p class="pressura15 pink">Conheça todos</p>
+    </div>
 
+        <div class="cases-item">
+        <ProjetoItemHome
+          titleproject="OHB"
+          areavalue="510,40 m²"
+          yearvalue="2019"
+          cityvalue="Jundiaí - SP"
+          torrevalue="Multivias"
+          andaresvalue="4"
+          description="Cadeiras, lockers e decorativos."
+        />
+      </div>
+
+      <div class="cases-item">
+        <ProjetoItemHome
+          titleproject="ATHENA"
+          areavalue="1.538 m²"
+          yearvalue="2019"
+          cityvalue="São Paulo"
+          torrevalue="Casa Olímpia Business"
+          andaresvalue="Mez, 1º, 2º, 3º, 4º, 5º, 6º"
+          description="Plataformas de trabalho, diretoria, gerência, mesas de reunião, gaveteiros, armários, cadeiras e decorativos"
+        />
+      </div>
+
+  </nuxt-link>
   
 
 
@@ -127,7 +163,7 @@
     width: 100%;
     height: 100vh;
     display: block;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
 
   .video-knoll {
@@ -173,7 +209,7 @@
   }
 
   .workbetter-container {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
 
   .workbetter-block-txt {
@@ -212,6 +248,14 @@
     margin-bottom: 32px;
   }
 
+  .cases-block-txt {
+    grid-column: 1/2;
+  }
+
+  .servicos-home {
+    margin-bottom: 120px;
+  }
+
 
   @media screen and (max-width: 1020px) {
 
@@ -243,9 +287,34 @@
     margin-top: 40px;
   }
 
+  .workbetter-container {
+    margin-bottom: 80px;
+  }
+
   .block-txt-knoll {
     grid-column: 1/3;
     margin-bottom: 56px;
+  }
+
+  .cases-block-txt {
+    grid-column: 1/3;
+  }
+
+  .cases-block-txt {
+    grid-column: 1/3;
+    margin-bottom: 40px;
+  }
+
+  .knoll-design-container {
+    margin-bottom: 80px;
+  }
+
+  .servicos-home {
+    margin-bottom: 80px;
+  }
+
+  .cases-item {
+    grid-column: 1/3;
   }
 
 }
@@ -254,12 +323,14 @@
 <script>
 import ItemProduto from '~/components/ItemProduto.vue'
 import Servicos from '~/components/Servicos.vue'
+import ProjetoItemHome from '~/components/ProjetoItemHome.vue'
 
 export default {
   layout: 'home',
   components: {
     ItemProduto,
-    Servicos
+    Servicos,
+    ProjetoItemHome
   },
   data() {
     return {

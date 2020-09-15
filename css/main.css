@@ -243,6 +243,7 @@ img {
 
 .carousel-variacoes {
   grid-column: 2/4;
+  cursor: pointer;
 }
 
 .carousel-variacoes .carousel-cell {

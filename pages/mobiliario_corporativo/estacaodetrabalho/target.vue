@@ -63,15 +63,15 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_2_Escinter_Bowl/hero.jpg"
-      nameproduct1="Bowl"
-      brandproduct1="Escinter"
-      linkproduct1="mobiliario_corporativo/estacaodetrabalho/bowl"
+      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"
+      nameproduct1="Antenna"
+      brandproduct1="Knoll"
+      linkproduct1="mobiliario_corporativo/estacaodetrabalho/antenna"
 
-      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_3_Escinter_Plate/hero.jpg"
-      nameproduct2="Plate"
+      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
+      nameproduct2="Alto"
       brandproduct2="Escinter"
-      linkproduct2="mobiliario_corporativo/estacaodetrabalho/plate"
+      linkproduct2="mobiliario_corporativo/estacaodetrabalho/alto"
     />
 
 

@@ -22,6 +22,7 @@
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_1_Escinter_Point/horizontal.jpg').srcSet" /></div>
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_1_Escinter_Point/horizontal02.jpg').srcSet" /></div>
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_1_Escinter_Point/horizontal03.jpg').srcSet" /></div>
+      <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_1_Escinter_Point/horizontal04.jpg').srcSet" /></div>
     </Flickity>
   </div>
 
