@@ -31,15 +31,15 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_8_Escinter_Fit/hero.jpg"
-      nameproduct1="Fit"
+      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero.jpg"
+      nameproduct1="Target"
       brandproduct1="Escinter"
-      linkproduct1="mobiliario_corporativo/estacaodetrabalho/fit"
+      linkproduct1="mobiliario_corporativo/estacaodetrabalho/target"
 
-      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_9_Escinter_Loop/hero.jpg"
-      nameproduct2="Loop"
+      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
+      nameproduct2="Alto"
       brandproduct2="Escinter"
-      linkproduct2="mobiliario_corporativo/estacaodetrabalho/loop"
+      linkproduct2="mobiliario_corporativo/estacaodetrabalho/alto"
     />
 
 

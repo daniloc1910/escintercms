@@ -8,10 +8,11 @@
     <h1 class="pressura60 intro-title">Soluções integradas para ambientes corporativos</h1>
 
     <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true}" class="carousel">
-            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollextra/carousel1.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollextra/carousel2.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollextra/carousel3.jpg').srcSet" /></div>
-            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollextra/carousel4.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/01.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/02.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/03.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/04.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/05.jpg').srcSet" /></div>
     </Flickity>
   </div>
 
@@ -40,18 +41,18 @@
     <h2 class="pressura40 produtos-destacados-title">Produtos Destacados</h2>
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sparrow"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_1_Knoll_Sparrow/hero.jpg"
-        nameproduct="Sparrow"
-        brandproduct="Knoll"
-      />  
+        linkproduct="mobiliario_corporativo/colaborativo/max"
+        imgproduct="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_8_Maxdesign_Max/hero.jpg"
+        nameproduct="Max"
+        brandproduct="Maxdesign"
+      /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/unfold"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/hero.jpg"
-        nameproduct="Unfold"
-        brandproduct="Muuto"
-      />  
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/alto"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
+        nameproduct="Alto"
+        brandproduct="Escinter"
+      />   
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/acessorio/under-the-bell"
@@ -61,25 +62,25 @@
       />  
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/cosy"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_4_Muuto_Cosy/hero.jpg"
-        nameproduct="Cosy"
-        brandproduct="Muuto"
+        linkproduct="mobiliario_corporativo/acessorio/horsepower"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_9_Knoll_Horsepower/hero.jpg"
+        nameproduct="Horsepower"
+        brandproduct="Knoll"
       />  
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/wood"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_5_Muuto_Wood/hero.jpg"
-        nameproduct="Wood"
-        brandproduct="Muuto"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/leaf"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_6_Muuto_Leaf/hero.jpg"
-        nameproduct="Leaf"
-        brandproduct="Muuto"
+        linkproduct="#"
+        imgproduct="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
+        nameproduct="Shelter"
+        brandproduct="Escinter"
       /> 
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/colaborativo/njord"
+        imgproduct="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_6_Kusch_Njord/hero.jpg"
+        nameproduct="Njord"
+        brandproduct="Kusch"
+      />  
   </div>
 
 
@@ -124,24 +125,24 @@
 
         <div class="cases-item">
         <ProjetoItemHome
-          titleproject="OHB"
-          areavalue="510,40 m²"
-          yearvalue="2019"
-          cityvalue="Jundiaí - SP"
-          torrevalue="Multivias"
-          andaresvalue="4"
-          description="Cadeiras, lockers e decorativos."
+          titleproject="AMAZON"
+          areavalue="5479,00m²"
+          yearvalue="2018, 2019, 2020"
+          cityvalue="São Paulo"
+          torrevalue="JK"
+          andaresvalue="8º, 9º, 10º, 12º, 13º, 14º, 15º, 23º"
+          description="Mesas com regulagem de altura, plataformas,  mesas de gerentes, mesas de reunião, gaveteiros, armários, lockers, decorativos e colaborativos."
         />
       </div>
 
       <div class="cases-item">
         <ProjetoItemHome
-          titleproject="ATHENA"
-          areavalue="1.538 m²"
+          titleproject="NESTLÉ"
+          areavalue="22.000 m²"
           yearvalue="2019"
           cityvalue="São Paulo"
-          torrevalue="Casa Olímpia Business"
-          andaresvalue="Mez, 1º, 2º, 3º, 4º, 5º, 6º"
+          torrevalue="Sigma"
+          andaresvalue="15º"
           description="Plataformas de trabalho, diretoria, gerência, mesas de reunião, gaveteiros, armários, cadeiras e decorativos"
         />
       </div>

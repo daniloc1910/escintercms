@@ -273,6 +273,13 @@
         imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_8_Humanscale_Techtray/hero.jpg"
         nameproduct="Techtray"
         brandproduct="Humanscale"
+      /> 
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/acessorio/horsepower"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_9_Knoll_Horsepower/hero.jpg"
+        nameproduct="Horsepower"
+        brandproduct="Knoll"
       />  
 
   

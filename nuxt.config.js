@@ -29,7 +29,7 @@ export default {
     max: 1600,
     steps: 3,
     format: 'jpg',
-    quality: 80,
+    quality: 60,
     disable: false
   },
   /*
