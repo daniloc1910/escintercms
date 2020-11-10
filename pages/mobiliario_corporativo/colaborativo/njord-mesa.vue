@@ -36,10 +36,10 @@
       brandproduct1="Kusch"
       linkproduct1="mobiliario_corporativo/colaborativo/san-siro"
 
-      imgproduct2="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_5_Kusch_Joy/hero.jpg"
-      nameproduct2="Joy"
-      brandproduct2="Kusch"
-      linkproduct2="mobiliario_corporativo/colaborativo/joy"
+      imgproduct2="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_6_Maxdesign_Baba/hero.jpg"
+      nameproduct2="Baba"
+      brandproduct2="Maxdesign"
+      linkproduct2="mobiliario_corporativo/colaborativo/baba"
     />
 
 

@@ -27,23 +27,6 @@
     <Servicos />
 
 
-
-  <!-- PRODUTOS RELACIONADOS -->
-  
-    <RelatedProduct
-      imgproduct1="mobiliariocorporativo/colaborativos/5_8_Lap_Table/5_8_1_Escinter_Joy/hero.jpg"
-      nameproduct1="Joy"
-      brandproduct1="Escinter"
-      linkproduct1="mobiliario_corporativo/colaborativo/joy-lap"
-
-      imgproduct2="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_2_Kusch_Plieto/hero.jpg"
-      nameproduct2="Pileto"
-      brandproduct2="Kusch"
-      linkproduct2="mobiliario_corporativo/colaborativo/pileto"
-    />
-
-
-
 </div>
 </template>
 

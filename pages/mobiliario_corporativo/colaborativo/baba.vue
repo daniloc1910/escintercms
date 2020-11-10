@@ -53,10 +53,10 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_5_Kusch_Joy/hero.jpg"
-      nameproduct1="Joy"
+      imgproduct1="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_4_Kusch_Njord/hero.jpg"
+      nameproduct1="Njord"
       brandproduct1="Kusch"
-      linkproduct1="mobiliario_corporativo/colaborativo/joy"
+      linkproduct1="mobiliario_corporativo/colaborativo/njord-mesa"
 
       imgproduct2="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_7_Maxdesign_Pic/hero.jpg"
       nameproduct2="Pic"

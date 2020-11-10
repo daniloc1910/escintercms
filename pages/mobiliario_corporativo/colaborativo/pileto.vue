@@ -28,22 +28,6 @@
 
 
 
-  <!-- PRODUTOS RELACIONADOS -->
-  
-    <RelatedProduct
-      imgproduct1="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_1_Escinter_Joy/hero.jpg"
-      nameproduct1="Joy"
-      brandproduct1="Escinter"
-      linkproduct1="mobiliario_corporativo/colaborativo/joy-cafe"
-
-      imgproduct2="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_8_Frisokar_Pix/hero.jpg"
-      nameproduct2="Pix"
-      brandproduct2="Frisokar"
-      linkproduct2="mobiliario_corporativo/colaborativo/pix-mesa"
-    />
-
-
-
 </div>
 </template>
 

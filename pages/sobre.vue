@@ -27,41 +27,6 @@
 
 
 
-      <!-- MARCAS -->
-
-      <div class="linha-div"></div>
-
-      <h2 class="nossas-marcas-title pressura60">
-        Nossas marcas
-      </h2>
-
-      <p class="nossas-marcas-description graphik24">
-        A Escinter é um Dealer completo da Knoll no Brasil, capaz de fornecer todos os produtos e serviços relacionados a esta parceria. Escinter e Knoll já fizeram vários projetos juntos neste país, garantindo que Contas Globais da Knoll as mesmas soluções que têm nas outras regiões do globo.
-      </p>
-
-      <div></div>
-
-      <ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>Knoll</h3></li>
-        <li class="graphik18 gray"><p>Desde sua fundação, em 1938, a Knoll é reconhecida internacionalmente por criar móveis que inspiram, evoluem e perduram. Seu compromisso com a inovação e design moderno tem produzido um portfólio abrangente de sistemas, cadeiras, arquivos, mesas, armários e acessórios.</p></li>
-      </ul>
-
-      <ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>Kush+co</h3></li>
-        <li class="graphik18 gray"><p>Com mais de 60 anos de história, a Kusch+Co representa a união entre tecnologia e qualidade na produção de móveis para ambientes internos. Suas peças são desenvolvidas de acordo com os padrões mais elevados do mercado internacional e preenchem de maneira singular as necessidades de seus clientes.</p></li>
-      </ul>
-
-      <ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>Humanscale</h3></li>
-        <li class="graphik18 gray"><p>Humanscale é uma empresa focada em produtos ergonômicos que melhoram a saúde e conforto no trabalho. Inovações prestigiadas com mais de 200 prêmios e com destaque em diversos museus.</p></li>
-      </ul>
-
-      <ul class="marcas last">
-        <li class="marca-item-title pressura40"><h3>Escinter</h3></li>
-        <li class="graphik18 gray"><p>A Escinter é uma empresa familiar com 25 anos de atuação no mercado de interiores de espaços corporativos. Nós acreditamos que o investimento na adequação de areas de trabalho, promove o aumento na qualidade de vida dos funcionários, com melhoria em sua saúde, bem estar e produtividade.</p></li>
-      </ul>
-
-
       <!-- CLIENTES -->
 
       <div class="linha-div"></div>
@@ -72,18 +37,61 @@
 
       <div class="cliente-grid">
         <div class="grid6">
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />                    
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />                    
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />                    
-          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/apple-logo.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/01apple.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/02ge.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/03jej.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/04hypermarcas.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/05bp.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/06sap.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/07dow.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/08twitter.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/09facebook.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/10opentext.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/11titans.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/12bioge.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/13microsoft.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/14anbima.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/15fiesp.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/16google.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/17vinci.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/18standardpoors.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/19allianz.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/20bankofamerica.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/21emc.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/22msd.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/23motorola.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/24sulamerica.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/25thyssen.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/26aes.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/27velcro.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/28cpp.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/29advento.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/30wartslla.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/31veirano.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/32vale.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/33unisys.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/34unipar.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/35trw.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/36terra.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/37telefonica.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/38standardbank.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/39schlumberger.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/40santander.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/41sanofi.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/42repsol.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/43rbs.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/44queirozgalvao.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/45prosperitas.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/46pinheironeto.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/47petrobras.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/48oracle.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/49odebrecht.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/50forcaaerea.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/51mercedes.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/52mercadolivre.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/53medley.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/54mattosfilho.jpg').srcSet" class="lazyload" />
+          <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/logos-clientes/55mcafee.jpg').srcSet" class="lazyload" />
         </div>
       </div>
 

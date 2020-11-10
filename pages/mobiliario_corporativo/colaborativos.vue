@@ -373,13 +373,6 @@
       /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/colaborativo/joy"
-        imgproduct="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_5_Kusch_Joy/hero.jpg"
-        nameproduct="Joy"
-        brandproduct="Kusch"
-      /> 
-
-      <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/baba"
         imgproduct="mobiliariocorporativo/colaborativos/5_6_Mesas/5_6_6_Maxdesign_Baba/hero.jpg"
         nameproduct="Baba"
@@ -415,13 +408,6 @@
       <h2 id="mesas-cafe" class="sub-category-name pressura40">Mesas café</h2>
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/colaborativo/joy-cafe"
-        imgproduct="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_1_Escinter_Joy/hero.jpg"
-        nameproduct="Joy"
-        brandproduct="Escinter"
-      /> 
-
-      <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/pileto"
         imgproduct="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_2_Kusch_Plieto/hero.jpg"
         nameproduct="Pileto"
@@ -434,13 +420,6 @@
 
       <div class="linha-div space"></div>
       <h2 id="lap-table" class="sub-category-name pressura40">Lap table</h2>
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/colaborativo/joy-lap"
-        imgproduct="mobiliariocorporativo/colaborativos/5_8_Lap_Table/5_8_1_Escinter_Joy/hero.jpg"
-        nameproduct="Joy"
-        brandproduct="Escinter"
-      /> 
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/note"
