@@ -30,7 +30,7 @@ export default {
     steps: 3,
     format: 'jpg',
     quality: 65,
-    disable: true
+    disable: false
   },
   /*
   ** Global CSS
