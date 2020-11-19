@@ -29,10 +29,10 @@
       /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/reuniao/profesion"
+        linkproduct="mobiliario_corporativo/reuniao/profession"
         imgproduct="mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg"
         nameproduct="Profession"
-        brandproduct="Escinter"
+        brandproduct="Kusch"
       /> 
 
       <ItemProduto

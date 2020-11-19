@@ -115,48 +115,6 @@
       <h2 id="suporte-monitor" class="sub-category-name pressura40">Suporte de monitor</h2>
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/esc721"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_1_Escinter_Esc721/hero.jpg"
-        nameproduct="ESC721"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/esc723"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_2_Escinter_Esc723/hero.jpg"
-        nameproduct="ESC723"
-        brandproduct="Escinter"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/esc724"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_3_Escinter_Esc724/hero.jpg"
-        nameproduct="ESC724"
-        brandproduct="Escinter"
-      /> 
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sapper50"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_4_Knoll_Sapper50/hero.jpg"
-        nameproduct="Sapper 50"
-        brandproduct="Knoll"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sapperxyz"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_5_Knoll_Sapperxyz/hero.jpg"
-        nameproduct="Sapper XYZ"
-        brandproduct="Knoll"
-      />  
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sapper"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_6_Knoll_Sapper/hero.jpg"
-        nameproduct="Sapper"
-        brandproduct="Knoll"
-      />  
-
-      <ItemProduto
         linkproduct="mobiliario_corporativo/acessorio/"
         imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_7_Humanscale_m21/hero.jpg"
         nameproduct="M2.1"
@@ -183,6 +141,48 @@
         nameproduct="MFlex"
         brandproduct="Humanscale"
       />  
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/acessorio/sapper50"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_4_Knoll_Sapper50/hero.jpg"
+        nameproduct="Sapper 50"
+        brandproduct="Knoll"
+      />  
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/acessorio/sapperxyz"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_5_Knoll_Sapperxyz/hero.jpg"
+        nameproduct="Sapper XYZ"
+        brandproduct="Knoll"
+      />  
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/acessorio/sapper"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_6_Knoll_Sapper/hero.jpg"
+        nameproduct="Sapper"
+        brandproduct="Knoll"
+      />  
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/acessorio/esc721"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_1_Escinter_Esc721/hero.jpg"
+        nameproduct="ESC721"
+        brandproduct="Escinter"
+      />  
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/acessorio/esc723"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_2_Escinter_Esc723/hero.jpg"
+        nameproduct="ESC723"
+        brandproduct="Escinter"
+      />  
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/acessorio/esc724"
+        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_3_Escinter_Esc724/hero.jpg"
+        nameproduct="ESC724"
+        brandproduct="Escinter"
+      /> 
 
 
 

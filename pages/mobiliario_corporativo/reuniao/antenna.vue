@@ -40,7 +40,7 @@
       imgproduct2="mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg"
       nameproduct2="Profesion"
       brandproduct2="Knoll"
-      linkproduct2="mobiliario_corporativo/reuniao/profesion"
+      linkproduct2="mobiliario_corporativo/reuniao/profession"
     />
 
 

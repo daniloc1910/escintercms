@@ -38,7 +38,7 @@
 
   <div class="produtos-destacados grid3">
     <div class="linha-div" />
-    <h2 class="pressura40 produtos-destacados-title">Produtos Destacados</h2>
+    <h2 class="pressura40 produtos-destacados-title">Produtos em destaque</h2>
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/max"

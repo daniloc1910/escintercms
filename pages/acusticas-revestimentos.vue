@@ -183,59 +183,6 @@
 <div class="grid3">
 
 
-      <!-- TECIDOS -->
-    
-    <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Tecidos</span></h3>
-    <div class="knoll-brand-item">
-      <div class="grid2">
-        <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/tecidos1.jpg').srcSet" />
-
-        <div class="knoll-brand-item-description graphik24">
-          <ul>
-            <li class="knoll-brand-item-description-text"><h4>Tecidos produzidos com alta tecnologia e acabamentos especiais para que mantenha características físicas e visuais originais mesmo em locais de alto tráfego de pessoas.</h4></li>
-          </ul>
-
-          <ul class="tabela-slinha bottom">
-            <li class="pressura15" style="margin-bottom: 20px;"><span class="gray">Download de catálogos</span></li>
-            <li class="graphik18" style="margin-bottom:4px;"><a class="pink" href="/pdf/acusticas-revestimentos/CartelaLãs-Grandis-Havoc-Cirrus.pdf" target="_blank">Cartela Lã</a></li>
-            <li class="graphik18" style="margin-bottom:4px;"><a class="pink" href="/pdf/acusticas-revestimentos/CartelaBasket.pdf" target="_blank">Cartela Basket</a></li>
-            <li class="graphik18"><a class="pink" href="/pdf/acusticas-revestimentos/CartelaCreative.pdf" target="_blank">Cartela Creative</a></li>
-          </ul>
-        </div>
-          
-        <img class="knoll-brand-item-secondary-img" :srcset="require('~/assets/images/acusticas-revestimentos/tecidos2.jpg').srcSet" />
-
-      </div>
-    </div>
-
-
-
-
-      <!-- WALLCOVERING -->
-    
-    <div class="linha-div"></div>
-    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Wallcovering</span></h3>
-    <div class="knoll-brand-item">
-      <div class="grid2">
-        <img class="space28 lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/wallcovering1.jpg').srcSet" />
-        <img class="space28 lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/wallcovering2.jpg').srcSet" />
-
-        <div class="knoll-brand-item-description graphik24">
-          <ul>
-            <li class="knoll-brand-item-description-text"><h4>Os revestimentos vinílicos Wallcovering funcionam como papéis de parede que possuem acabamentos desenvolvidos para aumentar a durabilidade, pois ele não se desgasta e as cores não desbotam.</h4></li>
-             <li class="graphik18" style="margin-bottom:24px;"><a class="pink" href="/pdf/acusticas-revestimentos/CatalogoWallcovering.pdf" target="_blank">Download do catálogo</a></li>
-          </ul>
-        </div>
-          <ul class="tabela">
-          <li class="pressura15"><span class="gray">Cores disponíveis</span><span style="float:right">45 cores</span></li>
-          <li class="pressura15"><span class="gray">Tamanho</span><span style="float:right">134 cm x 137 cm</span></li>
-          <li class="pressura15"><span class="gray">Peso total</span><span style="float:right">588 g/m e 392 g/m (15oz)</span></li>
-          </ul>
-      </div>
-    </div>
-
-
 
 
       <!-- INOVAWALL -->
@@ -280,6 +227,61 @@
              <li class="graphik18" style="margin-bottom:24px;"><a class="pink" href="/pdf/acusticas-revestimentos/CatalogoMascaramentodeSom.pdf" target="_blank">Download do catálogo</a></li>
           </ul>
         </div>
+      </div>
+    </div>
+
+
+
+
+      <!-- WALLCOVERING -->
+    
+    <div class="linha-div"></div>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Wallcovering</span></h3>
+    <div class="knoll-brand-item">
+      <div class="grid2">
+        <img class="space28 lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/wallcovering1.jpg').srcSet" />
+        <img class="space28 lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/wallcovering2.jpg').srcSet" />
+
+        <div class="knoll-brand-item-description graphik24">
+          <ul>
+            <li class="knoll-brand-item-description-text"><h4>Os revestimentos vinílicos Wallcovering funcionam como papéis de parede que possuem acabamentos desenvolvidos para aumentar a durabilidade, pois ele não se desgasta e as cores não desbotam.</h4></li>
+             <li class="graphik18" style="margin-bottom:24px;"><a class="pink" href="/pdf/acusticas-revestimentos/CatalogoWallcovering.pdf" target="_blank">Download do catálogo</a></li>
+          </ul>
+        </div>
+          <ul class="tabela">
+          <li class="pressura15"><span class="gray">Cores disponíveis</span><span style="float:right">45 cores</span></li>
+          <li class="pressura15"><span class="gray">Tamanho</span><span style="float:right">134 cm x 137 cm</span></li>
+          <li class="pressura15"><span class="gray">Peso total</span><span style="float:right">588 g/m e 392 g/m (15oz)</span></li>
+          </ul>
+      </div>
+    </div>
+
+
+
+
+      <!-- TECIDOS -->
+    
+    <div class="linha-div"></div>
+    <h3 class="knoll-brand-item-title pressura40"><span class="sticky">Tecidos</span></h3>
+    <div class="knoll-brand-item">
+      <div class="grid2">
+        <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/tecidos1.jpg').srcSet" />
+
+        <div class="knoll-brand-item-description graphik24">
+          <ul>
+            <li class="knoll-brand-item-description-text"><h4>Tecidos produzidos com alta tecnologia e acabamentos especiais para que mantenha características físicas e visuais originais mesmo em locais de alto tráfego de pessoas.</h4></li>
+          </ul>
+
+          <ul class="tabela-slinha bottom">
+            <li class="pressura15" style="margin-bottom: 20px;"><span class="gray">Download de catálogos</span></li>
+            <li class="graphik18" style="margin-bottom:4px;"><a class="pink" href="/pdf/acusticas-revestimentos/CartelaLãs-Grandis-Havoc-Cirrus.pdf" target="_blank">Cartela Lã</a></li>
+            <li class="graphik18" style="margin-bottom:4px;"><a class="pink" href="/pdf/acusticas-revestimentos/CartelaBasket.pdf" target="_blank">Cartela Basket</a></li>
+            <li class="graphik18"><a class="pink" href="/pdf/acusticas-revestimentos/CartelaCreative.pdf" target="_blank">Cartela Creative</a></li>
+          </ul>
+        </div>
+          
+        <img class="knoll-brand-item-secondary-img" :srcset="require('~/assets/images/acusticas-revestimentos/tecidos2.jpg').srcSet" />
+
       </div>
     </div>
 

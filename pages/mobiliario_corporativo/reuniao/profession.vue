@@ -7,18 +7,18 @@
     <div class="product-name">
       <ul class="product-info">
         <li class="graphik18 gray"><h2>Kusch</h2></li>
-        <li class="pressura56 black"><h1>San Siro</h1></li>
+        <li class="pressura56 black"><h1>Profession</h1></li>
       </ul>
     </div>
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_5_Kush_Sansiro/hero.jpg').srcSet" class="product-image lazyload" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg').srcSet" class="product-image lazyload" />
   </div>
 
 
 
   <!-- GALERIA DE IMAGENS -->
   <div class="galeria-imagens grid3">
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_5_Kush_Sansiro/vertical.jpg').srcSet" class="lazyload" />
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_5_Kush_Sansiro/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_4_Kush_Profesion/vertical.jpg').srcSet" class="lazyload" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/reunioes/3_4_Kush_Profesion/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
   </div>
 
 
@@ -32,15 +32,15 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg"
-      nameproduct1="Profesion"
-      brandproduct1="Kusch"
-      linkproduct1="mobiliario_corporativo/reuniao/profession"
+      imgproduct1="mobiliariocorporativo/reunioes/3_3_Knoll_Antenna/hero.jpg"
+      nameproduct1="Antenna"
+      brandproduct1="Knoll"
+      linkproduct1="mobiliario_corporativo/reuniao/antenna"
 
-      imgproduct2="mobiliariocorporativo/reunioes/3_6_Fway_Componivel/hero.jpg"
-      nameproduct2="Componivel"
-      brandproduct2="F.WAY"
-      linkproduct2="mobiliario_corporativo/reuniao/componivel-fway"
+      imgproduct2="mobiliariocorporativo/reunioes/3_5_Kush_Sansiro/hero.jpg"
+      nameproduct2="San Siro"
+      brandproduct2="Kusch"
+      linkproduct2="mobiliario_corporativo/reuniao/san-siro"
     />
 
 
@@ -84,7 +84,7 @@ export default {
   },
   data() {
     return {
-      title: 'San Siro — Kusch'
+      title: 'Profession — Kusch'
     }
   },
   head() {
