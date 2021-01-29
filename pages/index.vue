@@ -48,16 +48,16 @@
       /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/alto"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
-        nameproduct="Alto"
+        linkproduct="mobiliario_corporativo/workbetter/shelter"
+        imgproduct="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
+        nameproduct="Shelter"
         brandproduct="Escinter"
-      />   
+      /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/under-the-bell"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_3_Muuto_Underthebell/hero.jpg"
-        nameproduct="Under the Bell"
+        linkproduct="mobiliario_corporativo/acessorio/leaf"
+        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_6_Muuto_Leaf/hero.jpg"
+        nameproduct="Leaf"
         brandproduct="Muuto"
       />  
 
@@ -69,11 +69,11 @@
       />  
 
       <ItemProduto
-        linkproduct="#"
-        imgproduct="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
-        nameproduct="Shelter"
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/alto"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
+        nameproduct="Alto"
         brandproduct="Escinter"
-      /> 
+      />   
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/njord"

@@ -15,9 +15,9 @@
       /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/workbetter/shelter"
-        imgproduct="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
-        nameproduct="Shelter"
+        linkproduct="mobiliario_corporativo/workbetter/inter"
+        imgproduct="mobiliariocorporativo/workbetter/6_4_Escinter_Inter/hero.jpg"
+        nameproduct="Inter"
         brandproduct="Escinter"
       /> 
 
@@ -29,9 +29,9 @@
       /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/workbetter/inter"
-        imgproduct="mobiliariocorporativo/workbetter/6_4_Escinter_Inter/hero.jpg"
-        nameproduct="Inter"
+        linkproduct="mobiliario_corporativo/workbetter/shelter"
+        imgproduct="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
+        nameproduct="Shelter"
         brandproduct="Escinter"
       /> 
 
