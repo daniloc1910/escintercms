@@ -50,9 +50,9 @@
       /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/workbetter/blinck"
+        linkproduct="mobiliario_corporativo/workbetter/blink"
         imgproduct="mobiliariocorporativo/workbetter/6_7_Escinter_Blinck/hero.jpg"
-        nameproduct="Blinck"
+        nameproduct="Blink"
         brandproduct="Escinter"
       /> 
 

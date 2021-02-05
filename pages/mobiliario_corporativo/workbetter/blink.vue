@@ -7,7 +7,7 @@
     <div class="product-name">
       <ul class="product-info">
         <li class="graphik18 gray"><h2>Escinter</h2></li>
-        <li class="pressura56 black"><h1>Blinck</h1></li>
+        <li class="pressura56 black"><h1>Blink</h1></li>
       </ul>
     </div>
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/workbetter/6_7_Escinter_Blinck/hero.jpg').srcSet" class="product-image lazyload" />
@@ -75,7 +75,7 @@ export default {
   },
   data() {
     return {
-      title: 'Blinck — Escinter'
+      title: 'Blink — Escinter'
     }
   },
   head() {

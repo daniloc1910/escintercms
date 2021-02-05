@@ -31,9 +31,10 @@
         </ul>
 
         <ul class="menu-primario-mobile-2">
-          <nuxt-link to="/marcas" exact-active-class="active-link"><li class="graphik24 black">Marcas</li></nuxt-link>
-          <nuxt-link to="/servicos" exact-active-class="active-link"><li class="graphik24 black">Serviços</li></nuxt-link>
           <nuxt-link to="/sobre" exact-active-class="active-link"><li class="graphik24 black">Sobre</li></nuxt-link>
+          <nuxt-link to="/marcas" exact-active-class="active-link"><li class="graphik24 black">Marcas</li></nuxt-link>
+          <nuxt-link to="/clientes" exact-active-class="active-link"><li class="graphik24 black">Clientes</li></nuxt-link>
+          <nuxt-link to="/servicos" exact-active-class="active-link"><li class="graphik24 black">Serviços</li></nuxt-link>
           <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik24 black">Contato</li></nuxt-link>
         </ul>
         </div>

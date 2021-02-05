@@ -31,9 +31,44 @@
         <li class="graphik18 gray"><p>Humanscale é uma empresa focada em produtos ergonômicos que melhoram a saúde e conforto no trabalho. Inovações prestigiadas com mais de 200 prêmios e com destaque em diversos museus.</p></li>
       </ul>
 
-      <ul class="marcas last">
+      <ul class="marcas">
         <li class="marca-item-title pressura40"><h3>Escinter</h3></li>
         <li class="graphik18 gray"><p>A Escinter é uma empresa familiar com 25 anos de atuação no mercado de interiores de espaços corporativos. Nós acreditamos que o investimento na adequação de areas de trabalho, promove o aumento na qualidade de vida dos funcionários, com melhoria em sua saúde, bem estar e produtividade.</p></li>
+      </ul>
+
+      <ul class="marcas">
+        <li class="marca-item-title pressura40"><h3>F.WAY</h3></li>
+        <li class="graphik18 gray"><p>Desde sua fundação, em 1938, a Knoll é reconhecida internacionalmente por criar móveis que inspiram, evoluem e perduram. Seu compromisso com a inovação e design moderno tem produzido um portfólio abrangente de sistemas, cadeiras, arquivos, mesas, armários e acessórios.</p></li>
+      </ul>
+
+      <ul class="marcas">
+        <li class="marca-item-title pressura40"><h3>Maxdesign</h3></li>
+        <li class="graphik18 gray"><p>Com mais de 60 anos de história, a Kusch+Co representa a união entre tecnologia e qualidade na produção de móveis para ambientes internos. Suas peças são desenvolvidas de acordo com os padrões mais elevados do mercado internacional e preenchem de maneira singular as necessidades de seus clientes.</p></li>
+      </ul>
+
+      <ul class="marcas">
+        <li class="marca-item-title pressura40"><h3>Muuto</h3></li>
+        <li class="graphik18 gray"><p>Humanscale é uma empresa focada em produtos ergonômicos que melhoram a saúde e conforto no trabalho. Inovações prestigiadas com mais de 200 prêmios e com destaque em diversos museus.</p></li>
+      </ul>
+
+      <ul class="marcas">
+        <li class="marca-item-title pressura40"><h3>Lady</h3></li>
+        <li class="graphik18 gray"><p>Desde sua fundação, em 1938, a Knoll é reconhecida internacionalmente por criar móveis que inspiram, evoluem e perduram. Seu compromisso com a inovação e design moderno tem produzido um portfólio abrangente de sistemas, cadeiras, arquivos, mesas, armários e acessórios.</p></li>
+      </ul>
+
+      <ul class="marcas">
+        <li class="marca-item-title pressura40"><h3>Inwall</h3></li>
+        <li class="graphik18 gray"><p>Com mais de 60 anos de história, a Kusch+Co representa a união entre tecnologia e qualidade na produção de móveis para ambientes internos. Suas peças são desenvolvidas de acordo com os padrões mais elevados do mercado internacional e preenchem de maneira singular as necessidades de seus clientes.</p></li>
+      </ul>
+
+      <ul class="marcas">
+        <li class="marca-item-title pressura40"><h3>Beltech</h3></li>
+        <li class="graphik18 gray"><p>Humanscale é uma empresa focada em produtos ergonômicos que melhoram a saúde e conforto no trabalho. Inovações prestigiadas com mais de 200 prêmios e com destaque em diversos museus.</p></li>
+      </ul>
+
+      <ul class="marcas last">
+        <li class="marca-item-title pressura40"><h3>Sollos</h3></li>
+        <li class="graphik18 gray"><p>Humanscale é uma empresa focada em produtos ergonômicos que melhoram a saúde e conforto no trabalho. Inovações prestigiadas com mais de 200 prêmios e com destaque em diversos museus.</p></li>
       </ul>
 
 

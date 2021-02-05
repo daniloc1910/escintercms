@@ -13,10 +13,10 @@
         brandproduct1="Escinter"
         linkproduct1="mobiliario_corporativo/estacaodetrabalho/target"
 
-        imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"
+        imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
         nameproduct2="Alto"
         brandproduct2="Escinter"
-        linkproduct2="mobiliario_corporativo/estacaodetrabalho/antenna"
+        linkproduct2="mobiliario_corporativo/estacaodetrabalho/alto"
       />
 
       <CategoryItem

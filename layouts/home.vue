@@ -16,9 +16,10 @@
     </nuxt-link>
 
       <ul class="secondary-menu graphik16">
-        <nuxt-link to="/marcas" exact-active-class="active-link"><li class="secondary-menu-item">Marcas</li></nuxt-link>
-        <nuxt-link to="/servicos" exact-active-class="active-link"><li class="secondary-menu-item">Serviços</li></nuxt-link>
         <nuxt-link to="/sobre" exact-active-class="active-link"><li class="secondary-menu-item">Sobre</li></nuxt-link>
+        <nuxt-link to="/marcas" exact-active-class="active-link"><li class="secondary-menu-item">Marcas</li></nuxt-link>
+        <nuxt-link to="/clientes" exact-active-class="active-link"><li class="secondary-menu-item">Clientes</li></nuxt-link>
+        <nuxt-link to="/servicos" exact-active-class="active-link"><li class="secondary-menu-item">Serviços</li></nuxt-link>
         <nuxt-link to="/contato" exact-active-class="active-link"><li class="secondary-menu-item">Contato</li></nuxt-link>
       </ul>
     </div>
@@ -73,8 +74,10 @@
           <nuxt-link to="/carpetes" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Carpetes</li></nuxt-link>
           <nuxt-link to="/tecnologia" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Tecnologia</li></nuxt-link>
           <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Knoll Design</li></nuxt-link>
-          <nuxt-link to="/servicos" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Serviços</li></nuxt-link>
           <nuxt-link to="/sobre" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Sobre</li></nuxt-link>
+          <nuxt-link to="/marcas" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Marcas</li></nuxt-link>
+          <nuxt-link to="/clientes" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Clientes</li></nuxt-link>
+          <nuxt-link to="/servicos" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Serviços</li></nuxt-link>
           <nuxt-link to="/contato" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Contato</li></nuxt-link>
         </ul>
       </div> 
@@ -82,14 +85,15 @@
       <div class="item-footer contact">
         <ul>
           <li class="graphik16 footer-item-title black">Showroom</li>
-          <li class="graphik16 gray">Rua Aspicuelta, 248</li>
+          <li class="graphik16 gray">Rua Wizard, 157</li>
           <li class="graphik16 gray">Vila Madalena</li>
           <li class="graphik16 gray">São Paulo, SP</li>
           <li class="footer-item-title"><br></li>
           <li><br></li>
           <li class="graphik16 footer-item-title black">Contato</li>
           <li class="graphik16 gray">11 3062 5044</li>
-          <li class="graphik16 gray"><a href="mailto:contato@escinter.com.br" target="_blank">contato@escinter.com.br</a></li>
+          <li class="graphik16 gray">11 3055 3737</li>
+          <li class="graphik16 gray"><a href="mailto:comercial@escinter.com.br" target="_blank">comercial@escinter.com.br</a></li>
         </ul>
       </div>  
 

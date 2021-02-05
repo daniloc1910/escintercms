@@ -29,7 +29,7 @@
       linkproduct1="mobiliario_corporativo/workbetter/dot"
 
       imgproduct2="mobiliariocorporativo/workbetter/6_7_Escinter_Blinck/hero.jpg"
-      nameproduct2="Blinck"
+      nameproduct2="Blink"
       brandproduct2="Escinter"
       linkproduct2="mobiliario_corporativo/workbetter/blinck"
     />
