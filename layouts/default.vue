@@ -57,17 +57,17 @@
           <nuxt-link to="/mobiliario_corporativo/armazenamento" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Armazenamento</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/colaborativos" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Colaborativos</li></nuxt-link>
           <nuxt-link to="/mobiliario_corporativo/workbetter" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Workbetter</li></nuxt-link>
-          <nuxt-link to="/mobiliario_corporativo/acessorios" exact-active-class="active-link"><li class="graphik16 gray footer-item-list">Acessórios</li></nuxt-link>
-        </ul>
-      </div> 
-
-      <div class="item-footer">
-        <ul>
+          <nuxt-link to="/mobiliario_corporativo/acessorios" exact-active-class="active-link"><li class="graphik16 gray footer-item-list footer-item-title">Acessórios</li></nuxt-link>
           <nuxt-link to="/acusticas-revestimentos" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Acústicas e Revestimentos</li></nuxt-link>
           <nuxt-link to="/divisorias" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Divisórias</li></nuxt-link>
           <nuxt-link to="/carpetes" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Carpetes</li></nuxt-link>
           <nuxt-link to="/tecnologia" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Tecnologia</li></nuxt-link>
           <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Knoll Design</li></nuxt-link>
+        </ul>
+      </div> 
+
+      <div class="item-footer">
+        <ul>
           <nuxt-link to="/sobre" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Sobre</li></nuxt-link>
           <nuxt-link to="/marcas" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Marcas</li></nuxt-link>
           <nuxt-link to="/clientes" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Clientes</li></nuxt-link>

@@ -86,9 +86,16 @@
       />  
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/joy-addit"
+        linkproduct="mobiliario_corporativo/assento/joy"
         imgproduct="mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/hero.jpg"
-        nameproduct="Joy Addit"
+        nameproduct="Joy"
+        brandproduct="Frisokar"
+      /> 
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/assento/addit"
+        imgproduct="mobiliariocorporativo/assentos/2_20_Frisokar_Addit/hero.jpg"
+        nameproduct="Addit"
         brandproduct="Frisokar"
       /> 
 

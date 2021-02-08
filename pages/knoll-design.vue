@@ -229,6 +229,7 @@
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/muuto/carousel2.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/muuto/carousel3.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/muuto/carousel4.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/muuto/carousel5.jpg').srcSet" /></div>
           </Flickity>
           
           <div class="knoll-brand-item-secondary-img">

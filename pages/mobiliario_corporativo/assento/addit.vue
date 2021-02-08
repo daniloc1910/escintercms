@@ -7,18 +7,18 @@
     <div class="product-name">
       <ul class="product-info">
         <li class="graphik18 gray"><h2>Frisokar</h2></li>
-        <li class="pressura56 black"><h1>Joy Addit</h1></li>
+        <li class="pressura56 black"><h1>Addit</h1></li>
       </ul>
     </div>
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/hero.jpg').srcSet" class="product-image lazyload" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_20_Frisokar_Addit/hero.jpg').srcSet" class="product-image lazyload" />
   </div>
 
 
 
   <!-- GALERIA DE IMAGENS -->
   <div class="galeria-imagens grid3">
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/vertical.jpg').srcSet" class="lazyload" />
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_20_Frisokar_Addit/vertical.jpg').srcSet" class="lazyload" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_20_Frisokar_Addit/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
   </div>
 
 
@@ -28,9 +28,9 @@
     <div class="linha-div" />
     <h3 class="title-info-tecnica pressura40">Informações técnicas</h3>
 
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/desenho.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_20_Frisokar_Addit/desenho.jpg').srcSet" class="lazyload desenho-tecnico coluna2" />
     <ul class="tabela coluna2">
-<li class="download pressura15 pink"><a href="/pdf/assentos/2_11_Frisokar_Joy_Addit/Joy.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow-btn">↓</span><span class="arrow-btn-hover">↓</span></span></a></li>
+<li class="download pressura15 pink"><a href="/pdf/assentos/2_20_Frisokar_Addit/Addit.pdf" target="_blank">Download do catálogo<span class="item-right"><span class="arrow-btn">↓</span><span class="arrow-btn-hover">↓</span></span></a></li>
     </ul>
   </div>
 
@@ -44,10 +44,10 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/assentos/2_11_Frisokar_Agile/hero.jpg"
-      nameproduct1="Agile"
+      imgproduct1="mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/hero.jpg"
+      nameproduct1="Joy"
       brandproduct1="Frisokar"
-      linkproduct1="mobiliario_corporativo/assento/agile"
+      linkproduct1="mobiliario_corporativo/assento/joy"
 
       imgproduct2="mobiliariocorporativo/assentos/2_12_Frisokar_Simple/hero.jpg"
       nameproduct2="Simple"
@@ -96,7 +96,7 @@ export default {
   },
   data() {
     return {
-      title: 'Joy Addit — Frisokar'
+      title: 'Addit — Frisokar'
     }
   },
   head() {
