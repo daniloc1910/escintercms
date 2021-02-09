@@ -13,6 +13,12 @@
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/03.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/04.jpg').srcSet" /></div>
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/05.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/06.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/07.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/08.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/09.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/10.jpg').srcSet" /></div>
+            <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/destaquehome/11.jpg').srcSet" /></div>
     </Flickity>
   </div>
 
@@ -42,7 +48,7 @@
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/max"
-        imgproduct="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_8_Maxdesign_Max/hero.jpg"
+        imgproduct="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_8_Maxdesign_Max/hero_h.jpg"
         nameproduct="Max"
         brandproduct="Maxdesign"
       /> 
@@ -55,29 +61,29 @@
       /> 
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/leaf"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_6_Muuto_Leaf/hero.jpg"
-        nameproduct="Leaf"
+        linkproduct="mobiliario_corporativo/acessorio/unfold"
+        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/hero_h.jpg"
+        nameproduct="Unfold"
         brandproduct="Muuto"
       />  
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/acessorio/horsepower"
-        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_9_Knoll_Horsepower/hero.jpg"
+        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_9_Knoll_Horsepower/hero_h.jpg"
         nameproduct="Horsepower"
         brandproduct="Knoll"
       />  
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/alto"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero_h.jpg"
         nameproduct="Alto"
         brandproduct="Escinter"
       />   
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/njord"
-        imgproduct="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_6_Kusch_Njord/hero.jpg"
+        imgproduct="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_6_Kusch_Njord/hero_h.jpg"
         nameproduct="Njord"
         brandproduct="Kusch"
       />  

@@ -15,13 +15,17 @@
         <h3 class="ecoshapes-title pressura40">Ecoshapes</h3>
         <ul class="title-history-sticky gray">
           <li><a href="#" v-scroll-to="'#linhanext'">Linha Next</a></li>
+          <li><a href="#" v-scroll-to="'#break'">Break</a></li>
+          <li><a href="#" v-scroll-to="'#cockpit'">Cockpit</a></li>
+          <li><a href="#" v-scroll-to="'#fence'">Fence</a></li>
+          <li><a href="#" v-scroll-to="'#workstation'">Workstation</a></li>
           <li><a href="#" v-scroll-to="'#baffles'">Baffles</a></li>
           <li><a href="#" v-scroll-to="'#grid'">Grid</a></li>
           <li><a href="#" v-scroll-to="'#nuvens'">Nuvens</a></li>
           <li><a href="#" v-scroll-to="'#paineis'">Painéis</a></li>
           <li><a href="#" v-scroll-to="'#divisoresdeambientes'">Divisores de ambientes</a></li>
-          <li><a href="#" v-scroll-to="'#ladrilhos'">Ladrilhos</a></li>
-          <li><a href="#" v-scroll-to="'#cabines'">Cabines</a></li>
+          <li><a href="#" v-scroll-to="'#ladrilhos'">Cabines</a></li>
+          <li><a href="#" v-scroll-to="'#cabines'">Ladrilhos</a></li>
         </ul>
       </div>
 
@@ -48,6 +52,46 @@
           <li class="pressura15"><span class="gray">Variações disponíveis</span><span style="float:right">9</span></li>
           <li class="pressura15"><span class="gray">Cores disponíveis</span><span style="float:right">12</span></li>
         </ul>
+  </div>
+
+
+
+  <!-- BREAK -->
+
+  <div id="break" class="ecoshape-item grid2">
+    <div class="linha-div ecoshape-linha"></div>
+    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/break.jpg').srcSet" />
+    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Break</span></h3>
+  </div>
+
+
+
+  <!-- COCKPIT -->
+
+  <div id="cockpit" class="ecoshape-item grid2">
+    <div class="linha-div ecoshape-linha"></div>
+    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/cockpit.jpg').srcSet" />
+    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Cockipit</span></h3>
+  </div>
+
+
+
+  <!-- FENCE -->
+
+  <div id="fence" class="ecoshape-item grid2">
+    <div class="linha-div ecoshape-linha"></div>
+    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/fence.jpg').srcSet" />
+    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Fence</span></h3>
+  </div>
+
+
+
+  <!-- WORKSTATION -->
+
+  <div id="workstation" class="ecoshape-item grid2">
+    <div class="linha-div ecoshape-linha"></div>
+    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/workstation.jpg').srcSet" />
+    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Workstation</span></h3>
   </div>
 
 
@@ -142,23 +186,23 @@
 
 
 
-  <!-- LADRILHOS -->
+  <!-- CABINES -->
 
   <div id="ladrilhos" class="ecoshape-item grid2">
     <div class="linha-div ecoshape-linha"></div>
-    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/ladrilhos.jpg').srcSet" />
-    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Ladrilhos</span></h3>
+    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/cabines.jpg').srcSet" />
+    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Cabines</span></h3>
   </div>
 
 
 
 
-  <!-- CABINES -->
+  <!-- LADRILHOS -->
 
   <div id="cabines" class="ecoshape-item grid2">
     <div class="linha-div ecoshape-linha"></div>
-    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/cabines.jpg').srcSet" />
-    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Cabines</span></h3>
+    <img class="ecoshape-item-img lazyload" :data-srcset="require('~/assets/images/acusticas-revestimentos/ladrilhos.jpg').srcSet" />
+    <h3 class="ecoshape-item-title pressura40"><span class="sticky">Ladrilhos</span></h3>
     <div class="ecoshape-item-container">
 
         <div class="knoll-brand-item-description graphik24">
