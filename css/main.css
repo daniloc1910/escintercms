@@ -543,6 +543,28 @@ img {
     transition: 0.4s;
   }
 
+  .backtotopbutton {
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    left: 28px;
+    top: 32px;
+    z-index: 999;
+    border-radius: 22px;
+    transform: translateY(-76px);
+  }
+
+  .arrowbtt {
+    font-family: 'Pressura-Regular', Arial, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 
 
 
@@ -735,6 +757,10 @@ img {
   .carousel-variacoes .carousel-cell {
     width: 20%;
     height: auto;
+  }
+
+  .backtotopbutton {
+    display: none;
   }
 
 }

@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div id="top">
 
     <!-- MENU -->
 
     <div class="navigation">
 
     <nuxt-link to="/">
-    <lottie class="logo-escinter" :options="defaultOptions" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
+    <lottie :class="{ 'move-logo': !showNavbar }" class="logo-escinter" :options="defaultOptions" :top="31" :height="74" :left="26" :width="45" v-on:animCreated="handleAnimation"/>
     </nuxt-link>
 
       <ul class="secondary-menu graphik16">
@@ -39,6 +39,11 @@
     </ul>
     </div>
     </div>
+
+
+    <!-- BACK TO TOP -->
+    
+    <a href="#" v-scroll-to="'#top'" class="backtotopbutton" :class="{ 'hidden-navbar': !showNavbar }"><span class="arrowbtt pink">↑</span></a>
 
     <nuxt />
 
@@ -129,6 +134,7 @@
     top: 32px;
     width: 40px;
     z-index: 10001;
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1); 
   }
 
   .secondary-menu {
@@ -203,6 +209,18 @@
 
   .copyright {
     margin-top: 15px;
+  }
+
+  .hidden-navbar {
+    transform: translateY(0px);
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1); 
+    pointer-events: all;
+  }
+
+  .move-logo {
+    top: 104px;
+    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1); 
+    pointer-events: all;
   }
 
 
@@ -317,23 +335,49 @@
 
 <script>
 import Lottie from "~/components/lottie.vue";
-
 import * as animationData from "~/assets/logo/logo.json";
+import Sparrow from '~/pages/mobiliario_corporativo/acessorio/sparrow.vue';
+const OFFSET = 900
 
 export default {
   components: {
-    Lottie
+    Lottie,
+    Sparrow
   },
   data() {
     return {
       defaultOptions: { animationData: animationData },
-      animationSpeed: 1
+      animationSpeed: 1,
+      showNavbar: true,
+      lastScrollPosition: 0,
+      scrollValue: 0
     };
+  },
+  mounted () {
+    this.lastScrollPosition = window.pageYOffset
+    window.addEventListener('scroll', this.onScroll)
+    const viewportMeta = document.createElement('meta')
+    viewportMeta.name = 'viewport'
+    viewportMeta.content = 'width=device-width, initial-scale=1'
+    document.head.appendChild(viewportMeta)
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.onScroll)
   },
   methods: {
     handleAnimation: function(anim) {
       this.anim = anim;
     },
+        onScroll () {
+      if (window.pageYOffset < 0) {
+        return
+      }
+      if (Math.abs(window.pageYOffset - this.lastScrollPosition) < OFFSET) {
+        return
+      }
+      this.showNavbar = window.pageYOffset < this.lastScrollPosition
+      this.lastScrollPosition = window.pageYOffset
+    }
   }
 };
 </script>
