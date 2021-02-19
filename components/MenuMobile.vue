@@ -28,6 +28,7 @@
           <nuxt-link to="/carpetes" exact-active-class="active-link"><li class="graphik24 black">Carpetes</li></nuxt-link>
           <nuxt-link to="/tecnologia" exact-active-class="active-link"><li class="graphik24 black">Tecnologia</li></nuxt-link>
           <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik24 black">Knoll Design</li></nuxt-link>
+          <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik24 black">SOLLOS</li></nuxt-link>
         </ul>
 
         <ul class="menu-primario-mobile-2">

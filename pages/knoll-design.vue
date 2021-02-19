@@ -427,7 +427,7 @@
 
   .menu-anchor {
     grid-column: 1/2;
-    grid-row: 2/9;
+    grid-row: 2/99;
   }
 
   .knoll-brand-item{

@@ -7,10 +7,10 @@
     <div class="product-name">
       <ul class="product-info">
         <li class="graphik18 gray"><h2>Escinter</h2></li>
-        <li class="pressura56 black"><h1>Shelter</h1></li>
+        <li class="pressura56 black"><h1>Shelter Leitura</h1></li>
       </ul>
     </div>
-    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg').srcSet" class="product-image lazyload" />
+    <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/workbetter/6_9_Escinter_Shelter_Leitura/hero.jpg').srcSet" class="product-image lazyload" />
   </div>
 
 
@@ -23,15 +23,15 @@
   <!-- PRODUTOS RELACIONADOS -->
   
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/workbetter/6_1_Escinter_Duvo/hero.jpg"
-      nameproduct1="Duvo"
+      imgproduct1="mobiliariocorporativo/workbetter/6_2_Escinter_Shelter/hero.jpg"
+      nameproduct1="Shelter"
       brandproduct1="Escinter"
-      linkproduct1="mobiliario_corporativo/workbetter/duvo"
+      linkproduct1="mobiliario_corporativo/workbetter/shelter"
 
-      imgproduct2="mobiliariocorporativo/workbetter/6_9_Escinter_Shelter_Leitura/hero.jpg"
-      nameproduct2="Shelter Leitura"
+      imgproduct2="mobiliariocorporativo/workbetter/6_5_Escinter_Comp/hero.jpg"
+      nameproduct2="Comp"
       brandproduct2="Escinter"
-      linkproduct2="mobiliario_corporativo/workbetter/shelter_leitura"
+      linkproduct2="mobiliario_corporativo/workbetter/comp"
     />
 
 
@@ -75,7 +75,7 @@ export default {
   },
   data() {
     return {
-      title: 'Shelter — Escinter'
+      title: 'Shelter Leitura — Escinter'
     }
   },
   head() {

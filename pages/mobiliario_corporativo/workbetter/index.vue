@@ -36,6 +36,13 @@
       /> 
 
       <ItemProduto
+        linkproduct="mobiliario_corporativo/workbetter/shelter_leitura"
+        imgproduct="mobiliariocorporativo/workbetter/6_9_Escinter_Shelter_Leitura/hero.jpg"
+        nameproduct="Shelter Leitura"
+        brandproduct="Escinter"
+      /> 
+
+      <ItemProduto
         linkproduct="mobiliario_corporativo/workbetter/comp"
         imgproduct="mobiliariocorporativo/workbetter/6_5_Escinter_Comp/hero.jpg"
         nameproduct="Comp"

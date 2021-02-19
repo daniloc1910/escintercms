@@ -25,6 +25,7 @@
     <nuxt-link class="menu-primario-hover graphik18" to="/carpetes" exact-active-class="active-link">Carpetes</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/tecnologia" exact-active-class="active-link">Tecnologia</nuxt-link>
     <nuxt-link class="menu-primario-hover graphik18" to="/knoll-design" exact-active-class="active-link">Knoll Design</nuxt-link>
+    <nuxt-link class="menu-primario-hover graphik18" to="/sollos" exact-active-class="active-link">SOLLOS</nuxt-link>
     <div class="menu-primario-hover graphik18" />
 
     <div class="category-products category-products2">
@@ -68,6 +69,7 @@
           <nuxt-link to="/carpetes" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Carpetes</li></nuxt-link>
           <nuxt-link to="/tecnologia" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Tecnologia</li></nuxt-link>
           <nuxt-link to="/knoll-design" exact-active-class="active-link"><li class="graphik16 black footer-item-list">Knoll Design</li></nuxt-link>
+          <nuxt-link to="/sollos" exact-active-class="active-link"><li class="graphik16 black footer-item-list">SOLLOS</li></nuxt-link>
         </ul>
       </div> 
 
