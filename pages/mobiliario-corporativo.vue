@@ -16,7 +16,7 @@
         imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero.jpg"
         nameproduct1="Target"
         brandproduct1="Escinter"
-        linkproduct1="mobiliario_corporativo/estacaodetrabalho/target"
+        linkproduct1="mobiliario_corporativo/estacaodetrabalho/fixa"
 
         imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/hero.jpg"
         nameproduct2="Alto"

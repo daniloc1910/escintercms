@@ -1,5 +1,5 @@
 <template>
-    <div class="content">
+    <div class="container">
         <!-- HERO -->
         <div class="product-highlight grid3">
             <div class="product-name target-name">
@@ -43,3 +43,11 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+@media screen and (max-width: 1020px) {
+.product-name {
+    grid-row: 3 !important;
+}
+}
+</style>

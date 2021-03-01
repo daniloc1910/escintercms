@@ -1,5 +1,5 @@
 <template>
-    <div class="content">
+    <div class="container">
         <!-- HERO -->
         <div class="product-highlight grid3">
             <div class="product-name target-name">
@@ -27,7 +27,7 @@
 
         <!-- GALERIA DE IMAGENS -->
         <div class="galeria-imagens grid3">
-            <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/vertical.jpg').srcSet" class="product-image lazyload" />
+            <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/vertical.jpg').srcSet" class="lazyload" />
             <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true, fade: true}" class="carousel coluna2-3">
             
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/01.jpg').srcSet" /></div>
@@ -43,3 +43,11 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+@media screen and (max-width: 1020px) {
+.product-name {
+    grid-row: 3 !important;
+}
+}
+</style>
