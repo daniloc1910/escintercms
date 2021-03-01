@@ -10,13 +10,13 @@
         Conheça mais sobre a marca que tem compromisso com a inovação e o design moderno.
       </h1>
       <h4 class="servicos-description graphik24 gray">
-        For nearly 80 years Knoll has remained true to the Bauhaus design philosophy that modern furniture should complement architectural space, not compete with it. At Knoll, modern design has been our guiding principle, and our passion has been shared by customers and design professionals worldwide.
+        Por quase 80 anos, Knoll permaneceu fiel à filosofia de design da Bauhaus de que os móveis modernos devem complementar o espaço arquitetônico, não competir com ele. Na Knoll, o design moderno tem sido nosso princípio orientador e nossa paixão foi compartilhada por clientes e profissionais de design em todo o mundo.
       </h4>
 
       <p class="knoll-history graphik18">
-        Our founders, Hans and Florence Knoll, embraced the creative genius at the Bauhaus School and the Cranbrook Academy of Art to create new types of furniture and environments for the workplace. Their approach, where craftsmanship joined with technology through the use of design, anchors our perspective and shapes the values we endeavor to live by today.
+        Os fundadores, Hans e Florence Knoll, abraçaram o espírito criativo da Bauhaus School e da Cranbrook Academy of Art para criar novos tipos de móveis e ambientes para o local de trabalho. Sua abordagem, em que o artesanato se junta à tecnologia por meio do uso do design, ancora nossa perspectiva e molda os valores que buscamos viver hoje.
         <br><br>
-        A long history of collaborations, with pioneering modernists to bold contemporary designers, define not only the past but the future of Knoll through active, recent, and future partnerships with David Rockwell, Antenna Design, Barber Osgerby, Formway Design, Don Chadwick, David Adjaye, and Rem Koolhaas.
+        Uma longa história de colaborações, de modernistas pioneiros a designers contemporâneos ousados, define não apenas o passado, mas o futuro da Knoll por meio de parcerias ativas, recentes e futuras com David Rockwell, Antenna Design, Barber Osgerby, Formway Design, Don Chadwick, David Adjaye e Rem Koolhaas.
       </p>
 
       <div class="profile-history">
@@ -127,7 +127,7 @@
           <h3 class="knoll-brand-item-title pressura40">KnollStudio</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text"><h4>KnollStudio is a definitive resource for modern furniture. The collection includes iconic pieces from the great modernists and exciting new products from today’s best designers. Life changes, but quality endures.</h4></li>
+              <li class="knoll-brand-item-description-text"><h4>KnollStudio é uma fonte definitiva para quem busca por móveis modernos. A coleção inclui peças icônicas dos grandes modernistas e novos produtos empolgantes dos melhores designers de hoje. A vida muda, mas a qualidade permanece. A coleção de mesas KnollStudio inclui mesas de jantar icônicas, mesas de trabalho, mesas de reunião elegantes e tudo o mais.</h4></li>
               <li class="graphik18"><a class="pink" href="https://www.knoll.com/knollstudio" target="_blank">Visite o site da KnollStudio <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
@@ -143,9 +143,7 @@
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/images/knollstudio/carousel8.jpg').srcSet" /></div>
           </Flickity>
 
-          <div class="knoll-brand-item-secondary-description graphik16 gray">
-          The KnollStudio table collection includes iconic dining tables, performance training tables, elegant conference tables and everything in between.
-          </div>
+          <div class="knoll-brand-item-secondary-description graphik16 gray" />
 
           <img class="knoll-brand-item-secondary-img" :srcset="require('~/assets/images/knollstudio/Rectangle78.jpg').srcSet" />
 
@@ -161,7 +159,7 @@
           <h3 class="knoll-brand-item-title pressura40">Knoll Extra</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text"><h4>KnollExtra makes your work life easier with office accessories to illuminate your space, manage your technology and ensure your well-being.</h4></li>
+              <li class="knoll-brand-item-description-text"><h4>KnollExtra torna sua vida profissional mais fácil com acessórios de escritório para iluminar seu espaço, gerenciar sua tecnologia e garantir seu bem-estar.</h4></li>
               <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/knollextra" target="_blank">Visite o site da Knoll Extra <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
@@ -175,12 +173,10 @@
 
           <div class="knoll-brand-item-secondary-img">
           <img :data-srcset="require('~/assets/images/knollextra/desktop-management.jpg').srcSet" class="lazyload" />
-          <div class="img-description graphik16 gray">Desktop Management</div>
           </div>
           
           <div class="knoll-brand-item-secondary-img">
           <img :data-srcset="require('~/assets/images/knollextra/lighting.jpg').srcSet" class="lazyload" />
-          <div class="img-description graphik16 gray">Lighting</div>
           </div>
 
         </div>
@@ -195,7 +191,7 @@
           <h3 class="knoll-brand-item-title pressura40">Knoll Textiles</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text"><h4>KnollTextiles, founded in 1947 by Florence Knoll, was the first company to address the fabric needs of the commercial interior. Today, KnollTextiles is one of the largest textile suppliers in North America, with products developed for healthcare, hospitality, educational, corporate, and residential interiors.</h4></li>
+              <li class="knoll-brand-item-description-text"><h4>A KnollTextiles, fundada em 1947 por Florence Knoll, foi a primeira empresa a pensar em tecidos para os interiores comerciais. Hoje, a KnollTextiles é uma das maiores fornecedoras têxteis da América do Norte, com produtos desenvolvidos para saúde, hotelaria, bares e restaurantes, educação, corporativo e interiores residenciais.</h4></li>
               <li class="graphik18"><a class="pink" href="https://www.knoll.com/shop/knolltextiles" target="_blank">Visite o site da Knoll Textiles <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
@@ -219,7 +215,8 @@
           <h3 class="knoll-brand-item-title pressura40">Muuto</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text">Muuto is rooted in the Scandinavian design tradition characterized by enduring aesthetics, functionality, craftsmanship and an honest expression. By expanding this heritage with forward-looking materials, techniques and bold creative thinking, our ambition is to deliver new perspectives on Scandinavian design.</li>
+              <li class="knoll-brand-item-description-text">A Muuto está enraizada na tradição de design escandinavo caracterizada por uma estética duradoura, funcionalidade, habilidade artesanal e uma expressão honesta.
+Expandindo esta herança com materiais, técnicas e pensamento criativo inovadores, nossa ambição é oferecer novas perspectivas sobre o design escandinavo. Na verdade, nosso nome, Muuto, vem de muutos, que significa nova perspectiva em finlandês. Selecionamos os principais designers contemporâneos que são fortes intérpretes de nossa filosofia e combinamos seus talentos com a apaixonada equipe criativa da Muuto. Você conhecerá nosso design porque ele tem muutos: objetos tornados sublimes por meio de novas perspectivas, apreciados em todo o mundo, representando o melhor do design escandinavo hoje.</li>
               <li class="graphik18"><a class="pink" href="https://muuto.com" target="_blank">Visite o site da Muuto <span class="pressura21"><span class="pressura21">↗</span></span></a></li>
             </ul>
               </div>
@@ -252,7 +249,7 @@
           <h3 class="knoll-brand-item-title pressura40">Spinneyback</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text"><h4>Spinneybeck is recognized as a leading provider of high-quality leather to architects and interior designers. Over the decades, the company has evolved from a supplier of full grain, aniline dyed Italian leather for upholstery and aircraft interiors to a manufacturer of pioneering architectural products in leather and beyond.</h4></li>
+              <li class="knoll-brand-item-description-text"><h4>Spinneybeck é reconhecida como a principal fornecedora de couro de alta qualidade para arquitetos e designers de interiores. Ao longo das décadas, a empresa evoluiu de um fornecedor de couro italiano tingido com anilina integral para estofados e interiores de aeronaves a um fabricante pioneiro de produtos arquitetônicos em couro e muito mais.</h4></li>
               <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/spinneybeck-design" target="_blank">Visite o site da Spinneyback <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
@@ -285,7 +282,7 @@
           <h3 class="knoll-brand-item-title pressura40">Rockwell Unscripted</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text"><h4>Hospitality, theater and play at work. From Knoll and David Rockwell, renowned for creating places where people want to be, comes an unrivaled work experience designed to let spontaneity unfold and people complete the story. </h4></li>
+              <li class="knoll-brand-item-description-text"><h4>Da parceria entre Knoll e David Rockwell, renomados por criar lugares onde as pessoas desejam estar, surge uma experiência de trabalho incomparável, projetada para permitir que a espontaneidade se desenvolva e as pessoas completem a história. </h4></li>
               <li class="graphik18"><a class="pink" href="https://www.knoll.com/story/design-plan/rockwell-unscripted" target="_blank">Visite o site da Rockwell Unscripted <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
@@ -310,7 +307,7 @@
           <h3 class="knoll-brand-item-title pressura40">Filzfelt</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text"><h4>FilzFelt products, including acoustic solutions, floor coverings, hanging panels, wall panels and felt by the yard, are a great way to introduce color, texture and pattern into any space, residential or contract. Beyond the extensive scope of standard offerings, FilzFelt is ready to help create custom solutions for any project.</h4></li>
+              <li class="knoll-brand-item-description-text"><h4>Os produtos FilzFelt, incluindo soluções acústicas, revestimentos de piso, painéis suspensos, painéis de parede e feltro para jardim, são uma ótima maneira de introduzir cor, textura e padrão em qualquer espaço, residencial ou contratado. Além do amplo escopo de ofertas padrão, FilzFelt está pronto para ajudar a criar soluções personalizadas para qualquer projeto.</h4></li>
               <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/filzfelt-design" target="_blank">Visite o site da Filzfelt <span class="pressura21">↗</span></a></li>
             </ul>
               </div>
@@ -341,7 +338,7 @@
           <h3 class="knoll-brand-item-title pressura40">Dateweiser</h3>
           <div class="knoll-brand-item-description graphik24">
             <ul>
-              <li class="knoll-brand-item-description-text"><h4>For signature spaces with refined and flexible conference furniture product platforms that feature a broad range of finishes across wood, metal, glass and stone, DatesWeiser creates custom client-facing environments with the perfect proportions and best-in-class workmanship. From conference and meeting rooms to dining areas, collaborative spaces and executive C-suites, DatesWeiser’s approach distinguishes the look of spaces built to last.</h4></li>
+              <li class="knoll-brand-item-description-text"><h4>Para espaços de reuniões refinados e flexíveis que apresentam uma ampla gama de acabamentos em madeira, metal, vidro e pedra, DatesWeiser cria ambientes personalizados voltados para o cliente com as proporções perfeitas e os melhores trabalhos em equipe. De salas de conferências e reuniões a salas de jantar, espaços colaborativos e suítes executivas, a abordagem do DatesWeiser distingue a aparência de espaços construídos para durar.</h4></li>
               <li class="graphik18"><a class="pink" href="https://www.knoll.com/design-plan/products/by-brand/datesweiser" target="_blank">Visite o site da Dateweiser <span class="pressura21">↗</span></a></li>
             </ul>
               </div>

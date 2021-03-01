@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_13_Frisokar_Sense/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_13_Frisokar_Sense/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Sense traz sofisticação e muito conforto para teatros e auditórios. Possui assento e encosto rebatíveis, oferecendo um ótimo aproveitamento de espaço. Os diferenciais de construção como o apoia-braços em madeira e as laterais revestidas em tecido conferem um toque refinado ao projeto e podem transformar qualquer ambiente.</div>
   </div>
 
 

@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_19_Humanscale_Cinto/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_19_Humanscale_Cinto/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Estilo, conforto e utilidade se unem na cadeira Cinto, uma cadeira de escritório empilhável que quebra a regra número um para empilhar cadeiras: é confortável. Como as cadeiras de tarefa ergonômicas da Humanscale, Cinto foi construído para apoiar o corpo humano minimizando pontos de pressão e desconforto. Desenho do núcleo de design da Humanscale.</div>
   </div>
 
 

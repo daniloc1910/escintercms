@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_6_Knoll_Life/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_6_Knoll_Life/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Criada pelo Formway Design em 2002, Life define o padrão de design sofisticado e conforto sem esforço. O controle avançado responde automaticamente às mudanças no peso corporal, fornecendo suporte ergonômico personalizado.</div>
   </div>
 
 

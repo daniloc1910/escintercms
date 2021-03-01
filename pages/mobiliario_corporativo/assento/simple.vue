@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_12_Frisokar_Simple/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_12_Frisokar_Simple/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Simple é, em apenas um produto, design, elegância e sofisticação. A altura do encosto da cadeira de escritório é ajustável e juntamente com a inclinação proporcionam perfeita ergonomia e conforto, tornando Simple essencial para ambientes corporativos. </div>
   </div>
 
 

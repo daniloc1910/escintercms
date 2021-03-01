@@ -26,6 +26,7 @@
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal05.jpg').srcSet" /></div>
       <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_1_Escinter_Alto/horizontal06.jpg').srcSet" /></div>
     </Flickity>
+    <div class="gi-txt graphik24 gray">Após 30 anos representando algumas das principais marcas internacionais, a Escinter passou a oferecer soluções criadas aqui de olho nas características de customização mais adequadas aos nossos ambientes de trabalho. Alto é uma estação de trabalho fixa com regulagem mecânica de altura e diversas opções de acabamento.</div>
   </div>
 
 

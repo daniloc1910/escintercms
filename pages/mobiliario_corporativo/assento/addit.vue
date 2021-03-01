@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_20_Frisokar_Addit/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_20_Frisokar_Addit/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Addit é uma nova proposta em cadeira operativa. Trazendo um moderno e amplo encosto em tela de linhas marcantes e angulares, braços ajustáveis, espuma de boa resiliência e um mecanismo exclusivo, a cadeira de escritório Addit pode trazer mais produtividade e conforto, além de modernizar ambientes corporativos por um excelente custo-benefício.</div>
   </div>
 
 

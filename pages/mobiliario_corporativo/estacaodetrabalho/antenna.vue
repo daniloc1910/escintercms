@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Projetado com a energia do indivíduo e da equipe em mente, as Estações de Trabalho Antenna oferecem suporte à liberdade e mobilidade que as pessoas buscam no local de trabalho de hoje. A abordagem criativa centrada no usuário do Antenna Design para o local de trabalho celebra a simplicidade funcional com materiais honestos e integração de tecnologia perfeita. Amplas capacidades de planejamento, incluindo uma variedade de posições baseadas na coluna vertebral, seguem o padrão de hoje para espaços flexíveis e inclusivos que acomodam vários modos de trabalho.</div>
   </div>
 
 

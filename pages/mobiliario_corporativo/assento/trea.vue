@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_17_Humanscale_Trea/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_17_Humanscale_Trea/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Vencedora do Red Dot-Award, Trea tem uma estética atemporal e limpa com função de alta performance. Criada em colaboração com o visionário designer Todd Bracher,Trea oferece conforto intuitivo imitando a reclinação instintiva do corpo humano e abraçando a babá em uma concha de apoio.</div>
   </div>
 
 

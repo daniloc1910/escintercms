@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_9_FWay_Nox/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_9_FWay_Nox/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Com Design de Lucas Carareto, Nox traz como marca registrada um traço original que combina assento e encosto, identificando sua forte personalidade. Nox é a poltrona que se molda ao corpo: encosto ergonômico, assento slide e braços com regulagem de altura garantem conforto e bem-estar por longos períodos.</div>
   </div>
 
 

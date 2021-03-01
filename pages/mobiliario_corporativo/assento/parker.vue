@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_8_FWay_Parker/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_8_FWay_Parker/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Com design de Christoph Jenni, Parker esbanja funcionalidade e minimalismo. Todos os ajustes ergonômicos da cadeira estão sutilmente organizados em um desenho limpo e intuitivo. Além de valorizar a combinação de materiais e texturas, a união entre o encosto e o assento ajuda a manter a sensação de organização e unidade no ambiente.</div>
   </div>
 
 

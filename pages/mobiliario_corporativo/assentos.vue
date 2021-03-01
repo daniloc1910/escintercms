@@ -6,6 +6,7 @@
 
   <div class="category-list grid3">
     <h1 class="category-name pressura60">Assentos</h1>
+    <p class="sub-category-description graphik18 gray">A Escinter oferece uma extensa cartela de assentos nas mais variadas opções de orçamentos e mesmo funções dentro de um escritório, passando por clássicos do design e chegando à tecnologia de ponta.</p>
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/assento/generation"

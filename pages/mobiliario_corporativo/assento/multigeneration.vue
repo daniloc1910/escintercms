@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_5_Knoll_Multigeneration/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_5_Knoll_Multigeneration/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+        <div class="gi-txt graphik24 gray">MultiGeneration by Knoll® incentiva a colaboração com um design responsivo e aberto que suporta várias posturas e uma diversidade de pessoas em ambientes compartilhados, de equipe e de grandes grupos. MultiGeneration incentiva o movimento natural, permitindo-nos focar, interagir e comunicar de forma mais eficaz.</div>
   </div>
 
 

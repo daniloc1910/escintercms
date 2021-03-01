@@ -14,6 +14,11 @@
   </div>
 
 
+  <!-- GALERIA DE IMAGENS -->
+  <div class="galeria-imagens grid3">
+    <div class="gi-txt graphik24 gray">A poltrona para auditório Plus foi desenvolvida para proporcionar elegância nos projetos de arenas e auditórios. Suas dimensões compactas, acabamento em plástico, com assento e encosto rebatíveis proporcionam melhor aproveitamento do espaço.</div>
+  </div>
+
 
 
   <!-- SERVIÇOS -->

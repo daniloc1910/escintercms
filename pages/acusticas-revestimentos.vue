@@ -5,7 +5,7 @@
 
   <div class="category-list grid3">
     <h1 class="category-name pressura60">Acústicas e Revestimentos</h1>
-    <h4 class="category-description graphik24 gray">For nearly 80 years Knoll has remained true to the Bauhaus design philosophy that modern furniture should complement architectural space, not compete with it.</h4>
+    <h4 class="category-description graphik24 gray">Unir técnica e estética é uma virtude dos nossos revestimentos e acústicos que deixam os ambientes mais confortáveis acusticamente ao mesmo tempo em que compõe com o projeto de decoração.</h4>
 
 
     <div class="linha-div"></div>

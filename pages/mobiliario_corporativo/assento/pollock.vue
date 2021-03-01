@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_7_Knoll_Pollock/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_7_Knoll_Pollock/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Um clássico do design criada por Charles Pollock em 1963, a Cadeira Executiva Pollock apresenta o que o designer descreveu como "tecnologia de aro" - o uso de uma única faixa de alumínio ao redor do perímetro da cadeira para manter o design unido, estrutural e visualmente. Quase sessenta anos após sua introdução, a cadeira Pollock continua a exalar elegância atemporal em qualquer escritório doméstico.</div>
   </div>
 
 

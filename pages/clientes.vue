@@ -78,7 +78,7 @@
       <h2 class="nossas-marcas-title pressura60">Projetos em destaque</h2>
 
       <p class="nossas-marcas-description graphik24">
-        Texto introdutorio da secao, falando sobre todos os anos de experiencia e trabalho com grandes corporacoes e obras de grande porte. Experiência comprovada.
+        Atendemos grandes marcas, mas também gostamos de exemplificar como somos capazes de atender diversos perfis de clientes, com diversas escalas de projetos, com as mais variadas aplicações e linguagens, sempre com o melhor em produtos e tecnologia.
       </p>
 
 

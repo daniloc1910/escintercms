@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">A cadeira para escritório Joy pode ser equipada com encosto de cabeça, apoio lombar. O espaldar em tela confere conforto e sofisticação.</div>
   </div>
 
 

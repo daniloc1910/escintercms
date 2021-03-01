@@ -34,9 +34,10 @@
       <!-- FIXAS -->
       
       <h2 id="fixas" class="sub-category-name pressura40">Fixas</h2>
+      <p class="sub-category-description graphik18 gray">Quando temos controle sobre os layouts dos espaços de trabalho, podemos ocupá-los com as estações de trabalho mais completas.</p>
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/target"
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/fixa"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero.jpg"
         nameproduct="Target"
         brandproduct="Escinter"
@@ -57,6 +58,7 @@
 
       <div class="linha-div space"></div>
       <h2 id="regulaveis" class="sub-category-name pressura40">Reguláveis</h2>
+      <p class="sub-category-description graphik18 gray">A saúde e a ergonomia são cada vez mais pontos decisórios para um bom rendimento, e as nossas opções oferecem grade qualidade em desenho para atendê-lo.</p>
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/alto"

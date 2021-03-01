@@ -19,6 +19,8 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_4_Knoll_Ollo/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_4_Knoll_Ollo/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Improvise livremente. Ollo é projetada para acompanhar o estilo espontâneo do trabalho de hoje - girando entre pessoas, locais e tarefas sem diminuir o passo.
+O escritório é um local de movimento constante e imprevisível, e Ollo oferece um suporte fácil e sem esforço para você aproveitar os momentos ao longo do caminho. Com design comum, a Ollo é uma cadeira na qual todos podem se sentir confortáveis. Uma cadeira simples com desempenho aerodinâmico, a Ollo está sempre pronta para você, para que você possa estar pronto para qualquer coisa.</div>
   </div>
 
 

@@ -6,6 +6,7 @@
 
   <div class="category-list grid3">
     <h1 class="category-name pressura60">Workbetter</h1>
+    <p class="sub-category-description graphik18 gray">O modo de pensar e distribuir a equipe de trabalho mudou nos últimos anos. Nós entendemos, e oferecemos soluções contemporâneas que favorecem o ambiente colaborativo nas organizações.</p>
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/workbetter/duvo"

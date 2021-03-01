@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_1_Knoll_Generation/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_1_Knoll_Generation/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Criada pelo estúdio Formway Design em 2009, Generation parte de um mundo de cadeiras prescritivas com muitos ajustes, e oferece movimentos intuitivos para que você possa sentar e começar a trabalhar. </div>
   </div>
 
 

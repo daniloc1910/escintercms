@@ -4,6 +4,11 @@
       <Menu />
       <MenuMobile />
 
+      <div class="grid3">
+        <h1 class="padding servicos-title pressura60">Mobiliário corporativo</h1>
+        <h2 class="servicos-title graphik24 gray">Um bom ambiente de trabalho depende de um bom projeto, mas também de bons mobiliários que possam preenchê-lo de acordo com os princípios dos novos modos de trabalho e organização das corporações. Nós oferecemos uma completa linha de Estações de Trabalho, Assentos, Reuniões, Armazenamento e mobiliário para Espaços Colaborativos. </h2>
+      </div>
+
       <CategoryItem
         title="Estações de trabalho"
         link="mobiliario_corporativo/estacoes_de_trabalho"
@@ -114,6 +119,15 @@
 <style scoped>
   .content {
     padding-top: 31px;
+  }
+
+    .servicos-title {
+    grid-column: 1/3;
+    margin-bottom: 32px;
+  }
+
+  .padding {
+    padding-top: 122px;
   }
 
   .category-list {

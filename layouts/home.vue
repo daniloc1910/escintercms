@@ -202,7 +202,7 @@
   .category-products {
     opacity: 0;
     transition: 0.3s;
-    margin-top: -167px;
+    margin-top: -195px;
   }
 
   #mobiliario-corporativo:hover ~ .category-products {

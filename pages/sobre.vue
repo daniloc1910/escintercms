@@ -3,23 +3,22 @@
     <MenuMobile />
 
     <div class="grid3">
-      <h1 class="servicos-title pressura60">
-        A Escinter é uma empresa familiar com 30 anos de atuação no mercado de interiores de espaços corporativos
-      </h1>
+      <h1 class="servicos-title pressura60">A Escinter é uma empresa de soluções integradas para ambientes corporativos.</h1>
+      <h2 class="servicos-title graphik24 gray">Em 30 anos de atuação, entendemos as necessidades de diversos perfis de clientes e dispomos de um extenso portfólio de produtos e serviços desenvolvidos por nós e por algumas das principais marcas internacionais do design.</h2>
 
       <div class="linha-div"></div>
 
       <p class="sobre-description graphik18">
-      Nós acreditamos que o investimento na adequação de areas de trabalho, promove o aumento na qualidade de vida dos funcionários, com melhoria em sua saúde, bem estar e produtividade.<br><br>A corporação valoriza seus colaboradores tornando o ambiente inspirador, proporcionando melhor desempenho em cada atividade.
+      Nós acreditamos que o investimento na adequação de áreas de trabalho, promove o aumento na qualidade de vida dos funcionários, com melhoria em sua saúde, bem estar e produtividade, e a corporação valoriza seus colaboradores tornando o ambiente inspirador, proporcionando melhor desempenho em cada atividade.
       </p>
 
       <p class="sobre-description graphik18">
-      Nosso objetivo, é realizar esta melhoria para nossos clientes de forma que a experiência durante todo processo seja positiva e memorável.<br><br>A qualidade do espaço de trabalho interfere diretamente na vida das pessoas e nossa missão é garantir, que ao final de cada implantacao, a empresa e seus integrantes usufruam destas malhorias e tenham melhor qualidade de vida e desempenho.
+      Nosso objetivo, é realizar esta melhoria para nossos clientes de forma que a experiência durante todo processo seja positiva e memorável. A qualidade do espaço de trabalho interfere diretamente na vida das pessoas e nossa missão é garantir, que ao final de cada implantação, a empresa e seus integrantes usufruam destas melhorias e tenham melhor qualidade de vida e desempenho.
       </p>
 
       <ul class="showroom-adress graphik16">
         <li>Nosso showroom em São Paulo</li>
-        <li class="gray">Rua Aspicuelta, 248</li>
+        <li class="gray">Rua Wizard, 157</li>
         <li class="gray">Vila Madalena</li>
       </ul>
 

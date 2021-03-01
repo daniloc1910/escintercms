@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_2_Knoll_Regeneration/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_2_Knoll_Regeneration/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Modelo criado em 2011 pelo Formway Design, inovadora em sua simplicidade, ReGeneration minimiza materiais e componentes. O design simples aproveita materiais flexíveis, duráveis ​​e sustentáveis ​​que respondem aos seus movimentos, proporcionando conforto e suporte ao longo do dia.</div>
   </div>
 
 

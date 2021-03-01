@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_3_Knoll_Kstand/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_3_Knoll_Kstand/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">k. Stand é uma coleção de bases ajustáveis ​​em altura, superfícies de trabalho e acessórios fáceis de especificar e usar. k. stand responde às necessidades do escritório de hoje, dimensionando para criar espaços adaptáveis ​​que suportam muitos modos de trabalho entre diversos grupos de trabalho e em todas as áreas do local de trabalho. Móveis que oferecem opções e flexibilidade aos usuários contribuem para o bem-estar individual, o envolvimento e a produtividade. As mesas ajustáveis ​​em altura permitem que os usuários personalizem sua experiência de trabalho, adaptando o espaço de trabalho para atender às suas necessidades - e não o contrário.</div>
   </div>
 
 

@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_15_Humanscale_Freedom/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_15_Humanscale_Freedom/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Descrita pelo The New York Times como "o padrão-ouro nos assentos de escritório", a cadeira Freedom redefine o conceito de cadeiras de tarefas tradicionais. O designer Niels Diffrient teve como objetivo projetar uma cadeira de escritório que se adapte automaticamente ao usuário, permitindo que ele se mova livremente da postura para a postura. A abordagem única do Diffrient removeu complexidades encontradas em outras cadeiras, como alavancas reclináveis pesadas e mostradores de tensão traseira para uma cadeira de tarefa verdadeiramente ergonômica. Como resultado, ele desenvolveu um mecanismo reclinável que se ajusta perfeitamente ao usuário, reinventando definitivamente os assentos de tarefas modernos para serem verdadeiramente simples, funcionais e bonitos.</div>
   </div>
 
 

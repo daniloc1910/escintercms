@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Diffrient World é a primeira incursão da Humanscale em assentos de tarefas de malha. O designer Niels Diffrient queria criar a cadeira de tarefa mais mínima e de função completa já feita. Com um inovador encosto de malha tri-painel que fornece suporte personalizado para trás e lombar e um design leve, Diffrient World é, como todos os produtos da Humanscale, simples, bonito e funcional. O design elimina a necessidade de mecanismos tradicionais, em vez de usar as leis da física e o peso corporal da babá para oferecer reclinação perfeita para cada babá individual. O Diffrient World oferece a melhor experiência de sessão fácil de usar.</div>
   </div>
 
 

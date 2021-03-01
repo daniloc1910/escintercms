@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Agile/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_11_Frisokar_Agile/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Agile é a combinação perfeita entre minimalismo e sofisticação. Seu amplo encosto em tela com apoio lombar garante um nível de conforto que agrada até os usuários mais exigentes. A assertividade do design garante uma incomparável versatilidade de combinação nos mais diversos ambientes.</div>
   </div>
 
 

@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_2_Knoll_Tone/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_2_Knoll_Tone/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Tone é uma linha completa de mesas elegantes com ajuste de altura que respondem à maneira como trabalhamos hoje, oferecendo ajuste e ergonomia ao usuário. Projetado pela Antenna Design, o Tone está disponível em uma gama completa de acabamentos de pintura Knoll, laminados e folheados com as opções de ajuste elétrico, manivela, fixo, pin-set 90˚ e 120˚ e opções de planejamento. Alcance um equilíbrio entre o trabalho colaborativo e compartilhado e o trabalho concentrado usando o Tone em qualquer espaço - de estações de trabalho primárias e escritórios privados a Espaços de atividades.</div>
   </div>
 
 

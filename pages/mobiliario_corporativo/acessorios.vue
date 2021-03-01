@@ -19,6 +19,7 @@
 
   <div class="category-list grid3">
     <h1 class="category-name pressura60">Acessórios</h1>
+    <p class="sub-category-description graphik18 gray">Um bom ambiente de trabalho deve oferecer complementos com bom desenho e que se integrem ao mobiliário, tornando-o mais confortável e versátil, e demais soluções aplicadas. Nós oferecemos Luminárias, Suporte de Monitor, Quickstand e diversos outros acessórios.</p>
 
         <div class="menu-anchor graphik18 gray">
         <ul>

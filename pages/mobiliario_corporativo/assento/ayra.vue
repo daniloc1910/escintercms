@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_10_FWay_Ayra/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_10_FWay_Ayra/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Com Design de Christoph Jenni, Ayra supera um desafio de design ao combinar o sintético ao orgânico. Em um objeto conciso, o minimalismo se encontra em perfeita consonância com texturas e formas extremamente humanas. Os elementos estruturais da Ayra são baseados na excelência da indústria. Eles exploram o metal, trabalhado em um de seus processos mais desafiadores, moldado em formas orgânicas, com junções fluidas e mecanismos perfeitos.</div>
   </div>
 
 

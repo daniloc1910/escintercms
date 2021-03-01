@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_18_Humanscale_Summa/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_18_Humanscale_Summa/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Projetada para os líderes mais dinâmicos da atualidade, a Summa é uma versátil cadeira de conferência de couro adequada para o escritório da esquina, a sala de reuniões, bem como o home office. Sua forma envolvente e materiais esculpidos convergem para um design verdadeiramente harmonioso que exala luxo em cada detalhe. Completamente personalizável, a Summa possui uma paleta estética e sofisticada definida que eleva a presença de uma marca dentro de qualquer ambiente. Com uma parte de trás estofada em madeira artesanal ou trabalhada, a Summa é acompanhada pela coleção de couro sem cromo da Humanscale.</div>
   </div>
 
 

@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_3_Knoll_K_Task/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/assentos/2_3_Knoll_K_Task/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Simples. Acessível. Adaptável. k. Task é uma cadeira de trabalho altamente ajustável e acessível, adequada para as demandas do local de trabalho de hoje. O encosto em malha de camada dupla e o assento almofadado oferecem conforto duradouro, enquanto a estética simples se adapta a qualquer ambiente.</div>
   </div>
 
 

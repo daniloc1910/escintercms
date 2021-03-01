@@ -19,6 +19,7 @@
   <div class="galeria-imagens grid3">
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_4_Humanscale_Float/vertical.jpg').srcSet" class="lazyload" />
     <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_4_Humanscale_Float/horizontal.jpg').srcSet" class="lazyload coluna2-3" />
+    <div class="gi-txt graphik24 gray">Float é uma mesa de escritório vertical revolucionária que traz uma operação sem esforço para produtos tradicionais de mesa. A facilidade de uso está no coração do Float, pois se ajusta perfeitamente entre as posturas sentada e em pé sem interromper o fluxo de trabalho. Com uma estética mínima, Float complementa os escritórios tradicionais e os espaços de trabalho domésticos. Usando um mecanismo de contrapeso patenteado que substitui a tecnologia mais antiga, Float incentiva um espaço de trabalho ativo, permitindo que o usuário se mova sem esforço das posições sentado para de pé. Float também está disponível em uma opção elétrica.</div>
   </div>
 
 
