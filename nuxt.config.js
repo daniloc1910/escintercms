@@ -56,18 +56,7 @@ export default {
   /*
   ** Generate configuration
   */
-  generate: {
-    routes: function() {
-      const fs = require('fs');
-      const path = require('path');
-      return fs.readdirSync('./assets/content/blog').map(file => {
-        return {
-          route: `/blog/${path.parse(file).name}`, // Return the slug
-          payload: require(`./assets/content/blog/${file}`),
-        };
-      });
-  },
-  },
+  generate: {},
   /*
   ** Build configuration
   */

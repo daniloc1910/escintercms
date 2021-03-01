@@ -40,7 +40,7 @@
 
 .page-enter-active,
 .page-leave-active {
-  transition-duration: 0s !important;
+  transition-duration: 0.2s !important;
 }
 
 @media screen and (max-width: 1020px) {

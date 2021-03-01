@@ -8,7 +8,7 @@
                 <li class="pressura56 black"><h1>Fit</h1></li>
             </ul>
             </div>
-            <img :src="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/fit.jpg')"  class="product-image" />
+            <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/fit.jpg').srcSet" class="product-image ratio lazyload" />
 
             <ul class="carousel-variacoes">
             <li class="carousel-variacoes-item"><n-link to="/mobiliario_corporativo/estacaodetrabalho/fixa" exact-active-class="cv-active"><img :src="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pe-fit.jpg')"></n-link></li>
@@ -27,7 +27,7 @@
 
         <!-- GALERIA DE IMAGENS -->
         <div class="galeria-imagens grid3">
-            <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/vertical.jpg').srcSet" class="lazyload" />
+            <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/vertical.jpg').srcSet" class="product-image lazyload" />
             <Flickity :options="{wrapAround: true, autoPlay: 6000, lazyLoad: true, fade: true}" class="carousel coluna2-3">
             
             <div class="carousel-cell"><img :data-flickity-lazyload-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/01.jpg').srcSet" /></div>

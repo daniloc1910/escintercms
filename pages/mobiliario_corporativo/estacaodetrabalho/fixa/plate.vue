@@ -8,7 +8,7 @@
                 <li class="pressura56 black"><h1>Plate</h1></li>
             </ul>
             </div>
-                        <img :src="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/plate.jpg')"  class="product-image" />
+            <img :src="require('~/assets/images/nuxt.jpg').placeholder" :data-srcset="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/plate.jpg').srcSet" class="product-image lazyload" />
 
             <ul class="carousel-variacoes">
             <li class="carousel-variacoes-item"><n-link to="/mobiliario_corporativo/estacaodetrabalho/fixa" exact-active-class="cv-active"><img :src="require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/hero-carrossel/pe-fit.jpg')"></n-link></li>
