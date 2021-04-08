@@ -6,37 +6,17 @@
     <div class="product-highlight grid3">
       <div class="product-name">
         <ul class="product-info">
-          <li class="graphik18 gray"><h2>Frisokar</h2></li>
-          <li class="pressura56 black"><h1>Pix</h1></li>
+          <li class="graphik18 gray"><h2>Knoll</h2></li>
+          <li class="pressura56 black"><h1>Antenna</h1></li>
         </ul>
       </div>
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_3_Frisokar_Pix/hero.jpg')
+          require('~/assets/images/mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_2_Knoll_Antenna/hero.jpg')
             .srcSet
         "
         class="product-image lazyload"
-      />
-    </div>
-
-    <!-- GALERIA DE IMAGENS -->
-    <div class="galeria-imagens grid3">
-      <img
-        :src="require('~/assets/images/nuxt.jpg').placeholder"
-        :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_3_Frisokar_Pix/vertical.jpg')
-            .srcSet
-        "
-        class="lazyload"
-      />
-      <img
-        :src="require('~/assets/images/nuxt.jpg').placeholder"
-        :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_3_Frisokar_Pix/horizontal.jpg')
-            .srcSet
-        "
-        class="lazyload coluna2-3"
       />
     </div>
 
@@ -46,14 +26,14 @@
     <!-- PRODUTOS RELACIONADOS -->
 
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_1_Escinter_Point/hero.jpg"
-      nameproduct1="Point"
-      brandproduct1="Escinter"
+      imgproduct1="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_3_Frisokar_Pix/hero.jpg"
+      nameproduct1="Pix"
+      brandproduct1="Frisokar"
       linkproduct1="mobiliario_corporativo/colaborativo/point"
-      imgproduct2="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_2_Knoll_Antenna/hero.jpg"
-      nameproduct2="Antenna"
-      brandproduct2="Knoll"
-      linkproduct2="mobiliario_corporativo/colaborativo/antenna"
+      imgproduct2="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_1_Escinter_Point/hero.jpg"
+      nameproduct2="Point"
+      brandproduct2="Escinter"
+      linkproduct2="mobiliario_corporativo/colaborativo/point"
     />
   </div>
 </template>
@@ -93,7 +73,7 @@ export default {
   },
   data() {
     return {
-      title: "Pix — Frisokar"
+      title: "Point — Escinter"
     };
   },
   head() {
