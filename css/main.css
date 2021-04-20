@@ -1,207 +1,284 @@
 /* RESET CSS */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-
 
 /* CSS */
 
 html {
-    background-color: #F8F5F2;
+  background-color: #f8f5f2;
 }
 
 body {
-    color: #222;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    margin: 0;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
-
 
 /* TYPOGRAPHY */
 
 @font-face {
-    font-family: 'Pressura-Bold';
-    src:    url('~assets/fonts/GTPressura-Bold.woff2') format('woff2'),
-            url('~assets/fonts/GTPressura-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Pressura-Bold";
+  src: url("~assets/fonts/GTPressura-Bold.woff2") format("woff2"),
+    url("~assets/fonts/GTPressura-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Pressura-Regular';
-    src:    url('~assets/fonts/GTPressura.woff2') format('woff2'),
-            url('~assets/fonts/GTPressura.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Pressura-Regular";
+  src: url("~assets/fonts/GTPressura.woff2") format("woff2"),
+    url("~assets/fonts/GTPressura.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Graphik';
-    src:    url('~assets/fonts/Graphik-Regular.woff2') format('woff2'),
-            url('~assets/fonts/Graphik-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Graphik";
+  src: url("~assets/fonts/Graphik-Regular.woff2") format("woff2"),
+    url("~assets/fonts/Graphik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .pressura60 {
-    font-family: 'Pressura-Bold', Arial, sans-serif;
-    font-size: 60px;
-    line-height: 60px;
-    text-transform: uppercase;
+  font-family: "Pressura-Bold", Arial, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
 }
 
 .pressura56 {
-    font-family: 'Pressura-Bold', Arial, sans-serif;
-    font-size: 56px;
-    line-height: 56px;
-    text-transform: uppercase;
+  font-family: "Pressura-Bold", Arial, sans-serif;
+  font-size: 56px;
+  line-height: 56px;
+  text-transform: uppercase;
 }
 
 .pressura40 {
-    font-family: 'Pressura-Bold', Arial, sans-serif;
-    font-size: 40px;
-    line-height: 40px;
-    text-transform: uppercase;
+  font-family: "Pressura-Bold", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.pressura28 {
+  font-family: "Pressura-Bold", Arial, sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  text-transform: uppercase;
 }
 
 .pressura21 {
-    font-family: 'Pressura-regular', Arial, sans-serif;
-    font-size: 21px;
-    line-height: 20px;
-    text-transform: uppercase;
-    font-weight: normal;
+  font-family: "Pressura-regular", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 .pressura19 {
-    font-family: 'Pressura-Bold', Arial, sans-serif;
-    font-size: 19px;
-    line-height: 20px;
-    text-transform: uppercase;
+  font-family: "Pressura-Bold", Arial, sans-serif;
+  font-size: 19px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
 .pressura15 {
-    font-family: 'Pressura-Regular', Arial, sans-serif;
-    font-size: 15px;
-    line-height: 16px;
-    text-transform: uppercase;
+  font-family: "Pressura-Regular", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  text-transform: uppercase;
 }
 
 .graphik24 {
-    font-family: 'Graphik', Arial, sans-serif;
-    font-size: 24px;
-    line-height: 28px;
+  font-family: "Graphik", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .graphik18 {
-    font-family: 'Graphik', Arial, sans-serif;
-    font-size: 18px;
-    line-height: 24px;
+  font-family: "Graphik", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .graphik16 {
-    font-family: 'Graphik', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+  font-family: "Graphik", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
-
 
 /* COLORS */
 
-.black {color: #222;}
-.gray {color: #787675;}
-.light-gray {color: #DEDCDB;}
-.off-white {color: #F8F5F2;}
-.pink {color: #EF4545;}
-
+.black {
+  color: #222;
+}
+.gray {
+  color: #787675;
+}
+.light-gray {
+  color: #dedcdb;
+}
+.off-white {
+  color: #f8f5f2;
+}
+.pink {
+  color: #ef4545;
+}
 
 /* TABLES */
 
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
-
 
 /* GRID */
 
 .grid2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 28px;
 }
 
 .grid3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 28px;
-    padding: 0 28px 0 144px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 28px;
+  padding: 0 28px 0 144px;
 }
 
 .grid4 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 28px;
-    padding: 0 28px 0 144px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 28px;
+  padding: 0 28px 0 144px;
 }
 
 .grid6 {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 28px;
-    grid-row-gap: 28px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 28px;
+  grid-row-gap: 28px;
 }
-
 
 /* LINK */
 
 a {
-    text-decoration: none;
-    color: #787675;
-    transition: 0.3s;
+  text-decoration: none;
+  color: #787675;
+  transition: 0.3s;
 }
 
 a:hover {
-    color: #222;
-    transition: 0.3s;
+  color: #222;
+  transition: 0.3s;
 }
 
 .active-link {
-    color: #222;
+  color: #222;
 }
 
 /**/
 
 img {
-    width: 100%;
-    height: auto;
-  }
+  width: 100%;
+  height: auto;
+}
 
-
-  /* PAGE TRANSITION */
+/* PAGE TRANSITION */
 
 .page-enter-active,
 .page-leave-active {
@@ -225,8 +302,7 @@ img {
   opacity: 0;
 }
 
-
-  /* CAROUSEL */
+/* CAROUSEL */
 
 .carousel-cell {
   width: 100%;
@@ -266,146 +342,438 @@ img {
 }
 
 .flickity-page-dots {
-    bottom: -11px !important;
+  bottom: -11px !important;
 }
 
 .flickity-page-dots .dot {
-    height: 1px !important;
-    width: 40px !important;
-    margin: 0 !important;
-    border-radius: 0 !important;
- }
+  height: 1px !important;
+  width: 40px !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
 
- .dot {
-     opacity: 0.1 !important;
- }
+.dot {
+  opacity: 0.1 !important;
+}
 
- .is-selected {
-     opacity: 1 !important;
- }
+.is-selected {
+  opacity: 1 !important;
+}
 
- .flickity-prev-next-button {
-    width: 40px !important;
-    height: 40px !important;
+.flickity-prev-next-button {
+  width: 40px !important;
+  height: 40px !important;
 }
 
 .carousel:hover > .flickity-button {
-    opacity: 1 !important;
-    transition: 0.4s;
+  opacity: 1 !important;
+  transition: 0.4s;
 }
 
 .flickity-button {
-    background: white !important;
-    opacity: 0 !important;
-    transition: 0.4s;
+  background: white !important;
+  opacity: 0 !important;
+  transition: 0.4s;
 }
 
 .flickity-prev-next-button.previous {
-    left: 16px !important;
+  left: 16px !important;
 }
 
 .flickity-prev-next-button.next {
-    right: 16px !important;
+  right: 16px !important;
 }
 
 .flickity-button-icon {
-    width: 16px !important;
-    padding-left: 4px !important; 
+  width: 16px !important;
+  padding-left: 4px !important;
 }
 
 .target-name {
   grid-row: 1/3;
 }
 
+/* NAV TIPOS */
+
+.nav-tipos {
+  position: fixed;
+  top: 28px;
+  width: 100vw;
+  z-index: 9999;
+  transform: translateY(-80px);
+  transition: 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+  pointer-events: none;
+}
+
+.nav-tipos-menu {
+  grid-column: 3/4;
+}
+
+.nav-tipos-toggle {
+  background-color: white;
+  position: absolute;
+  height: 48px;
+  border-radius: 24px;
+  width: 160px;
+  right: 28px;
+}
+
+.nav-tipos-toggle-label {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-tipos-items {
+  position: absolute;
+  background-color: white;
+  top: 56px;
+  right: 28px;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav-tipos-items li {
+  padding-bottom: 4px;
+  z-index: 100;
+}
+
+.nav-tipos-hover {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  opacity: 0.2;
+  z-index: 99;
+  right: 28px;
+  cursor: pointer;
+}
+
+.nav-tipos-hover:hover ~ .nav-tipos-items {
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.nav-tipos-hover:hover {
+  width: 232px;
+  height: 56px;
+}
+
+.nav-tipos-items:hover {
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+/* PRODUCT PAGE */
+
+.coluna1 {
+  grid-column: 1/2;
+}
+
+.coluna2 {
+  grid-column: 2/3;
+}
+
+.coluna3 {
+  grid-column: 3/4;
+}
+
+.coluna1-2 {
+  grid-column: 1/3;
+}
+
+.coluna1-3 {
+  grid-column: 1/4;
+}
+
+.coluna2-3 {
+  grid-column: 2/4;
+}
+
+.product-highlight {
+  margin-bottom: 80px;
+}
+
+.product-image {
+  grid-column: 2/4;
+}
+
+.product-name {
+  grid-column: 1/2;
+  display: grid;
+}
+
+.product-info {
+  align-self: end;
+}
+
+.galeria-imagens {
+  margin-bottom: 80px;
+}
+
+.informacoes-tecnicas {
+  margin-bottom: 80px;
+}
+
+.desenho-tecnico {
+  margin-bottom: 28px;
+}
+
+.tabela li {
+  border-top: solid #dedcdb 1px;
+  padding: 14px 0 17px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.tabela li:last-child {
+  padding: 14px 0 0px 0;
+}
+
+.item-right {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.tabela a {
+  display: block;
+  color: #ef4545;
+  transition: 0.4s;
+}
+
+.tabela a:hover {
+  color: #222;
+  transition: 0.4s;
+}
+
+.cores-disponiveis {
+  border-top: #dedcdb 1px solid;
+  padding-top: 15px;
+}
+
+.cores-disponiveis-title {
+  margin-bottom: 24px;
+}
+
+.cor-item {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  float: left;
+  margin: 8px 8px 0 0;
+}
+
+.servicos {
+  margin-bottom: 80px;
+}
+
+.servicos-title {
+  margin-bottom: 59px;
+  color: #222;
+}
+
+.servicos-list li {
+  padding-bottom: 4px;
+}
+
+.variacoes {
+  margin-bottom: 80px;
+}
+
+.variacoes-title {
+  margin-bottom: 40px;
+}
+
+.download {
+  position: relative;
+}
+
+.arrow-btn {
+  position: absolute;
+  right: 0;
+  color: #ef4545;
+  transition: 0.4s;
+}
+
+.arrow-btn-hover {
+  position: absolute;
+  right: 0px;
+  transform: translateY(-10px);
+  opacity: 0;
+  color: #ef4545;
+  transition: 0.4s;
+}
+
+.download:hover .arrow-btn-hover {
+  opacity: 1;
+  transform: translateY(0px);
+  color: #222;
+  transition: 0.4s;
+}
+
+.download:hover .arrow-btn {
+  transform: translateY(10px);
+  opacity: 0;
+  color: #222;
+  transition: 0.4s;
+}
+
+.backtotopbutton {
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  left: 28px;
+  top: 32px;
+  z-index: 999;
+  border-radius: 22px;
+  transform: translateY(-76px);
+}
+
+.arrowbtt {
+  font-family: "Pressura-Regular", Arial, sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gi-txt {
+  grid-column: 1/2;
+  margin-top: 22px;
+}
+
+.sub-category-name {
+  grid-column: 1/4;
+  margin-bottom: 22px !important;
+}
+
+.sub-category-description {
+  grid-column: 1/4;
+  margin-bottom: 55px;
+  width: 50%;
+}
+
+.product-item {
+  grid-column: span 1;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1020px) {
+  /* TYPOGRAPHY*/
+
+  .pressura60 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+
+  .pressura56 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+
+  .pressura40 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .pressura19 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .graphik24 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .graphik18 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .graphik16 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  /* GRID */
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    padding: 0 20px 0 20px;
+  }
+
+  .grid4 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    padding: 0 20px 0 20px;
+  }
+
+  .grid6 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+  }
+
+  .flickity-button {
+    display: none !important;
+  }
+
   /* NAV TIPOS */
 
-  .nav-tipos {
-    position: fixed;
-    top: 28px;
-    width: 100vw;
-    z-index: 9999;
-    transform: translateY(-80px);
-    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1); 
-    pointer-events: none;
+  .nav-tipos-hover {
+    right: 20px;
+    top: -8px;
   }
 
   .nav-tipos-menu {
-    grid-column: 3/4;
-  }
-
-  .nav-tipos-toggle {
-    background-color: white;
-    position: absolute;
-    height: 48px;
-    border-radius: 24px;
-    width: 160px;
-    right: 28px;
-  }
-
-  .nav-tipos-toggle-label {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    grid-column: 2/3;
   }
 
   .nav-tipos-items {
+    top: 48px;
+  }
+
+  .nav-tipos-toggle {
     position: absolute;
-    background-color: white;
-    top: 56px;
-    right: 28px;
-    border-radius: 8px;
-    padding: 16px;
-    width: 200px;
-    opacity: 0;
-    pointer-events: none;
+    right: 20px;
+    top: -8px;
   }
 
-  .nav-tipos-items li {
-    padding-bottom: 4px;
-    z-index: 100;
+  .primary-menu {
+    display: none;
   }
-
-  .nav-tipos-hover {
-    position: absolute;
-    width: 160px;
-    height: 48px;
-    opacity: 0.2;
-    z-index: 99;
-    right: 28px;
-    cursor: pointer;
-  }
-
-  .nav-tipos-hover:hover ~ .nav-tipos-items {
-    opacity: 1;
-    pointer-events: all;
-    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
-  }
-
-  .nav-tipos-hover:hover {
-    width: 232px;
-    height: 56px;
-  }
-
-  .nav-tipos-items:hover {
-    opacity: 1;
-    pointer-events: all;
-    transition: 0.3s cubic-bezier(0.65,0.05,0.36,1);
-  }
-
 
   /* PRODUCT PAGE */
 
   .coluna1 {
-    grid-column: 1/2;
+    grid-column: 1/3;
   }
 
   .coluna2 {
-    grid-column: 2/3;
+    grid-column: 1/3;
   }
 
   .coluna3 {
-    grid-column: 3/4;
+    grid-column: 1/3;
   }
 
   .coluna1-2 {
@@ -413,372 +781,70 @@ img {
   }
 
   .coluna1-3 {
-    grid-column: 1/4;
+    grid-column: 1/3;
   }
 
   .coluna2-3 {
-    grid-column: 2/4;
+    grid-column: 1/3;
   }
 
-  .product-highlight {
-    margin-bottom: 80px;
+  .galeria-imagens img {
+    margin-bottom: 20px;
   }
-  
+
+  .title-info-tecnica {
+    margin-bottom: 20px;
+  }
+
   .product-image {
-    grid-column: 2/4;
+    grid-column: 1/3 !important;
+    grid-row: 1;
+    margin-bottom: 20px;
+  }
+
+  .galeria-imagens img {
+    grid-column: 1/3;
   }
 
   .product-name {
-    grid-column: 1/2;
-    display: grid;
+    grid-column: 1/3;
+    grid-row: 2;
+    position: relative;
   }
 
-  .product-info {
-    align-self: end;
-  }
-
-  .galeria-imagens {
-    margin-bottom: 80px;
-  }
-  
-  .informacoes-tecnicas {
-    margin-bottom: 80px;
-  }
-
-  .desenho-tecnico {
-    margin-bottom: 28px;
-  }
-
-  .tabela li {
-    border-top: solid #DEDCDB 1px;
-    padding: 14px 0 17px 0;
-    display: inline-block;
-    width: 100%;
-  }
-
-  .tabela li:last-child {
-    padding: 14px 0 0px 0;
-  }
-
-  .item-right {
-    float: right;
-    text-align: right;
-    width: 50%;
-  }
-
-  .tabela a {
-    display: block;
-    color: #EF4545;
-    transition: 0.4s;
-  }
-
-  .tabela a:hover {
-    color: #222;
-    transition: 0.4s;
-  }
-
-  .cores-disponiveis {
-    border-top: #DEDCDB 1px solid;
-    padding-top: 15px;
-  }
-
-  .cores-disponiveis-title {
-    margin-bottom: 24px;
-  }
-
-  .cor-item {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    float: left;
-    margin: 8px 8px 0 0;
-  }
-
-  .servicos {
-    margin-bottom: 80px;
-  }
-
-  .servicos-title {
-    margin-bottom: 59px;
-    color: #222;
-  }
-
-  .servicos-list li {
-    padding-bottom: 4px;
-  }
-
-  .variacoes {
-    margin-bottom: 80px;
-  }
-
-  .variacoes-title {
+  .product-highlight {
     margin-bottom: 40px;
   }
 
-  .download {
-    position: relative;
-  }
-  
-  .arrow-btn {
-    position: absolute;
-    right: 0;
-    color: #EF4545;
-    transition: 0.4s;
+  .tabela li:last-child {
+    padding: 14px 0 17px 0;
   }
 
-  .arrow-btn-hover {
-    position: absolute;
-    right: 0px;
-    transform: translateY(-10px);
-    opacity: 0;
-    color: #EF4545;
-    transition: 0.4s;
+  .galeria-imagens {
+    margin-bottom: 20px;
   }
 
-  .download:hover .arrow-btn-hover {
-    opacity: 1;
-    transform: translateY(0px);
-    color: #222;
-    transition: 0.4s;
+  .informacoes-tecnicas {
+    margin-bottom: 40px;
   }
 
-  .download:hover .arrow-btn {
-    transform: translateY(10px);
-    opacity: 0;
-    color: #222;
-    transition: 0.4s;
+  .servicos {
+    margin-bottom: 40px;
   }
 
-  .backtotopbutton {
-    position: fixed;
-    width: 44px;
-    height: 44px;
-    background-color: white;
-    left: 28px;
-    top: 32px;
-    z-index: 999;
-    border-radius: 22px;
-    transform: translateY(-76px);
+  .variacoes {
+    margin-bottom: 40px;
   }
 
-  .arrowbtt {
-    font-family: 'Pressura-Regular', Arial, sans-serif;
-    font-size: 19px;
-    text-transform: uppercase;
-    position: absolute;
-    top: calc(50% - 2px);
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .servicos-title {
+    margin-bottom: 40px;
   }
 
-  .gi-txt {
-    grid-column: 1/2;
-    margin-top: 22px;
-  }
-
-  .sub-category-name {
-    grid-column: 1/4;
-    margin-bottom: 22px !important;
-  }
-
-  .sub-category-description {
-    grid-column: 1/4;
-    margin-bottom: 55px;
-    width: 50%;
-  }
-
-  .product-item {
-    grid-column: span 1;
-  }
-
-
-
-
-/* RESPONSIVE */
-
-@media screen and (max-width: 1020px) {
-
-    
-    /* TYPOGRAPHY*/
-
-    .pressura60 {
-        font-size: 44px;
-        line-height: 44px;
-    }
-    
-    .pressura56 {
-        font-size: 44px;
-        line-height: 44px;
-    }
-    
-    .pressura40 {
-        font-size: 32px;
-        line-height: 32px;
-    }
-    
-    .pressura19 {
-        font-size: 16px;
-        line-height: 20px;
-    }
-    
-    .graphik24 {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    
-    .graphik18 {
-        font-size: 16px;
-        line-height: 20px;
-    }
-    
-    .graphik16 {
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-
-    /* GRID */
-
-    .grid3 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-        padding: 0 20px 0 20px;
-    }
-
-    .grid4 {
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-        padding: 0 20px 0 20px;
-    }
-
-    .grid6 {
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
-    }
-
-    .grid2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
-    }
-
-    .flickity-button {
-        display: none !important;
-    }
-
-
-
-    /* NAV TIPOS */
-
-    .nav-tipos-hover {
-      right: 20px;
-      top: -8px;
-    }
-
-    .nav-tipos-menu {
-      grid-column: 2/3;
-    }
-
-    .nav-tipos-items {
-      top: 48px;
-    }
-
-    .nav-tipos-toggle {
-      position: absolute;
-      right: 20px;
-      top: -8px;
-    }
-
-    .primary-menu {
-      display: none;
-    }
-
-
-    /* PRODUCT PAGE */
-
-    .coluna1 {
-      grid-column: 1/3;
-    }
-
-    .coluna2 {
-      grid-column: 1/3;
-    }
-
-    .coluna3 {
-      grid-column: 1/3;
-    }
-
-    .coluna1-2 {
-      grid-column: 1/3;
-    }
-
-    .coluna1-3 {
-      grid-column: 1/3;
-    }
-
-    .coluna2-3 {
-      grid-column: 1/3;
-    }
-
-    .galeria-imagens img {
-      margin-bottom: 20px;
-    }
-
-    .title-info-tecnica {
-      margin-bottom: 20px;
-    }
-  
-    .product-image {
-      grid-column: 1/3 !important;
-      grid-row: 1;
-      margin-bottom: 20px;
-    }
-
-    .galeria-imagens img {
-      grid-column: 1/3;
-    }
-  
-    .product-name {
-      grid-column: 1/3;
-      grid-row: 2;
-      position: relative;
-    }
-
-    .product-highlight {
-      margin-bottom: 40px;
-    }
-
-    .tabela li:last-child {
-      padding: 14px 0 17px 0;
-    }
-
-    .galeria-imagens {
-      margin-bottom: 20px;
-    }
-    
-    .informacoes-tecnicas {
-      margin-bottom: 40px;
-    }
-
-    .servicos {
-      margin-bottom: 40px;
-    }
-
-    .variacoes {
-      margin-bottom: 40px;
-    }
-
-    .servicos-title {
-      margin-bottom: 40px;
-    }
-
-    .carousel-variacoes {
-      grid-column: 1/3;
-      grid-row: 2;
-      margin-bottom: 10px;
-      display: grid;
+  .carousel-variacoes {
+    grid-column: 1/3;
+    grid-row: 2;
+    margin-bottom: 10px;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -805,10 +871,7 @@ img {
     width: 100%;
   }
 
-  .carousel-variacoes-item{
-    min-width:100px;
-
+  .carousel-variacoes-item {
+    min-width: 100px;
   }
-
-
 }
