@@ -6,14 +6,14 @@
     <div class="product-highlight grid3">
       <div class="product-name">
         <ul class="product-info">
-          <li class="graphik18 gray"><h2>Kusch</h2></li>
-          <li class="pressura56 black"><h1>Pileto</h1></li>
+          <li class="graphik18 gray"><h2>Escinter</h2></li>
+          <li class="pressura56 black"><h1>Joy</h1></li>
         </ul>
       </div>
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_2_Kusch_Plieto/hero.jpg')
+          require('~/assets/images/mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_1_Escinter_Joy/hero.jpg')
             .srcSet
         "
         class="product-image lazyload"
@@ -25,7 +25,7 @@
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_2_Kusch_Plieto/vertical.jpg')
+          require('~/assets/images/mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_1_Escinter_Joy/vertical.jpg')
             .srcSet
         "
         class="lazyload"
@@ -33,7 +33,7 @@
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_2_Kusch_Plieto/horizontal.jpg')
+          require('~/assets/images/mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_1_Escinter_Joy/horizontal.jpg')
             .srcSet
         "
         class="lazyload coluna2-3"
@@ -46,10 +46,10 @@
     <!-- PRODUTOS RELACIONADOS -->
 
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_1_Escinter_Joy/hero.jpg"
-      nameproduct1="Joy"
-      brandproduct1="Escinter"
-      linkproduct1="mobiliario_corporativo/colaborativo/joy"
+      imgproduct1="mobiliariocorporativo/colaborativos/5_7_Mesa_Cafe/5_7_2_Kusch_Plieto/hero.jpg"
+      nameproduct1="Pileto"
+      brandproduct1="Kusch"
+      linkproduct1="mobiliario_corporativo/colaborativo/pileto"
     />
   </div>
 </template>
@@ -89,7 +89,7 @@ export default {
   },
   data() {
     return {
-      title: "Pileto — Kusch"
+      title: "Joy — Escinter"
     };
   },
   head() {
