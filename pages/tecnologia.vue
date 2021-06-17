@@ -6,16 +6,16 @@
 
     <div class="grid3">
       <h1 class="servicos-title pressura60">
-        Chegou a hora de usar seus espaços corporativos de foma inteligente
+        CHEGOU A HORA DE USAR SEUS ESPAÇOS CORPORATIVOS DE FORMA INTELIGENTE
       </h1>
       <h4 class="servicos-description graphik24 gray">
-        Com Skedway você é possível organizar o agendamento de salas e posições
-        de trabalho com regras e horários pré-definidos. Reduza investimentos em
-        infra-estrutura e permita um perfeito equílibrio entre Home Office e
+        Com Skedway é possível organizar o agendamento de salas e posições de
+        trabalho com regras e horários pré-definidos. Reduza investimentos em
+        infraestrutura e permita um perfeito equilíbrio entre Home Office e
         colaboração presencial, aumentando assim a qualidade de vida de seus
         colaboradores. Reduza o impacto ambienta com deslocamentos
         desnecessários. Mais produtividade, menos custos, mais segurança em
-        tempos de pandemia. É hora de fazer a diferença!
+        tempos de pandemia. É hora de fazer a diferença.
       </h4>
     </div>
 
@@ -27,11 +27,11 @@
           class="lazyload card-agendamento-img"
         />
         <div class="pressura28 card-agendamento-title">
-          agendamento de salas de reunião
+          AGENDAMENTO DE SALAS DE REUNIÃO
         </div>
         <div class="graphik16 gray">
           Agendamento inteligente, Solicitações especiais, controle de check-in,
-          Checkout e muitos mais.
+          Checkout e muito mais.
         </div>
       </div>
 
@@ -41,7 +41,7 @@
           class="lazyload card-agendamento-img"
         />
         <div class="pressura28 card-agendamento-title">
-          agendamento de salas de reunião
+          agendamento de estações de trabalho
         </div>
         <div class="graphik16 gray">
           Agendamento inteligente, Solicitações especiais, controle de check-in,
@@ -61,8 +61,8 @@
       </h1>
       <h4 class="servicos-description graphik24 gray">
         A plataforma Skedway pode ser utilizada das mais variadas formas, seja
-        através de PCs, smartphones, tablets e dispositivos do tipo “Room
-        Display”. Além disso Skedway é totalmente compatível com seu Office 365
+        por meio de PCs, smartphones, tablets e dispositivos do tipo “Room
+        Display”. Além disso, Skedway é totalmente compatível com seu Office 365
         ou G-Suite.
       </h4>
 
@@ -109,7 +109,7 @@
           taxa mínima<br />de ocupação
         </div>
         <div class="graphik16 gray">
-          Evite o desperdicio de espaços. Permita que os agendamentos estejam de
+          Evite o desperdício de espaços. Permita que os agendamentos estejam de
           acordo com a capacidade das salas.
         </div>
       </div>
@@ -123,7 +123,7 @@
           grupo<br />de regras
         </div>
         <div class="graphik16 gray">
-          Configure as pernissões do sistema criando grupos de regras
+          Configure as permissões do sistema criando grupos de regras
           específicas. Controle o que os usuários podem ver ou acessar. Mantenha
           as informações pessoais protegidas por funções.
         </div>
@@ -175,8 +175,8 @@
       </h1>
       <h4 class="servicos-description graphik24 gray">
         Com Skedway você tem visibilidade total de seus espaços corporativos.
-        Entenda melhor a dinâmica de sagendamentos e otimize seus investimentos
-        em “Real Estate”. Pare de disperdiçar recursos importantes por falta de
+        Entenda melhor a dinâmica de agendamentos e otimize seus investimentos
+        em “Real Estate”. Pare de desperdiçar recursos importantes por falta de
         informação. Skedway é um divisor de águas.
       </h4>
 
@@ -316,9 +316,9 @@
         check-in via beacon
       </h1>
       <h4 class="servicos-description graphik24 gray">
-        Com Sekdway seu Check-in também pode ocorrer de forma automática, por
-        bluetooth, caso as salas ou posições de trabalho tenham beacons ou
-        nossos Room Displays compatíveis.
+        Com Sekdway seu Check-in também pode ocorrer de forma automática por
+        bluetooth caso as salas ou posições de trabalho tenham beacons ou nossos
+        Room Displays compatíveis.
       </h4>
 
       <img
@@ -351,8 +351,8 @@
         produtos disponíveis
       </h1>
       <h4 class="servicos-description graphik24 gray">
-        A tecnlogia Skedway está disponível nas linhas de estações de trabalho e
-        reuniões da Escinter.
+        A tecnologia Skedway está disponível como acessório opcional nas linhas
+        de estações de trabalho e reuniões da Escinter.
       </h4>
     </div>
 

@@ -7,13 +7,13 @@
       <div class="product-name">
         <ul class="product-info">
           <li class="graphik18 gray"><h2>Humanscale</h2></li>
-          <li class="pressura56 black"><h1>Trea</h1></li>
+          <li class="pressura56 black"><h1>Diffrient World</h1></li>
         </ul>
       </div>
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/assentos/2_17_Humanscale_Trea/hero.jpg')
+          require('~/assets/images/mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/hero.jpg')
             .srcSet
         "
         class="product-image lazyload"
@@ -25,7 +25,7 @@
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/assentos/2_17_Humanscale_Trea/vertical.jpg')
+          require('~/assets/images/mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/vertical.jpg')
             .srcSet
         "
         class="lazyload"
@@ -33,17 +33,18 @@
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/assentos/2_17_Humanscale_Trea/horizontal.jpg')
+          require('~/assets/images/mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/horizontal.jpg')
             .srcSet
         "
         class="lazyload coluna2-3"
       />
       <div class="gi-txt graphik24 gray">
-        Vencedora do Red Dot-Award, Trea tem uma estética atemporal e limpa com
-        função de alta performance. Criada em colaboração com o visionário
-        designer Todd Bracher,Trea oferece conforto intuitivo imitando a
-        reclinação instintiva do corpo humano e abraçando a coluna em uma concha
-        de apoio.
+        Diffrient World é a primeira incursão da Humanscale em assentos com
+        encosto em tecido. O designer Niels Diffrient queria criar a cadeira de
+        operação mais completa já feita. Com um inovador encosto de malha
+        tri-painel que fornece suporte personalizado para a lombar e um design
+        leve, Diffrient World é, como todos os produtos da Humanscale, simples,
+        bonito e funcional.
       </div>
     </div>
 
@@ -55,7 +56,7 @@
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/assentos/2_17_Humanscale_Trea/desenho.jpg')
+          require('~/assets/images/mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/desenho.jpg')
             .srcSet
         "
         class="lazyload desenho-tecnico coluna2"
@@ -63,7 +64,7 @@
       <ul class="tabela coluna2">
         <li class="download pressura15 pink">
           <a
-            href="/pdf/assentos/2_17_Humanscale_Trea/hs_seating_trea_brochure_1218.pdf"
+            href="/pdf/assentos/2_16_Humanscale_Different_World/hs_seating_diffrient_world_brochure_022519.pdf"
             target="_blank"
             >Download do catálogo<span class="item-right"
               ><span class="arrow-btn">↓</span
@@ -80,14 +81,14 @@
     <!-- PRODUTOS RELACIONADOS -->
 
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/hero.jpg"
-      nameproduct1="Diffrient World"
+      imgproduct1="mobiliariocorporativo/assentos/2_15_Humanscale_Freedom/hero.jpg"
+      nameproduct1="Freedom"
       brandproduct1="Humanscale"
-      linkproduct1="mobiliario_corporativo/assento/diffrient-world"
-      imgproduct2="mobiliariocorporativo/assentos/2_18_Humanscale_Summa/hero.jpg"
-      nameproduct2="Summa"
+      linkproduct1="mobiliario_corporativo/assento/freedom"
+      imgproduct2="mobiliariocorporativo/assentos/2_17_Humanscale_Trea/hero.jpg"
+      nameproduct2="Trea"
       brandproduct2="Humanscale"
-      linkproduct2="mobiliario_corporativo/assento/summa"
+      linkproduct2="mobiliario_corporativo/assento/trea"
     />
   </div>
 </template>
@@ -127,7 +128,7 @@ export default {
   },
   data() {
     return {
-      title: "Trea — Humanscale"
+      title: "Diffrient World — Humanscale"
     };
   },
   head() {

@@ -5,8 +5,12 @@
     <div class="category-list grid3">
       <h1 class="category-name pressura60">Carpetes</h1>
       <h4 class="category-description graphik24 gray">
-        Texto introdutorio falando sobre todas as colecoes e suas variacoes, por
-        escrever.
+        Além de deixarem os ambientes de trabalho mais aconchegantes, os
+        carpetes têm uma importante função: ajudam no efeito de isolamento
+        acústico, ampliando o conforto no ambiente de trabalho. Oferecemos
+        opções para todas as necessidades e estilos, e marcas como Shaw
+        Contract, Durkan, Mohawk Group e da nossa parceira Beltech, empresa com
+        24 anos de experiência na área.
       </h4>
 
       <div class="linha-div"></div>
@@ -136,64 +140,6 @@
               ><span style="float:right">eco solution q® nylon</span>
             </li>
           </ul>
-        </div>
-      </div>
-
-      <!-- Rapid select coleção -->
-
-      <div class="linha-div"></div>
-      <h3 class="knoll-brand-item-title pressura40">
-        <span class="sticky">Rapid select</span>
-      </h3>
-      <div class="knoll-brand-item">
-        <div class="grid2">
-          <img
-            class="carousel lazyload"
-            :data-srcset="
-              require('~/assets/images/mobiliariocorporativo/carpetes/rapid-select/hero.jpg')
-                .srcSet
-            "
-          />
-
-          <ul class="tabela">
-            <li class="pressura15">
-              <span class="gray">Cores disponíveis</span
-              ><span style="float:right">8 cores</span>
-            </li>
-            <li class="pressura15">
-              <span class="gray">Tamanho</span
-              ><span style="float:right"
-                >50 x 50 cm | 20 tiles (5 m²) per box</span
-              >
-            </li>
-            <li class="pressura15">
-              <span class="gray">Fibra</span
-              ><span style="float:right">eco solution q® polyamide 6</span>
-            </li>
-          </ul>
-
-          <div class="knoll-brand-item-description graphik24">
-            <ul>
-              <li class="knoll-brand-item-description-text">
-                <h4>
-                  Com o Rapid Select, você pode escolher estilos e cores
-                  influentes e especialmente editados que atendem à demanda de
-                  interiores modernos, funcionais e comerciais.<br /><br />
-                  A escolha ideal do piso para projetos de retorno rápido, sem
-                  comprometer a qualidade, o desempenho ou o design.
-                </h4>
-              </li>
-              <li class="graphik18" style="margin-bottom:24px;">
-                <a
-                  class="pink"
-                  href="https://www.knoll.com/knollstudio"
-                  target="_blank"
-                  >Visite a página da coleção
-                  <span class="pressura21">↗</span></a
-                >
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
 

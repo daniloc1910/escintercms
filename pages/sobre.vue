@@ -33,7 +33,7 @@
 
       <ul class="showroom-adress graphik16">
         <li>Nosso showroom em São Paulo</li>
-        <li class="gray">Rua Wizard, 157</li>
+        <li class="gray">Rua Wisard, 157</li>
         <li class="gray">Vila Madalena</li>
       </ul>
 

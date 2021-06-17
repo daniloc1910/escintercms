@@ -100,7 +100,7 @@
         Após 30 anos representando algumas das principais marcas internacionais,
         a Escinter passou a oferecer soluções criadas aqui de olho nas
         características de customização mais adequadas aos nossos ambientes de
-        trabalho. Alto é uma estação de trabalho fixa com regulagem mecânica de
+        trabalho. Alto é uma estação de trabalho fixa com regulagem elétrica de
         altura e diversas opções de acabamento.
       </div>
     </div>
