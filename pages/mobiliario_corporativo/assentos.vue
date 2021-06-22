@@ -61,6 +61,13 @@
       />
 
       <ItemProduto
+        linkproduct="mobiliario_corporativo/assento/mont-blanc"
+        imgproduct="mobiliariocorporativo/assentos/2_21_FWay_MontBlanc/hero.jpg"
+        nameproduct="Mont Blanc"
+        brandproduct="F. WAY"
+      />
+
+      <ItemProduto
         linkproduct="mobiliario_corporativo/assento/parker"
         imgproduct="mobiliariocorporativo/assentos/2_8_FWay_Parker/hero.jpg"
         nameproduct="Parker"
@@ -149,6 +156,13 @@
         imgproduct="mobiliariocorporativo/assentos/2_19_Humanscale_Cinto/hero.jpg"
         nameproduct="Cinto"
         brandproduct="Humanscale"
+      />
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/assento/appia-work"
+        imgproduct="mobiliariocorporativo/assentos/2_22_Maxdesign_AppiaWork/hero.jpg"
+        nameproduct="Appia Work"
+        brandproduct="Maxdesign"
       />
     </div>
   </div>
