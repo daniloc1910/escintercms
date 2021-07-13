@@ -110,80 +110,14 @@
         trabalho. Target se destaca pela ergonomia e pela possibilidade de
         customização de diversos itens.
       </div>
-      <Flickity
-        :options="{
-          wrapAround: true,
-          autoPlay: 6000,
-          lazyLoad: true,
-          fade: true
-        }"
-        class="carousel coluna2-3"
-      >
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/01.jpg')
-                .srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/02.jpg')
-                .srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/03.jpg')
-                .srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/04.jpg')
-                .srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/06.jpg')
-                .srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/07.jpg')
-                .srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/08.jpg')
-                .srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/09.jpg')
-                .srcSet
-            "
-          />
-        </div>
-      </Flickity>
+      <img
+        :src="require('~/assets/images/nuxt.jpg').placeholder"
+        :data-srcset="
+          require('~/assets/images/mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_1_Escinter_Target/horizontal/mix.jpg')
+            .srcSet
+        "
+        class="lazyload coluna2-3"
+      />
     </div>
   </div>
 </template>
