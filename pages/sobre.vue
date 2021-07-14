@@ -39,7 +39,7 @@
 
       <img
         class="img-showroom lazyload"
-        :data-srcset="require('~/assets/images/escinter-showroom.png').srcSet"
+        :data-srcset="require('~/assets/images/escinter-showroom.jpg').srcSet"
       />
     </div>
   </div>
