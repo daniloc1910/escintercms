@@ -164,6 +164,20 @@
         nameproduct="Appia Work"
         brandproduct="Maxdesign"
       />
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/assento/stratos-m"
+        imgproduct="mobiliariocorporativo/assentos/2_23_Maxdesign_M/hero.jpg"
+        nameproduct="Stratos M"
+        brandproduct="Maxdesign"
+      />
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/assento/stratos-mh"
+        imgproduct="mobiliariocorporativo/assentos/2_24_Maxdesign_MH/hero.jpg"
+        nameproduct="Stratos MH"
+        brandproduct="Maxdesign"
+      />
     </div>
   </div>
 </template>

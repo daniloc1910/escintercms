@@ -7,36 +7,16 @@
       <div class="product-name">
         <ul class="product-info">
           <li class="graphik18 gray"><h2>Maxdesign</h2></li>
-          <li class="pressura56 black"><h1>Appia Work</h1></li>
+          <li class="pressura56 black"><h1>Stratos M</h1></li>
         </ul>
       </div>
       <img
         :src="require('~/assets/images/nuxt.jpg').placeholder"
         :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/assentos/2_22_Maxdesign_AppiaWork/hero.jpg')
+          require('~/assets/images/mobiliariocorporativo/assentos/2_23_Maxdesign_M/hero.jpg')
             .srcSet
         "
         class="product-image lazyload"
-      />
-    </div>
-
-    <!-- GALERIA DE IMAGENS -->
-    <div class="galeria-imagens grid3">
-      <img
-        :src="require('~/assets/images/nuxt.jpg').placeholder"
-        :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/assentos/2_22_Maxdesign_AppiaWork/vertical.jpg')
-            .srcSet
-        "
-        class="lazyload"
-      />
-      <img
-        :src="require('~/assets/images/nuxt.jpg').placeholder"
-        :data-srcset="
-          require('~/assets/images/mobiliariocorporativo/assentos/2_22_Maxdesign_AppiaWork/horizontal.jpg')
-            .srcSet
-        "
-        class="lazyload coluna2-3"
       />
     </div>
 
@@ -46,14 +26,14 @@
     <!-- PRODUTOS RELACIONADOS -->
 
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/assentos/2_19_Humanscale_Cinto/hero.jpg"
-      nameproduct1="Cinto"
-      brandproduct1="Humanscale"
-      linkproduct1="mobiliario_corporativo/assento/cinto"
-      imgproduct2="mobiliariocorporativo/assentos/2_23_Maxdesign_M/hero.jpg"
-      nameproduct2="Stratos M"
+      imgproduct1="mobiliariocorporativo/assentos/2_22_Maxdesign_AppiaWork/hero.jpg"
+      nameproduct1="Appia Work"
+      brandproduct1="Maxdesign"
+      linkproduct1="mobiliario_corporativo/assento/appia-work"
+      imgproduct2="mobiliariocorporativo/assentos/2_24_Maxdesign_MH/hero.jpg"
+      nameproduct2="Stratos MH"
       brandproduct2="Maxdesign"
-      linkproduct2="mobiliario_corporativo/assento/stratos-m"
+      linkproduct2="mobiliario_corporativo/assento/stratos-mh"
     />
   </div>
 </template>
@@ -93,7 +73,7 @@ export default {
   },
   data() {
     return {
-      title: "Appia Work — Maxdesign"
+      title: "Stratos M — Maxdesign"
     };
   },
   head() {
