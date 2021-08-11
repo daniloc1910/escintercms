@@ -949,7 +949,7 @@
   }
 
   .backgroundwhite {
-    margin-top: -227px;
+    margin-top: -156px;
   }
 
   .content {
