@@ -5,9 +5,7 @@
     <div class="grid3">
       <!-- MARCAS -->
 
-      <h1 class="nossas-marcas-title pressura60">
-        Marcas que representamos
-      </h1>
+      <h1 class="nossas-marcas-title pressura60">Marcas que representamos</h1>
 
       <h2 class="nossas-marcas-description graphik24">
         Além de uma extensa linha própria de serviços e produtos, a Escinter é
@@ -163,7 +161,7 @@
         </li>
       </ul>
 
-      <ul class="marcas">
+      <ul class="marcas last">
         <li class="marca-item-title pressura40"><h3>Beltech</h3></li>
         <li class="graphik18 gray">
           <p>
@@ -174,24 +172,6 @@
             Beltech estão marcas reconhecidas mundialmente: Mohawk Group,
             Durkan, Shaw Contract, Shaw Hospitality, Crossley, Patcraft e J&J
             Flooring.
-          </p>
-        </li>
-      </ul>
-
-      <ul class="marcas last">
-        <li class="marca-item-title pressura40"><h3>Sollos</h3></li>
-        <li class="graphik18 gray">
-          <p>
-            Desde 2004, percebemos que para crescer era preciso investir em
-            conceito, identidade e qualidade. Desde então, optamos por utilizar
-            o design como ferramenta estratégica e elemento integrador de toda
-            nossa cadeia produtiva. Essa decisão fez com que a SOLLOS ficasse
-            conhecida como uma indústria inovadora. Buscamos integrar o melhor
-            de nossa cultura às referências internacionais através do uso
-            racional da madeira como matéria-prima, do controle dos processos e
-            métodos de produção em concordância com todos os requisitos
-            ecológicos e do investimento em equipamentos de última geração
-            aliados a técnicas artesanais.
           </p>
         </li>
       </ul>
@@ -329,17 +309,17 @@ import ProjetoItem from "~/components/ProjetoItem.vue";
 export default {
   components: {
     MenuMobile,
-    ProjetoItem
+    ProjetoItem,
   },
   data() {
     return {
-      title: "Sobre"
+      title: "Sobre",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

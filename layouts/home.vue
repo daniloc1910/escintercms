@@ -79,12 +79,12 @@
         exact-active-class="active-link"
         >Knoll Design</nuxt-link
       >
-      <nuxt-link
+      <!-- <nuxt-link
         class="menu-primario-hover graphik18"
         to="/sollos"
         exact-active-class="active-link"
         >SOLLOS</nuxt-link
-      >
+      >-->
       <div class="menu-primario-hover graphik18" />
 
       <div class="category-products category-products2">
@@ -222,9 +222,6 @@
               Knoll Design
             </li></nuxt-link
           >
-          <nuxt-link to="/sollos" exact-active-class="active-link"
-            ><li class="graphik16 black footer-item-list">SOLLOS</li></nuxt-link
-          >
         </ul>
       </div>
 
@@ -293,7 +290,7 @@
 
       <div class="item-footer-end">
         <ul>
-          <img style="width:150px;" src="~assets/logo-horizontal.svg" />
+          <img style="width: 150px" src="~assets/logo-horizontal.svg" />
         </ul>
       </div>
 
@@ -398,7 +395,7 @@ footer {
 .category-products {
   opacity: 0;
   transition: 0.3s;
-  margin-top: -195px;
+  margin-top: -167px;
 }
 
 #mobiliario-corporativo:hover ~ .category-products {
@@ -565,18 +562,18 @@ import * as animationData from "~/assets/logo/logo.json";
 export default {
   components: {
     Lottie,
-    MenuMobile
+    MenuMobile,
   },
   data() {
     return {
       defaultOptions: { animationData: animationData },
-      animationSpeed: 1
+      animationSpeed: 1,
     };
   },
   methods: {
-    handleAnimation: function(anim) {
+    handleAnimation: function (anim) {
       this.anim = anim;
-    }
-  }
+    },
+  },
 };
 </script>
