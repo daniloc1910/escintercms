@@ -18,7 +18,7 @@
     "lottie-web": "^5.6.8",
     "nuxt": "^2.0.0",
     "nuxt-responsive-loader": "^2.0.1",
-    "sharp": "^0.25.3",
+    "sharp": "^0.30.5",
     "vue-flickity": "^1.2.1",
     "vue-lottie": "^0.2.1",
     "vue-pdf": "^4.0.8",
