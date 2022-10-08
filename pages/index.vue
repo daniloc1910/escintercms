@@ -141,12 +141,12 @@
         brandproduct="Muuto"
       />
 
-      <ItemProduto
+      <!--<ItemProduto
         linkproduct="mobiliario_corporativo/acessorio/horsepower"
         imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_9_Knoll_Horsepower/hero_h.jpg"
         nameproduct="Horsepower"
         brandproduct="Knoll"
-      />
+      />-->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/alto"
@@ -166,7 +166,7 @@
     <!-- SERVIÇOS -->
     <Servicos class="servicos-home" />
 
-    <!-- KNOLL DESIGN -->
+    <!-- KNOLL DESIGN 
 
     <nuxt-link to="/knoll-design" class="knoll-design-container">
       <div class="knoll-design-container-grid grid3">
@@ -185,7 +185,7 @@
       <video class="video-knoll" loop preload playsinline autoplay muted>
         <source :src="require('~/assets/knoll_bg.mp4')" />
       </video>
-    </nuxt-link>
+    </nuxt-link> -->
 
     <!-- CASES -->
 
@@ -398,17 +398,17 @@ export default {
   components: {
     ItemProduto,
     Servicos,
-    ProjetoItemHome
+    ProjetoItemHome,
   },
   data() {
     return {
-      title: "Escinter"
+      title: "Escinter",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

@@ -11,54 +11,54 @@
         por clássicos do design e chegando à tecnologia de ponta.
       </p>
 
-      <ItemProduto
+      <!--<ItemProduto
         linkproduct="mobiliario_corporativo/assento/generation"
         imgproduct="mobiliariocorporativo/assentos/2_1_Knoll_Generation/hero.jpg"
         nameproduct="Generation"
         brandproduct="Knoll"
-      />
+      />-->
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/assento/regeneration"
         imgproduct="mobiliariocorporativo/assentos/2_2_Knoll_Regeneration/hero.jpg"
         nameproduct="Regeneration"
         brandproduct="Knoll"
-      />
+      />-->
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/assento/ktask"
         imgproduct="mobiliariocorporativo/assentos/2_3_Knoll_K_Task/hero.jpg"
         nameproduct="k. task"
         brandproduct="Knoll"
-      />
+      />-->
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/assento/ollo"
         imgproduct="mobiliariocorporativo/assentos/2_4_Knoll_Ollo/hero.jpg"
         nameproduct="Ollo"
         brandproduct="Knoll"
-      />
+      />-->
 
-      <ItemProduto
+      <!--- <ItemProduto
         linkproduct="mobiliario_corporativo/assento/multigeneration"
         imgproduct="mobiliariocorporativo/assentos/2_5_Knoll_Multigeneration/hero.jpg"
         nameproduct="Multigeneration"
         brandproduct="Knoll"
-      />
+      />-->
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/assento/life"
         imgproduct="mobiliariocorporativo/assentos/2_6_Knoll_Life/hero.jpg"
         nameproduct="Life"
         brandproduct="Knoll"
-      />
+      />-->
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/assento/pollock"
         imgproduct="mobiliariocorporativo/assentos/2_7_Knoll_Pollock/hero.jpg"
         nameproduct="Pollock"
         brandproduct="Knoll"
-      />
+      />-->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/assento/mont-blanc"
@@ -217,17 +217,17 @@ export default {
   components: {
     ItemProduto,
     Menu,
-    MenuMobile
+    MenuMobile,
   },
   data() {
     return {
-      title: "Assentos"
+      title: "Assentos",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

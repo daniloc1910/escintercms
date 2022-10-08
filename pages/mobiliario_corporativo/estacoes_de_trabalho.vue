@@ -22,7 +22,7 @@
 
       <div class="menu-anchor graphik18 gray">
         <ul>
-          <li class="black" style="margin-bottom: 8px;">Tipos</li>
+          <li class="black" style="margin-bottom: 8px">Tipos</li>
           <li><a href="#" v-scroll-to="'#fixas'">Fixas</a></li>
           <li><a href="#" v-scroll-to="'#regulaveis'">Reguláveis</a></li>
           <li><a href="#" v-scroll-to="'#executivo'">Executivo</a></li>
@@ -46,12 +46,12 @@
         brandproduct="Escinter"
       />
 
-      <ItemProduto
+      <!--<ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/antenna"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"
         nameproduct="Antenna"
         brandproduct="Knoll"
-      />
+      />-->
 
       <!-- REGULAVEIS -->
 
@@ -70,19 +70,19 @@
         brandproduct="Escinter"
       />
 
-      <ItemProduto
+      <!--<ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/tone"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_2_Knoll_Tone/hero.jpg"
         nameproduct="Tone"
         brandproduct="Knoll"
-      />
+      />-->
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/kstand"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_3_Knoll_Kstand/hero.jpg"
         nameproduct="k. stand"
         brandproduct="Knoll"
-      />
+      />-->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/float"
@@ -103,12 +103,12 @@
         brandproduct="Escinter"
       />
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/executivo-antenna"
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_3_Executivo/1_3_2_Knoll_Antenna/hero.jpg"
         nameproduct="Antenna"
         brandproduct="Knoll"
-      />
+      />-->
     </div>
   </div>
 </template>
@@ -180,19 +180,19 @@ export default {
   components: {
     ItemProduto,
     Menu,
-    MenuMobile
+    MenuMobile,
   },
   data() {
     return {
       title: "Estações de Trabalho",
       showNavbar: true,
       lastScrollPosition: 0,
-      scrollValue: 0
+      scrollValue: 0,
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
   },
   mounted() {
@@ -208,7 +208,7 @@ export default {
     window.removeEventListener("scroll", this.onScroll);
   },
   methods: {
-    handleAnimation: function(anim) {
+    handleAnimation: function (anim) {
       this.anim = anim;
     },
     onScroll() {
@@ -220,7 +220,7 @@ export default {
       }
       this.showNavbar = window.pageYOffset < this.lastScrollPosition;
       this.lastScrollPosition = window.pageYOffset;
-    }
-  }
+    },
+  },
 };
 </script>

@@ -73,12 +73,12 @@
         exact-active-class="active-link"
         >Tecnologia</nuxt-link
       >
-      <nuxt-link
+      <!-- <nuxt-link
         class="menu-primario-hover graphik18"
         to="/knoll-design"
         exact-active-class="active-link"
         >Knoll Design</nuxt-link
-      >
+      >-->
       <!-- <nuxt-link
         class="menu-primario-hover graphik18"
         to="/sollos"
@@ -217,11 +217,11 @@
               Tecnologia
             </li></nuxt-link
           >
-          <nuxt-link to="/knoll-design" exact-active-class="active-link"
+          <!-- <nuxt-link to="/knoll-design" exact-active-class="active-link"
             ><li class="graphik16 black footer-item-list">
               Knoll Design
             </li></nuxt-link
-          >
+          >-->
         </ul>
       </div>
 
@@ -395,7 +395,7 @@ footer {
 .category-products {
   opacity: 0;
   transition: 0.3s;
-  margin-top: -167px;
+  margin-top: -139px;
 }
 
 #mobiliario-corporativo:hover ~ .category-products {

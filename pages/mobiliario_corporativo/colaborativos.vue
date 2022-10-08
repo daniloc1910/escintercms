@@ -28,7 +28,7 @@
       <h1 class="category-name pressura60">Colaborativos</h1>
       <div class="menu-anchor graphik18 gray">
         <ul>
-          <li class="black" style="margin-bottom: 8px;">Tipos</li>
+          <li class="black" style="margin-bottom: 8px">Tipos</li>
           <li><a href="#" v-scroll-to="'#cadeiras'">Cadeiras</a></li>
           <li><a href="#" v-scroll-to="'#poltronas'">Poltronas</a></li>
           <li><a href="#" v-scroll-to="'#sofas'">Sofás</a></li>
@@ -322,12 +322,12 @@
         brandproduct="Escinter"
       />
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/antenna"
         imgproduct="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_2_Knoll_Antenna/hero.jpg"
         nameproduct="Antenna"
         brandproduct="Knoll"
-      />
+      />-->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/pix-bancada"
@@ -506,19 +506,19 @@ export default {
   components: {
     ItemProduto,
     Menu,
-    MenuMobile
+    MenuMobile,
   },
   data() {
     return {
       title: "Colaborativos",
       showNavbar: true,
       lastScrollPosition: 0,
-      scrollValue: 0
+      scrollValue: 0,
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
   },
   mounted() {
@@ -534,7 +534,7 @@ export default {
     window.removeEventListener("scroll", this.onScroll);
   },
   methods: {
-    handleAnimation: function(anim) {
+    handleAnimation: function (anim) {
       this.anim = anim;
     },
     onScroll() {
@@ -546,7 +546,7 @@ export default {
       }
       this.showNavbar = window.pageYOffset < this.lastScrollPosition;
       this.lastScrollPosition = window.pageYOffset;
-    }
-  }
+    },
+  },
 };
 </script>

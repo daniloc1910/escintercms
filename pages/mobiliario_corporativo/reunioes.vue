@@ -20,12 +20,12 @@
         brandproduct="Escinter"
       />
 
-      <ItemProduto
+      <!-- <ItemProduto
         linkproduct="mobiliario_corporativo/reuniao/antenna"
         imgproduct="mobiliariocorporativo/reunioes/3_3_Knoll_Antenna/hero.jpg"
         nameproduct="Antenna"
         brandproduct="Knoll"
-      />
+      />-->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/reuniao/profession"
@@ -93,17 +93,17 @@ export default {
   components: {
     ItemProduto,
     Menu,
-    MenuMobile
+    MenuMobile,
   },
   data() {
     return {
-      title: "Reuniões"
+      title: "Reuniões",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>
