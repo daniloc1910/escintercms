@@ -56,28 +56,7 @@
         <div class="carousel-cell">
           <img
             :data-flickity-lazyload-srcset="
-              require('~/assets/images/destaquehome/07.jpg').srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/destaquehome/08.jpg').srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
               require('~/assets/images/destaquehome/09.jpg').srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/destaquehome/10.jpg').srcSet
             "
           />
         </div>
@@ -133,20 +112,6 @@
         nameproduct="Shelter"
         brandproduct="Escinter"
       />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/unfold"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/hero_h.jpg"
-        nameproduct="Unfold"
-        brandproduct="Muuto"
-      />
-
-      <!--<ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/horsepower"
-        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_9_Knoll_Horsepower/hero_h.jpg"
-        nameproduct="Horsepower"
-        brandproduct="Knoll"
-      />-->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/alto"

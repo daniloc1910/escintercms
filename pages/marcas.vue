@@ -113,27 +113,6 @@
       </ul>
 
       <ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>Muuto</h3></li>
-        <li class="graphik18 gray">
-          <p>
-            A Muuto está enraizada na tradição de design escandinavo
-            caracterizada por uma estética duradoura, funcionalidade, habilidade
-            artesanal e uma expressão honesta. <br /><br />Expandindo esta
-            herança com materiais, técnicas e pensamento criativo inovadores,
-            nossa ambição é oferecer novas perspectivas sobre o design
-            escandinavo. Na verdade, nosso nome, Muuto, vem de muutos, que
-            significa nova perspectiva em finlandês. Selecionamos os principais
-            designers contemporâneos que são fortes intérpretes de nossa
-            filosofia e combinamos seus talentos com a apaixonada equipe
-            criativa da Muuto. Você conhecerá nosso design porque ele tem
-            muutos: objetos tornados sublimes por meio de novas perspectivas,
-            apreciados em todo o mundo, representando o melhor do design
-            escandinavo hoje.
-          </p>
-        </li>
-      </ul>
-
-      <ul class="marcas">
         <li class="marca-item-title pressura40"><h3>Lady</h3></li>
         <li class="graphik18 gray">
           <p>

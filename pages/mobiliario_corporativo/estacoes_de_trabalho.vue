@@ -46,13 +46,6 @@
         brandproduct="Escinter"
       />
 
-      <!--<ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/antenna"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_1_Fixas/1_1_10_Knoll_Antenna/hero.jpg"
-        nameproduct="Antenna"
-        brandproduct="Knoll"
-      />-->
-
       <!-- REGULAVEIS -->
 
       <div class="linha-div space"></div>
@@ -69,20 +62,6 @@
         nameproduct="Alto"
         brandproduct="Escinter"
       />
-
-      <!--<ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/tone"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_2_Knoll_Tone/hero.jpg"
-        nameproduct="Tone"
-        brandproduct="Knoll"
-      />-->
-
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/kstand"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_3_Knoll_Kstand/hero.jpg"
-        nameproduct="k. stand"
-        brandproduct="Knoll"
-      />-->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/estacaodetrabalho/float"
@@ -102,13 +81,6 @@
         nameproduct="Target"
         brandproduct="Escinter"
       />
-
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/estacaodetrabalho/executivo-antenna"
-        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_3_Executivo/1_3_2_Knoll_Antenna/hero.jpg"
-        nameproduct="Antenna"
-        brandproduct="Knoll"
-      />-->
     </div>
   </div>
 </template>

@@ -322,13 +322,6 @@
         brandproduct="Escinter"
       />
 
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/colaborativo/antenna"
-        imgproduct="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_2_Knoll_Antenna/hero.jpg"
-        nameproduct="Antenna"
-        brandproduct="Knoll"
-      />-->
-
       <ItemProduto
         linkproduct="mobiliario_corporativo/colaborativo/pix-bancada"
         imgproduct="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_3_Frisokar_Pix/hero.jpg"

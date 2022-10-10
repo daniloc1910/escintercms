@@ -47,55 +47,6 @@
 
       <h2 id="luminarias" class="sub-category-name pressura40">Luminárias</h2>
 
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sparrow"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_1_Knoll_Sparrow/hero.jpg"
-        nameproduct="Sparrow"
-        brandproduct="Knoll"
-      />  -->
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/unfold"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/hero.jpg"
-        nameproduct="Unfold"
-        brandproduct="Muuto"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/under-the-bell"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_3_Muuto_Underthebell/hero.jpg"
-        nameproduct="Under the Bell"
-        brandproduct="Muuto"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/cosy"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_4_Muuto_Cosy/hero.jpg"
-        nameproduct="Cosy"
-        brandproduct="Muuto"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/wood"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_5_Muuto_Wood/hero.jpg"
-        nameproduct="Wood"
-        brandproduct="Muuto"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/leaf"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_6_Muuto_Leaf/hero.jpg"
-        nameproduct="Leaf"
-        brandproduct="Muuto"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/post-wall"
-        imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_7_Muuto_Postwall/hero.jpg"
-        nameproduct="Post Wall"
-        brandproduct="Muuto"
-      />
-
       <ItemProduto
         linkproduct="mobiliario_corporativo/acessorio/element-disc"
         imgproduct="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_8_Humanscale_Element_Disc/hero.jpg"
@@ -151,27 +102,6 @@
         nameproduct="MFlex"
         brandproduct="Humanscale"
       />
-
-      <!--<ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sapper50"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_4_Knoll_Sapper50/hero.jpg"
-        nameproduct="Sapper 50"
-        brandproduct="Knoll"
-      />  -->
-
-      <!---<ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sapperxyz"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_5_Knoll_Sapperxyz/hero.jpg"
-        nameproduct="Sapper XYZ"
-        brandproduct="Knoll"
-      />  -->
-
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/sapper"
-        imgproduct="mobiliariocorporativo/acessorios/7_2_Suporte_Monitor/7_2_6_Knoll_Sapper/hero.jpg"
-        nameproduct="Sapper"
-        brandproduct="Knoll"
-      />  -->
 
       <ItemProduto
         linkproduct="mobiliario_corporativo/acessorio/esc721"
@@ -280,13 +210,6 @@
         nameproduct="Techtray"
         brandproduct="Humanscale"
       />
-
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/acessorio/horsepower"
-        imgproduct="mobiliariocorporativo/acessorios/7_4_Diversos/7_4_9_Knoll_Horsepower/hero.jpg"
-        nameproduct="Horsepower"
-        brandproduct="Knoll"
-      />  -->
     </div>
   </div>
 </template>

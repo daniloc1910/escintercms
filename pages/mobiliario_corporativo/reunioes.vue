@@ -20,13 +20,6 @@
         brandproduct="Escinter"
       />
 
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/reuniao/antenna"
-        imgproduct="mobiliariocorporativo/reunioes/3_3_Knoll_Antenna/hero.jpg"
-        nameproduct="Antenna"
-        brandproduct="Knoll"
-      />-->
-
       <ItemProduto
         linkproduct="mobiliario_corporativo/reuniao/profession"
         imgproduct="mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg"

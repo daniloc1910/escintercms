@@ -95,14 +95,14 @@
     <CategoryItem
       title="Acessórios"
       link="mobiliario_corporativo/acessorios"
-      imgproduct1="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_2_Muuto_Unfold/hero.jpg"
-      nameproduct1="Unfold"
-      brandproduct1="Muuto"
-      linkproduct1="mobiliario_corporativo/acessorio/unfold"
-      imgproduct2="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_7_Muuto_Postwall/hero.jpg"
-      nameproduct2="Postwall"
-      brandproduct2="Muuto"
-      linkproduct2="mobiliario_corporativo/acessorio/post-wall"
+      imgproduct1="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_8_Humanscale_Element_Disc/hero.jpg"
+      nameproduct1="Element Disc"
+      brandproduct1="Humanscale"
+      linkproduct1="mobiliario_corporativo/acessorio/element-disc"
+      imgproduct2="mobiliariocorporativo/acessorios/7_1_Luminarias/7_1_9_Humanscale_Element_Vicion/hero.jpg"
+      nameproduct2="Element Vision"
+      brandproduct2="Humanscale"
+      linkproduct2="mobiliario_corporativo/acessorio/element-vision"
     />
   </div>
 </template>

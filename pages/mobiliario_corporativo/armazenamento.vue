@@ -27,20 +27,6 @@
         brandproduct="Escinter"
       />
 
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/armazenamentos/calibre"
-        imgproduct="mobiliariocorporativo/armazenamento/4_4_Knoll_Calibre/hero.jpg"
-        nameproduct="Calibre"
-        brandproduct="Knoll"
-      /> -->
-
-      <!-- <ItemProduto
-        linkproduct="mobiliario_corporativo/armazenamentos/anchor"
-        imgproduct="mobiliariocorporativo/armazenamento/4_5_Knoll_Anchor/hero.jpg"
-        nameproduct="Anchor"
-        brandproduct="Knoll"
-      /> -->
-
       <ItemProduto
         linkproduct="mobiliario_corporativo/armazenamentos/jelly"
         imgproduct="mobiliariocorporativo/armazenamento/4_6_Fway_Jelly/hero.jpg"
