@@ -18,7 +18,7 @@
 
       <div></div>
 
-      <ul class="marcas">
+      <!--<ul class="marcas">
         <li class="marca-item-title pressura40"><h3>Knoll</h3></li>
         <li class="graphik18 gray">
           <p>
@@ -40,7 +40,7 @@
             Chadwick, David Adjaye e Rem Koolhaas.
           </p>
         </li>
-      </ul>
+      </ul>-->
 
       <ul class="marcas">
         <li class="marca-item-title pressura40"><h3>Kush+co</h3></li>
