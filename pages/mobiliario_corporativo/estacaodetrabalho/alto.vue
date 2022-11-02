@@ -35,7 +35,7 @@
           wrapAround: true,
           autoPlay: 6000,
           lazyLoad: true,
-          fade: true
+          fade: true,
         }"
         class="carousel coluna2-3"
       >
@@ -111,14 +111,14 @@
     <!-- PRODUTOS RELACIONADOS -->
 
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_2_Knoll_Tone/hero.jpg"
-      nameproduct1="Tone"
-      brandproduct1="Knoll"
-      linkproduct1="mobiliario_corporativo/estacaodetrabalho/tone"
-      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_3_Knoll_Kstand/hero.jpg"
-      nameproduct2="k. stand"
-      brandproduct2="Knoll"
-      linkproduct2="mobiliario_corporativo/estacaodetrabalho/kstand"
+      imgproduct1="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_4_Humanscale_Float/hero.jpg"
+      nameproduct1="Float"
+      brandproduct1="Humanscale"
+      linkproduct1="mobiliario_corporativo/estacaodetrabalho/float"
+      imgproduct2="mobiliariocorporativo/estacaodetrabalho/1_Estacoes_Trabalho/1_5_Dancing_Walls/1_5.jpg"
+      nameproduct2="Dancing Walls"
+      brandproduct2="Vitra"
+      linkproduct2="mobiliario_corporativo/estacaodetrabalho/dancing-walls"
     />
   </div>
 </template>
@@ -154,17 +154,17 @@ export default {
     RelatedProduct,
     MenuMobile,
     ProdutoVariacao,
-    Servicos
+    Servicos,
   },
   data() {
     return {
-      title: "Alto — Escinter"
+      title: "Alto — Escinter",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

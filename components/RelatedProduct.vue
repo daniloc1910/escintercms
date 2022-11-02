@@ -8,7 +8,7 @@
       </ul>
     </div>
 
-    <n-link class="product-item-1" :to="'/' + linkproduct1">
+    <n-link v-if="linkproduct1" class="product-item-1" :to="'/' + linkproduct1">
       <ul class="product-item-container">
         <li>
           <img
@@ -49,37 +49,37 @@ export default {
   props: {
     imgproduct1: {
       type: String,
-      required: true
+      required: true,
     },
     nameproduct1: {
       type: String,
-      required: true
+      required: true,
     },
     brandproduct1: {
       type: String,
-      required: true
+      required: true,
     },
     linkproduct1: {
       type: String,
-      required: true
+      required: true,
     },
     imgproduct2: {
       type: String,
-      required: true
+      required: true,
     },
     nameproduct2: {
       type: String,
-      required: true
+      required: true,
     },
     brandproduct2: {
       type: String,
-      required: true
+      required: true,
     },
     linkproduct2: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 };
 </script>
 

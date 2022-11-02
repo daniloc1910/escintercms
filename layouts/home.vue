@@ -73,18 +73,12 @@
         exact-active-class="active-link"
         >Tecnologia</nuxt-link
       >
-      <!-- <nuxt-link
+      <nuxt-link
         class="menu-primario-hover graphik18"
-        to="/knoll-design"
+        to="/vitra-design"
         exact-active-class="active-link"
-        >Knoll Design</nuxt-link
-      >-->
-      <!-- <nuxt-link
-        class="menu-primario-hover graphik18"
-        to="/sollos"
-        exact-active-class="active-link"
-        >SOLLOS</nuxt-link
-      >-->
+        >Vitra Design</nuxt-link
+      >
       <div class="menu-primario-hover graphik18" />
 
       <div class="category-products category-products2">

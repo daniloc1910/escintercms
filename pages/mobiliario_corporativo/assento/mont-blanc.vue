@@ -46,10 +46,10 @@
     <!-- PRODUTOS RELACIONADOS -->
 
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/assentos/2_7_Knoll_Pollock/hero.jpg"
-      nameproduct1="Pollock"
-      brandproduct1="Knoll"
-      linkproduct1="mobiliario_corporativo/assento/pollock"
+      imgproduct1="mobiliariocorporativo/assentos/2_Assentos/2_6_Grand_Executive/2_6_2_Grand_Executive_Lowback/2_6_2.jpg"
+      nameproduct1="Grand Executive Lowback"
+      brandproduct1="Vitra"
+      linkproduct1="mobiliario_corporativo/assento/grand-executive-lowback"
       imgproduct2="mobiliariocorporativo/assentos/2_9_FWay_Nox/hero.jpg"
       nameproduct2="Nox"
       brandproduct2="F.WAY"
@@ -89,17 +89,17 @@ export default {
     RelatedProduct,
     MenuMobile,
     ProdutoVariacao,
-    Servicos
+    Servicos,
   },
   data() {
     return {
-      title: "Mont Blanc — F.WAY"
+      title: "Mont Blanc — F.WAY",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

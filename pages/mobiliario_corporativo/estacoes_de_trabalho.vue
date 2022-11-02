@@ -46,6 +46,34 @@
         brandproduct="Escinter"
       />
 
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/comma"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_Estacoes_Trabalho/1_1_Comma/1_1.jpg"
+        nameproduct="Comma"
+        brandproduct="Vitra"
+      />
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/alcove-plus"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_Estacoes_Trabalho/1_2_Alcove_Plus/1_2.jpg"
+        nameproduct="Alcove Plus"
+        brandproduct="Vitra"
+      />
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/workbays"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_Estacoes_Trabalho/1_3_Workbays/1_3.jpg"
+        nameproduct="Workbays"
+        brandproduct="Vitra"
+      />
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/joyn"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_Estacoes_Trabalho/1_4_Joyn/1_4.jpg"
+        nameproduct="Joyn"
+        brandproduct="Vitra"
+      />
+
       <!-- REGULAVEIS -->
 
       <div class="linha-div space"></div>
@@ -68,6 +96,13 @@
         imgproduct="mobiliariocorporativo/estacaodetrabalho/1_2_Regulaveis/1_2_4_Humanscale_Float/hero.jpg"
         nameproduct="Float"
         brandproduct="Humanscale"
+      />
+
+      <ItemProduto
+        linkproduct="mobiliario_corporativo/estacaodetrabalho/dancing-walls"
+        imgproduct="mobiliariocorporativo/estacaodetrabalho/1_Estacoes_Trabalho/1_5_Dancing_Walls/1_5.jpg"
+        nameproduct="Dancing Walls"
+        brandproduct="Vitra"
       />
 
       <!-- EXECUTIVO -->
