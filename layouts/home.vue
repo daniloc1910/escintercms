@@ -389,7 +389,7 @@ footer {
 .category-products {
   opacity: 0;
   transition: 0.3s;
-  margin-top: -139px;
+  margin-top: -167px;
 }
 
 #mobiliario-corporativo:hover ~ .category-products {
