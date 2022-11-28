@@ -42,19 +42,6 @@
 
     <!-- SERVIÇOS -->
     <Servicos />
-
-    <!-- PRODUTOS RELACIONADOS -->
-
-    <RelatedProduct
-      imgproduct1="mobiliariocorporativo/armazenamento/4_6_Fway_Jelly/hero.jpg"
-      nameproduct1="Jelly"
-      brandproduct1="F.Way"
-      linkproduct1="mobiliario_corporativo/armazenamentos/jelly"
-      imgproduct2="mobiliariocorporativo/armazenamento/4_7_Maxdesign_Offsetshelf/hero.jpg"
-      nameproduct2="Offset Shelf"
-      brandproduct2="Maxdesign"
-      linkproduct2="mobiliario_corporativo/armazenamentos/offset-shelf"
-    />
   </div>
 </template>
 

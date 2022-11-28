@@ -22,19 +22,6 @@
 
     <!-- SERVIÇOS -->
     <Servicos />
-
-    <!-- PRODUTOS RELACIONADOS -->
-
-    <RelatedProduct
-      imgproduct1="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_3_Frisokar_Pix/hero.jpg"
-      nameproduct1="Pix"
-      brandproduct1="Frisokar"
-      linkproduct1="mobiliario_corporativo/colaborativo/pix-bancada"
-      imgproduct2="mobiliariocorporativo/colaborativos/5_5_Bancada_Altas/5_5_2_Knoll_Antenna/hero.jpg"
-      nameproduct2="Antenna"
-      brandproduct2="Knoll"
-      linkproduct2="mobiliario_corporativo/colaborativo/antenna"
-    />
   </div>
 </template>
 
@@ -69,17 +56,17 @@ export default {
     RelatedProduct,
     MenuMobile,
     ProdutoVariacao,
-    Servicos
+    Servicos,
   },
   data() {
     return {
-      title: "Point — Escinter"
+      title: "Point — Escinter",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

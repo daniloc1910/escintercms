@@ -117,20 +117,6 @@
         nameproduct="Storage Cabinets"
         brandproduct="Vitra"
       />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/armazenamentos/jelly"
-        imgproduct="mobiliariocorporativo/armazenamento/4_6_Fway_Jelly/hero.jpg"
-        nameproduct="Jelly"
-        brandproduct="F.Way"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/armazenamentos/offset-shelf"
-        imgproduct="mobiliariocorporativo/armazenamento/4_7_Maxdesign_Offsetshelf/hero.jpg"
-        nameproduct="Offset Shelf"
-        brandproduct="Maxdesign"
-      />
     </div>
   </div>
 </template>

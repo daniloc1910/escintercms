@@ -18,32 +18,37 @@
 
       <div></div>
 
-      <!--<ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>Knoll</h3></li>
+      <ul class="marcas">
+        <li class="marca-item-title pressura40"><h3>Vitra</h3></li>
         <li class="graphik18 gray">
           <p>
-            Desde sua fundação, em 1938, a Knoll é reconhecida
-            internacionalmente por criar móveis que inspiram, evoluem e
-            perduram. Seu compromisso com a inovação e design moderno tem
-            produzido um portfólio abrangente de sistemas, cadeiras, arquivos,
-            mesas, armários e acessórios. <br /><br />Os fundadores, Hans e
-            Florence Knoll, abraçaram o espírito criativo da Bauhaus School e da
-            Cranbrook Academy of Art para criar novos tipos de móveis e
-            ambientes para o local de trabalho. Sua abordagem, em que o
-            artesanato se junta à tecnologia por meio do uso do design, ancora
-            nossa perspectiva e molda os valores que buscamos viver hoje.
+            Vitra é uma empresa familiar, fundada em 1953 pelo casal Willi e
+            Erika Fehlbaum e há meio século considerada referência em mobiliário
+            para escritório, casas e espaços públicos. A decisão de se tornarem
+            fabricantes de móveis de design deu-se após a primeira viagem do
+            empresário aos Estados Unidos, que se encantou ao passar por uma
+            loja em Nova York e conhecer o mobiliário de Charles & Ray Eames. O
+            entusiasmo foi tanto que ao retornar para a Suíça, decidiram
+            fabricar os produtos de Charles e Ray Eames, George Nelson,
+            Alexander Girard e Isamu Noguchi na Europa.
             <br /><br />
-            Uma longa história de colaborações, de modernistas pioneiros a
-            designers contemporâneos ousados, define não apenas o passado, mas o
-            futuro da Knoll por meio de parcerias ativas, recentes e futuras com
-            David Rockwell, Antenna Design, Barber Osgerby, Formway Design, Don
-            Chadwick, David Adjaye e Rem Koolhaas.
+            O primeiro produto da marca, reconhecido mundialmente, foi a Panton
+            Chair, desenvolvida na década de 1960, por Verner Panton, e que hoje
+            faz parte do acervo de design clássico do Museu Pompidou, em Paris.
+            A marca conta ainda com o Vitra Design Museum, que possui uma das
+            maiores e mais importantes coleções de mobiliário em todo o mundo.
+            Construído na década de 1980, com projeto do renomado arquiteto
+            Frank Gehry, o museu se tornou uma instituição cultural amplamente
+            respeitada, com uma infinidade de atividades como exposições sobre
+            design e arquitetura. Em 2010, foi construído o VitraHaus, pelos
+            arquitetos Herzog & de Meuron, e a aclamada flagship store da Vitra,
+            no Campus Vitra, em Weil am Rhein, na Alemanha.
           </p>
         </li>
-      </ul>-->
+      </ul>
 
       <ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>Kush+co</h3></li>
+        <li class="marca-item-title pressura40"><h3>Kusch+co</h3></li>
         <li class="graphik18 gray">
           <p>
             Com mais de 60 anos de história, a Kusch+Co representa a união entre
@@ -75,39 +80,6 @@
             corporativos. Nós acreditamos que o investimento na adequação de
             áreas de trabalho, promove o aumento na qualidade de vida dos
             funcionários, com melhoria em sua saúde, bem estar e produtividade.
-          </p>
-        </li>
-      </ul>
-
-      <ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>F.WAY</h3></li>
-        <li class="graphik18 gray">
-          <p>
-            A F.WAY é a marca que está liderando a nova geração de assentos
-            corporativos. Nossas linhas "Red", "Contract" e "Life" atendem
-            diversas necessidades, ambientes e perfis diferentes. Criando
-            soluções corporativas, com ambientes versáteis, comunicativos e que
-            facilitam as relações entre as várias áreas de uma empresa.
-          </p>
-        </li>
-      </ul>
-
-      <ul class="marcas">
-        <li class="marca-item-title pressura40"><h3>Maxdesign</h3></li>
-        <li class="graphik18 gray">
-          <p>
-            Maxdesign é uma marca empenhada em investigar a configuração dos
-            espaços, desde os públicos até escritórios e casas particulares. O
-            ambiente criado pelo homem é um sistema em rápida evolução que busca
-            novas éticas e conexões. O núcleo da nossa abordagem é ouvir as
-            práticas do usuário e os objetivos do designer. Como os espaços
-            estão em constante mudança, cada ferramenta deve ser capaz de se
-            adaptar e encontrar novas expressões. Por meio de inovação e
-            pesquisa, pretendemos desenvolver produtos para apoiar clientes e
-            profissionais na realização de soluções eficazes e ecossistemas
-            dinâmicos. Nosso objetivo é entender o que é necessário e oferecer
-            soluções inspiradoras e versáteis em troca. A Maxdesign cria
-            produtos para as pessoas e seus ambientes.
           </p>
         </li>
       </ul>

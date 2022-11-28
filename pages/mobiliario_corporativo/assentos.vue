@@ -159,69 +159,6 @@
       />
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/mont-blanc"
-        imgproduct="mobiliariocorporativo/assentos/2_21_FWay_MontBlanc/hero.jpg"
-        nameproduct="Mont Blanc"
-        brandproduct="F. WAY"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/parker"
-        imgproduct="mobiliariocorporativo/assentos/2_8_FWay_Parker/hero.jpg"
-        nameproduct="Parker"
-        brandproduct="F. WAY"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/nox"
-        imgproduct="mobiliariocorporativo/assentos/2_9_FWay_Nox/hero.jpg"
-        nameproduct="Nox"
-        brandproduct="F.WAY"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/ayra"
-        imgproduct="mobiliariocorporativo/assentos/2_10_FWay_Ayra/hero.jpg"
-        nameproduct="Ayra"
-        brandproduct="F.WAY"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/agile"
-        imgproduct="mobiliariocorporativo/assentos/2_11_Frisokar_Agile/hero.jpg"
-        nameproduct="Agile"
-        brandproduct="Frisokar"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/joy"
-        imgproduct="mobiliariocorporativo/assentos/2_11_Frisokar_Joy_Addit/hero.jpg"
-        nameproduct="Joy"
-        brandproduct="Frisokar"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/addit"
-        imgproduct="mobiliariocorporativo/assentos/2_20_Frisokar_Addit/hero.jpg"
-        nameproduct="Addit"
-        brandproduct="Frisokar"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/sense"
-        imgproduct="mobiliariocorporativo/assentos/2_13_Frisokar_Sense/hero.jpg"
-        nameproduct="Sense"
-        brandproduct="Frisokar"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/plus"
-        imgproduct="mobiliariocorporativo/assentos/2_14_Frisokar_Plus/hero.jpg"
-        nameproduct="Plus"
-        brandproduct="Frisokar"
-      />
-
-      <ItemProduto
         linkproduct="mobiliario_corporativo/assento/freedom"
         imgproduct="mobiliariocorporativo/assentos/2_15_Humanscale_Freedom/hero.jpg"
         nameproduct="Freedom"
@@ -254,27 +191,6 @@
         imgproduct="mobiliariocorporativo/assentos/2_19_Humanscale_Cinto/hero.jpg"
         nameproduct="Cinto"
         brandproduct="Humanscale"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/appia-work"
-        imgproduct="mobiliariocorporativo/assentos/2_22_Maxdesign_AppiaWork/hero.jpg"
-        nameproduct="Appia Work"
-        brandproduct="Maxdesign"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/stratos-m"
-        imgproduct="mobiliariocorporativo/assentos/2_23_Maxdesign_M/hero.jpg"
-        nameproduct="Stratos M"
-        brandproduct="Maxdesign"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/assento/stratos-mh"
-        imgproduct="mobiliariocorporativo/assentos/2_24_Maxdesign_MH/hero.jpg"
-        nameproduct="Stratos MH"
-        brandproduct="Maxdesign"
       />
     </div>
   </div>

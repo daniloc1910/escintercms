@@ -56,14 +56,7 @@
         <div class="carousel-cell">
           <img
             :data-flickity-lazyload-srcset="
-              require('~/assets/images/destaquehome/09.jpg').srcSet
-            "
-          />
-        </div>
-        <div class="carousel-cell">
-          <img
-            :data-flickity-lazyload-srcset="
-              require('~/assets/images/destaquehome/11.jpg').srcSet
+              require('~/assets/images/destaquehome/07.jpg').srcSet
             "
           />
         </div>
@@ -100,10 +93,10 @@
       <h2 class="pressura40 produtos-destacados-title">Produtos em destaque</h2>
 
       <ItemProduto
-        linkproduct="mobiliario_corporativo/colaborativo/max"
-        imgproduct="mobiliariocorporativo/colaborativos/5_1_Cadeiras/5_1_8_Maxdesign_Max/hero_h.jpg"
-        nameproduct="Max"
-        brandproduct="Maxdesign"
+        linkproduct="mobiliario_corporativo/assento/id-mesh"
+        imgproduct="mobiliariocorporativo/assentos/2_Assentos/2_2_ID_Chairs/2_2_6_ID_Mesh/2_2_6.jpg"
+        nameproduct="ID Mesh"
+        brandproduct="Vitra"
       />
 
       <ItemProduto
@@ -130,27 +123,6 @@
 
     <!-- SERVIÇOS -->
     <Servicos class="servicos-home" />
-
-    <!-- KNOLL DESIGN 
-
-    <nuxt-link to="/knoll-design" class="knoll-design-container">
-      <div class="knoll-design-container-grid grid3">
-        <div class="block-txt-knoll">
-          <h2 class="block-txt-knoll-title pressura56 off-white">
-            Knoll<br />design
-          </h2>
-          <p class="block-txt-knoll-description graphik18 off-white">
-            Conheça mais sobre a marca que tem compromisso com a inovacção e o
-            design moderno.
-          </p>
-          <p class="pressura15 off-white">Ver mais</p>
-        </div>
-      </div>
-
-      <video class="video-knoll" loop preload playsinline autoplay muted>
-        <source :src="require('~/assets/knoll_bg.mp4')" />
-      </video>
-    </nuxt-link> -->
 
     <!-- CASES -->
 

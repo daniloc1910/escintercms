@@ -42,15 +42,6 @@
 
     <!-- SERVIÇOS -->
     <Servicos />
-
-    <!-- PRODUTOS RELACIONADOS -->
-
-    <RelatedProduct
-      imgproduct2="mobiliariocorporativo/colaborativos/5_3_Sofas/5_3_2_Fway_Jelly/hero.jpg"
-      nameproduct2="Jelly"
-      brandproduct2="F.WAY"
-      linkproduct2="mobiliario_corporativo/colaborativo/jelly"
-    />
   </div>
 </template>
 

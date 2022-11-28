@@ -87,10 +87,10 @@
     <!-- PRODUTOS RELACIONADOS -->
 
     <RelatedProduct
-      imgproduct1="mobiliariocorporativo/assentos/2_14_Frisokar_Plus/hero.jpg"
-      nameproduct1="Plus"
-      brandproduct1="Frisokar"
-      linkproduct1="mobiliario_corporativo/assento/plus"
+      imgproduct1="mobiliariocorporativo/assentos/2_Assentos/2_6_Grand_Executive/2_6_4_Grand_Conference_Highback/2_6_4.jpg"
+      nameproduct1="Grand Executive Conference Highback"
+      brandproduct1="Vitra"
+      linkproduct1="mobiliario_corporativo/assento/grand-executive-conference-highback"
       imgproduct2="mobiliariocorporativo/assentos/2_16_Humanscale_Different_World/hero.jpg"
       nameproduct2="Diffrient World"
       brandproduct2="Humanscale"
@@ -130,17 +130,17 @@ export default {
     RelatedProduct,
     MenuMobile,
     ProdutoVariacao,
-    Servicos
+    Servicos,
   },
   data() {
     return {
-      title: "Freedom — Humanscale"
+      title: "Freedom — Humanscale",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

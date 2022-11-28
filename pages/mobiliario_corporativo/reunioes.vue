@@ -33,20 +33,6 @@
         nameproduct="San Siro"
         brandproduct="Kusch"
       />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/reuniao/componivel-fway"
-        imgproduct="mobiliariocorporativo/reunioes/3_6_Fway_Componivel/hero.jpg"
-        nameproduct="KI"
-        brandproduct="F.WAY"
-      />
-
-      <ItemProduto
-        linkproduct="mobiliario_corporativo/reuniao/offset-table"
-        imgproduct="mobiliariocorporativo/reunioes/3_7_Maxdesign_Offsettable/hero.jpg"
-        nameproduct="Offset table"
-        brandproduct="Maxdesign"
-      />
     </div>
   </div>
 </template>

@@ -50,10 +50,6 @@
       nameproduct1="Profesion"
       brandproduct1="Kusch"
       linkproduct1="mobiliario_corporativo/reuniao/profession"
-      imgproduct2="mobiliariocorporativo/reunioes/3_6_Fway_Componivel/hero.jpg"
-      nameproduct2="KI"
-      brandproduct2="F.WAY"
-      linkproduct2="mobiliario_corporativo/reuniao/componivel-fway"
     />
   </div>
 </template>
@@ -89,17 +85,17 @@ export default {
     RelatedProduct,
     MenuMobile,
     ProdutoVariacao,
-    Servicos
+    Servicos,
   },
   data() {
     return {
-      title: "San Siro — Kusch"
+      title: "San Siro — Kusch",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>
