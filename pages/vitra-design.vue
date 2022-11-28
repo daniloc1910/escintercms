@@ -6,43 +6,32 @@
 
     <div class="grid3 knoll-history">
       <h1 class="servicos-title pressura60">
-        Conheça mais sobre a marca que tem compromisso com a inovação e o design
-        moderno.
+        Vitra é uma empresa familiar, fundada em 1953 pelo casal Willi e Erika
+        Fehlbaum e há meio século considerada referência em mobiliário para
+        escritório, casas e espaços públicos.
       </h1>
       <h4 class="servicos-description graphik24 gray">
-        Por quase 80 anos, Knoll permaneceu fiel à filosofia de design da
-        Bauhaus de que os móveis modernos devem complementar o espaço
-        arquitetônico, não competir com ele. Na Knoll, o design moderno tem sido
-        nosso princípio orientador e nossa paixão foi compartilhada por clientes
-        e profissionais de design em todo o mundo.
+        A decisão de se tornarem fabricantes de móveis de design deu-se após a
+        primeira viagem do empresário aos Estados Unidos, que se encantou ao
+        passar por uma loja em Nova York e conhecer o mobiliário de Charles &
+        Ray Eames. O entusiasmo foi tanto que ao retornar para a Suíça,
+        decidiram fabricar os produtos de Charles e Ray Eames, George Nelson,
+        Alexander Girard e Isamu Noguchi na Europa.
       </h4>
 
       <p class="knoll-history graphik18">
-        Os fundadores, Hans e Florence Knoll, abraçaram o espírito criativo da
-        Bauhaus School e da Cranbrook Academy of Art para criar novos tipos de
-        móveis e ambientes para o local de trabalho. Sua abordagem, em que o
-        artesanato se junta à tecnologia por meio do uso do design, ancora nossa
-        perspectiva e molda os valores que buscamos viver hoje.
-        <br /><br />
-        Uma longa história de colaborações, de modernistas pioneiros a designers
-        contemporâneos ousados, define não apenas o passado, mas o futuro da
-        Knoll por meio de parcerias ativas, recentes e futuras com David
-        Rockwell, Antenna Design, Barber Osgerby, Formway Design, Don Chadwick,
-        David Adjaye e Rem Koolhaas.
+        O primeiro produto da marca, reconhecido mundialmente, foi a Panton
+        Chair, desenvolvida na década de 1960, por Verner Panton, e que hoje faz
+        parte do acervo de design clássico do Museu Pompidou, em Paris. A marca
+        conta ainda com o Vitra Design Museum, que possui uma das maiores e mais
+        importantes coleções de mobiliário em todo o mundo. Construído na década
+        de 1980, com projeto do renomado arquiteto Frank Gehry, o museu se
+        tornou uma instituição cultural amplamente respeitada, com uma
+        infinidade de atividades como exposições sobre design e arquitetura. Em
+        2010, foi construído o VitraHaus, pelos arquitetos Herzog & de Meuron, e
+        a aclamada flagship store da Vitra, no Campus Vitra, em Weil am Rhein,
+        na Alemanha.
       </p>
-
-      <!--      <div class="profile-history">
-        <img
-          :data-srcset="
-            require('~/assets/images/knoll-design/haus-florence.png').srcSet
-          "
-          class="lazyload"
-        />
-        <ul style="margin-top: 16px">
-          <li class="graphik16">Hans and Florence Knoll</li>
-          <li class="graphik16 gray">Fundadores da Knoll</li>
-        </ul>
-      </div>-->
     </div>
 
     <div class="grid3">

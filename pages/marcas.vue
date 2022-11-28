@@ -24,25 +24,7 @@
           <p>
             Vitra é uma empresa familiar, fundada em 1953 pelo casal Willi e
             Erika Fehlbaum e há meio século considerada referência em mobiliário
-            para escritório, casas e espaços públicos. A decisão de se tornarem
-            fabricantes de móveis de design deu-se após a primeira viagem do
-            empresário aos Estados Unidos, que se encantou ao passar por uma
-            loja em Nova York e conhecer o mobiliário de Charles & Ray Eames. O
-            entusiasmo foi tanto que ao retornar para a Suíça, decidiram
-            fabricar os produtos de Charles e Ray Eames, George Nelson,
-            Alexander Girard e Isamu Noguchi na Europa.
-            <br /><br />
-            O primeiro produto da marca, reconhecido mundialmente, foi a Panton
-            Chair, desenvolvida na década de 1960, por Verner Panton, e que hoje
-            faz parte do acervo de design clássico do Museu Pompidou, em Paris.
-            A marca conta ainda com o Vitra Design Museum, que possui uma das
-            maiores e mais importantes coleções de mobiliário em todo o mundo.
-            Construído na década de 1980, com projeto do renomado arquiteto
-            Frank Gehry, o museu se tornou uma instituição cultural amplamente
-            respeitada, com uma infinidade de atividades como exposições sobre
-            design e arquitetura. Em 2010, foi construído o VitraHaus, pelos
-            arquitetos Herzog & de Meuron, e a aclamada flagship store da Vitra,
-            no Campus Vitra, em Weil am Rhein, na Alemanha.
+            para escritório, casas e espaços públicos.
           </p>
         </li>
       </ul>
