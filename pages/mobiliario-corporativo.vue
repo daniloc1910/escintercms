@@ -30,14 +30,14 @@
     <CategoryItem
       title="Assentos"
       link="mobiliario_corporativo/assentos"
-      imgproduct1="mobiliariocorporativo/assentos/2_21_FWay_MontBlanc/hero.jpg"
-      nameproduct1="Mont Blanc"
-      brandproduct1="F.WAY"
-      linkproduct1="mobiliario_corporativo/assento/mont-blanc"
-      imgproduct2="mobiliariocorporativo/assentos/2_8_FWay_Parker/hero.jpg"
-      nameproduct2="Parker"
-      brandproduct2="F.WAY"
-      linkproduct2="mobiliario_corporativo/assento/parker"
+      imgproduct1="mobiliariocorporativo/assentos/2_Assentos/2_1_Physix/2_1.jpg"
+      nameproduct1="Physix"
+      brandproduct1="Vitra"
+      linkproduct1="mobiliario_corporativo/assento/physix"
+      imgproduct2="mobiliariocorporativo/assentos/2_Assentos/2_2_ID_Chairs/2_2_1_ID_Cloud/2_2_1.jpg"
+      nameproduct2="ID Cloud"
+      brandproduct2="Vitra"
+      linkproduct2="mobiliario_corporativo/assento/id-cloud"
     />
 
     <CategoryItem
