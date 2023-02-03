@@ -11,9 +11,7 @@
         Além de uma extensa linha própria de serviços e produtos, a Escinter é
         Dealer de algumas das principais marcas internacionais de design no
         Brasil. Por isso somos capazes de fornecer todos os produtos e serviços
-        relacionados a estas parcerias. Dentre estas grandes marcas está a
-        Knoll, e juntos desenvolvemos vários projetos para o Brasil, garantindo
-        para o nosso país as mesmas soluções das outras regiões do globo.
+        relacionados a estas parcerias.
       </h2>
 
       <div></div>

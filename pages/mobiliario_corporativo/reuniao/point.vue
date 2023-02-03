@@ -35,7 +35,7 @@
           wrapAround: true,
           autoPlay: 6000,
           lazyLoad: true,
-          fade: true
+          fade: true,
         }"
         class="carousel coluna2-3"
       >
@@ -100,10 +100,10 @@
       nameproduct1="Componivel"
       brandproduct1="Escinter"
       linkproduct1="mobiliario_corporativo/reuniao/componivel"
-      imgproduct2="mobiliariocorporativo/reunioes/3_3_Knoll_Antenna/hero.jpg"
-      nameproduct2="Antenna"
-      brandproduct2="Knoll"
-      linkproduct2="mobiliario_corporativo/reuniao/antenna"
+      imgproduct2="mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg"
+      nameproduct2="Profession"
+      brandproduct2="Kusch"
+      linkproduct2="mobiliario_corporativo/reuniao/profession"
     />
   </div>
 </template>
@@ -139,17 +139,17 @@ export default {
     RelatedProduct,
     MenuMobile,
     ProdutoVariacao,
-    Servicos
+    Servicos,
   },
   data() {
     return {
-      title: "Point — Escinter"
+      title: "Point — Escinter",
     };
   },
   head() {
     return {
-      title: this.title
+      title: this.title,
     };
-  }
+  },
 };
 </script>

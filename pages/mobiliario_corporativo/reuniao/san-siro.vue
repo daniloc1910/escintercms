@@ -47,7 +47,7 @@
 
     <RelatedProduct
       imgproduct1="mobiliariocorporativo/reunioes/3_4_Kush_Profesion/hero.jpg"
-      nameproduct1="Profesion"
+      nameproduct1="Profession"
       brandproduct1="Kusch"
       linkproduct1="mobiliario_corporativo/reuniao/profession"
     />
