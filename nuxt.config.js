@@ -138,10 +138,20 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt"],
+  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt",'@nuxtjs/gtm',],
   /*
    ** Generate configuration
    */
+   gtm: {
+     id: 'GTM-XXXXXXX'
+   },
+
+   publicRuntimeConfig: {
+    gtm: {
+      id: "G-9B90BEMGPY"
+    }
+  },
+  
   generate: {},
   /*
    ** Build configuration
