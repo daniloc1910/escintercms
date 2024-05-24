@@ -150,19 +150,13 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt"],
+  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt",'nuxt-gtag',],
   /*
    ** Generate configuration
-  //  */
-  //  gtm: {
-  //    id: 'GTM-XXXXXXX'
-  //  },
-
-  //  publicRuntimeConfig: {
-  //   gtm: {
-  //     id: "G-9B90BEMGPY"
-  //   }
-  // },
+   */
+   gtag: {
+    id: 'G-9B90BEMGPY'
+  },
 
   generate: {},
   /*
