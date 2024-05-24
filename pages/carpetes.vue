@@ -8,8 +8,8 @@
         Além de deixarem os ambientes de trabalho mais aconchegantes, os
         carpetes têm uma importante função: ajudam no efeito de isolamento
         acústico, ampliando o conforto no ambiente de trabalho. Oferecemos
-        opções para todas as necessidades e estilos, e marcas como Shaw
-        Contract, Durkan, Mohawk Group e da nossa parceira Beltech, empresa com
+        opções para todas as necessidades e estilos, e marcas como Durkan, Shaw
+        Contract, Mohawk Group e da nossa parceira Beltech, empresa com
         24 anos de experiência na área.
       </h4>
 
