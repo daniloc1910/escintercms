@@ -29,6 +29,18 @@ export default {
       { name: "msapplication-TileColor", content: "#ffffff" },
       { name: "msapplication-TileImage", content: "/ms-icon-144x144.png" },
       { name: "theme-color", content: "#ffffff" },
+      
+    ],
+    script: [
+      {
+        hid: 'gtm',
+        children: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','G-9B90BEMGPY');`,
+        type: 'text/javascript'
+      }
     ],
     link: [
       {
@@ -138,10 +150,14 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt"],
+  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt",'nuxt-gtag',],
   /*
    ** Generate configuration
    */
+   gtag: {
+    id: 'G-9B90BEMGPY'
+  },
+
   generate: {},
   /*
    ** Build configuration

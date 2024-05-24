@@ -11,18 +11,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/gtm": "^2.4.0",
     "flickity-as-nav-for": "^2.0.1",
     "flickity-fade": "^1.0.0",
     "flickity-imagesloaded": "^2.0.0",
     "lazysizes": "^5.2.0",
     "lottie-web": "^5.6.8",
     "nuxt": "^2.0.0",
+    "nuxt-gtag": "^2.0.6",
     "nuxt-responsive-loader": "^2.0.1",
     "sharp": "^0.25.3",
     "vue-flickity": "^1.2.1",
     "vue-lottie": "^0.2.1",
     "vue-pdf": "^4.0.8",
     "vue-scrollto": "^2.18.1"
-  },
-  "devDependencies": {}
+  }
 }
