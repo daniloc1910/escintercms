@@ -142,6 +142,10 @@ export default {
     { src: "~/plugins/lottie-web.js" },
     { src: "~/plugins/VueFlickity.js", ssr: false },
     { src: "~/plugins/lazysizes.client.js" },
+    {
+      src: '~/plugins/gtm.js',
+      mode: 'client'
+    }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -150,13 +154,16 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt",'nuxt-gtag',],
+  modules: ["nuxt-responsive-loader", "vue-scrollto/nuxt",'@nuxtjs/gtm',],
   /*
    ** Generate configuration
    */
-   gtag: {
-    id: 'G-9B90BEMGPY'
-  },
+   env: {
+    gtmId: 'G-9B90BEMGPY'
+    },
+  //  gtag: {
+  //   id: 'G-9B90BEMGPY'
+  // },
 
   generate: {},
   /*
