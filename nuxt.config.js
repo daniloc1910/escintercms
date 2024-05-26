@@ -142,10 +142,10 @@ export default {
     { src: "~/plugins/lottie-web.js" },
     { src: "~/plugins/VueFlickity.js", ssr: false },
     { src: "~/plugins/lazysizes.client.js" },
-    {
-      src: '~/plugins/gtm.js',
-      mode: 'client'
-    }
+    // {
+    //   src: '~/plugins/gtm.js',
+    //   mode: 'client'
+    // }
   ],
   /*
    ** Nuxt.js dev-modules
@@ -169,7 +169,7 @@ export default {
     respectDoNotTrack: false, // Respeitar a configuração de "Não rastrear" do navegador
     noscript: true, // Adicionar um fallback <noscript> tag
   },
-  
+
   //  env: {
   //   gtmId: 'G-9B90BEMGPY'
   //   },
