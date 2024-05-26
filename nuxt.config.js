@@ -158,12 +158,22 @@ export default {
   /*
    ** Generate configuration
    */
-   env: {
-    gtmId: 'G-9B90BEMGPY'
-    },
-  //  gtag: {
-  //   id: 'G-9B90BEMGPY'
-  // },
+
+   gtm: {
+    id: 'G-9B90BEMGPY', 
+
+    enabled: true, // Habilita ou desabilita o GTM
+    debug: true, // Modo de depuração
+    loadScript: true, // Carregar o script GTM automaticamente
+    pageTracking: true, // Rastrear as mudanças de página automaticamente
+    respectDoNotTrack: false, // Respeitar a configuração de "Não rastrear" do navegador
+    noscript: true, // Adicionar um fallback <noscript> tag
+  },
+  
+  //  env: {
+  //   gtmId: 'G-9B90BEMGPY'
+  //   },
+  
 
   generate: {},
   /*
